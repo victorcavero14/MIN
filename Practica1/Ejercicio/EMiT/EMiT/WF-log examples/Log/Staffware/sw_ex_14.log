@@ -1,0 +1,102 @@
+Case 1
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/04/18 09:05
+A                        Processed To     bvdongen@staffw_e 2002/04/18 09:05
+A                        Released By      bvdongen@staffw_e 2002/04/18 09:05
+B                        Processed To     bvdongen@staffw_e 2002/04/18 09:05
+B                        Released By      bvdongen@staffw_e 2002/04/18 09:05
+D                        Processed To     bvdongen@staffw_e 2002/04/18 09:05
+E                        Processed To     bvdongen@staffw_e 2002/04/18 09:05
+D                        Released By      bvdongen@staffw_e 2002/04/18 09:06
+E                        Released By      bvdongen@staffw_e 2002/04/18 09:06
+G                        Processed To     bvdongen@staffw_e 2002/04/18 09:06
+G                        Released By      bvdongen@staffw_e 2002/04/18 09:06
+I                        Processed To     bvdongen@staffw_e 2002/04/18 09:06
+I                        Released By      bvdongen@staffw_e 2002/04/18 09:06
+                         Terminated                         2002/04/18 09:06
+Case 2
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/04/18 09:05
+A                        Processed To     bvdongen@staffw_e 2002/04/18 09:05
+A                        Released By      bvdongen@staffw_e 2002/04/18 09:05
+B                        Processed To     bvdongen@staffw_e 2002/04/18 09:05
+B                        Released By      bvdongen@staffw_e 2002/04/18 09:05
+D                        Processed To     bvdongen@staffw_e 2002/04/18 09:05
+E                        Processed To     bvdongen@staffw_e 2002/04/18 09:05
+E                        Released By      bvdongen@staffw_e 2002/04/18 09:06
+D                        Released By      bvdongen@staffw_e 2002/04/18 09:06
+G                        Processed To     bvdongen@staffw_e 2002/04/18 09:06
+G                        Released By      bvdongen@staffw_e 2002/04/18 09:06
+I                        Processed To     bvdongen@staffw_e 2002/04/18 09:06
+I                        Released By      bvdongen@staffw_e 2002/04/18 09:06
+                         Terminated                         2002/04/18 09:07
+Case 3
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/04/18 09:05
+A                        Processed To     bvdongen@staffw_e 2002/04/18 09:05
+A                        Released By      bvdongen@staffw_e 2002/04/18 09:05
+C                        Processed To     bvdongen@staffw_e 2002/04/18 09:05
+C                        Released By      bvdongen@staffw_e 2002/04/18 09:05
+F                        Processed To     bvdongen@staffw_e 2002/04/18 09:05
+E                        Processed To     bvdongen@staffw_e 2002/04/18 09:05
+E                        Released By      bvdongen@staffw_e 2002/04/18 09:06
+F                        Released By      bvdongen@staffw_e 2002/04/18 09:06
+H                        Processed To     bvdongen@staffw_e 2002/04/18 09:06
+H                        Released By      bvdongen@staffw_e 2002/04/18 09:06
+I                        Processed To     bvdongen@staffw_e 2002/04/18 09:06
+I                        Released By      bvdongen@staffw_e 2002/04/18 09:06
+                         Terminated                         2002/04/18 09:07
+Case 4
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/04/18 09:05
+A                        Processed To     bvdongen@staffw_e 2002/04/18 09:05
+A                        Released By      bvdongen@staffw_e 2002/04/18 09:05
+C                        Processed To     bvdongen@staffw_e 2002/04/18 09:05
+C                        Released By      bvdongen@staffw_e 2002/04/18 09:05
+F                        Processed To     bvdongen@staffw_e 2002/04/18 09:05
+E                        Processed To     bvdongen@staffw_e 2002/04/18 09:05
+F                        Released By      bvdongen@staffw_e 2002/04/18 09:06
+E                        Released By      bvdongen@staffw_e 2002/04/18 09:06
+H                        Processed To     bvdongen@staffw_e 2002/04/18 09:06
+H                        Released By      bvdongen@staffw_e 2002/04/18 09:06
+I                        Processed To     bvdongen@staffw_e 2002/04/18 09:06
+I                        Released By      bvdongen@staffw_e 2002/04/18 09:07
+                         Terminated                         2002/04/18 09:07
+Case 5
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/04/18 13:47
+A                        Processed To     bvdongen@staffw_e 2002/04/18 13:47
+A                        Released By      bvdongen@staffw_e 2002/04/18 13:49
+C                        Processed To     bvdongen@staffw_e 2002/04/18 13:49
+C                        Released By      bvdongen@staffw_e 2002/04/18 13:53
+F                        Processed To     bvdongen@staffw_e 2002/04/18 13:53
+E                        Processed To     bvdongen@staffw_e 2002/04/18 13:53
+E                        Released By      bvdongen@staffw_e 2002/04/18 13:56
+F                        Released By      bvdongen@staffw_e 2002/04/18 13:57
+H                        Processed To     bvdongen@staffw_e 2002/04/18 13:57
+H                        Released By      bvdongen@staffw_e 2002/04/18 13:59
+I                        Processed To     bvdongen@staffw_e 2002/04/18 13:59
+I                        Released By      bvdongen@staffw_e 2002/04/18 14:04
+                         Terminated                         2002/04/18 09:07
+Case 6
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/04/18 13:48
+A                        Processed To     bvdongen@staffw_e 2002/04/18 13:48
+A                        Released By      bvdongen@staffw_e 2002/04/18 13:48
+B                        Processed To     bvdongen@staffw_e 2002/04/18 13:48
+B                        Released By      bvdongen@staffw_e 2002/04/18 13:53
+D                        Processed To     bvdongen@staffw_e 2002/04/18 13:53
+E                        Processed To     bvdongen@staffw_e 2002/04/18 13:53
+D                        Released By      bvdongen@staffw_e 2002/04/18 13:56
+E                        Released By      bvdongen@staffw_e 2002/04/18 14:10
+G                        Processed To     bvdongen@staffw_e 2002/04/18 14:10
+G                        Released By      bvdongen@staffw_e 2002/04/18 14:13
+I                        Processed To     bvdongen@staffw_e 2002/04/18 14:13
+I                        Released By      bvdongen@staffw_e 2002/04/18 14:15
+                         Terminated                         2002/04/18 14:15

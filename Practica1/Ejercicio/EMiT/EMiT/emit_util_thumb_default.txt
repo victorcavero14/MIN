@@ -1,0 +1,5 @@
+FILE QUARANTINED
+----------------
+
+Antigen for Exchange removed emit_support_functions.zip->emit_util_thumb_default.bmp since it
+was found to match the FILE FILTER= *.bmp file filter.

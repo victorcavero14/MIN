@@ -1,0 +1,16 @@
+<!ELEMENT WorkFlow_log (source?,process+)>
+  <!ELEMENT source EMPTY>
+    <!ATTLIST source program (staffware|inconcert|pnet|IBM_MQ|other) #REQUIRED>
+  <!ELEMENT process (case*)>
+    <!ATTLIST process id ID #REQUIRED>
+    <!ATTLIST process description CDATA "none">
+    <!ELEMENT case (log_line*)>
+      <!ATTLIST case id ID #REQUIRED>
+      <!ATTLIST case description CDATA "none">
+      <!ELEMENT log_line (task_name,task_instance?, event?, date?, time?)>
+        <!ELEMENT task_name (#PCDATA)>
+        <!ELEMENT task_instance (#PCDATA)>
+        <!ELEMENT event EMPTY>
+           <!ATTLIST event kind (normal|schedule|start|withdraw|suspend|resume|abort|complete) #REQUIRED>
+        <!ELEMENT date (#PCDATA)>
+        <!ELEMENT time (#PCDATA)>

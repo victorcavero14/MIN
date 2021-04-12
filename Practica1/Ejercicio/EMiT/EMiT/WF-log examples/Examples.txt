@@ -1,0 +1,45 @@
+This text file contains a brief description of each example. For a better
+understanding of the examples, use EMiT to mine the XML files.
+
+In Concert example:
+
+ic_ex_01  The task "pay" can be skipped, thus the net cannot be rediscovered by EMiT
+
+
+Pnet+ examples:
+
+pn_ex_01  Simple parallelism with all event types
+pn_ex_02  Mutual exclusion between two sub-processes (terrible dot output). This net cannot be rediscovered EMiT
+pn_ex_03  A rather large example. Can be rediscovered with "start" and "complete" as parallel profile 1
+pn_ex_04  Xor-join and Xor-split in one place
+pn_ex_05  Task B is a loop with itself. When mining only for "complete" then it is a loop of length 1
+pn_ex_06  Just one task, nothing more
+pn_ex_07  A loop of length 2
+pn_ex_08  A loop of length 2 combine with a loop of length 3
+pn_ex_09  Two different loops of length 2
+pn_ex_10  Combination of all kinds of loops (Note the two loops of length 1)
+pn_ex_11  Mutual exclusion inside a loop, thus this net cannot be rediscovered EMiT
+pn_ex_12  Loop of length 1 with multiple input places
+pn_ex_13  Large example with mutual exclusion between 2 sub-processes. This net cannot be rediscovered EMiT
+pn_ex_14  Mutual exclusion between 3 sub-processes. This net cannot be rediscovered EMiT
+
+
+
+Staffware examples:
+When processing Staffware examples, use "schedule" and "complete" as parallel profile 1.
+
+sw_ex_01  Simple example with only 1 task
+sw_ex_02  Simple Xor-split and Xor-join
+sw_ex_03  Simple "withdraw" example
+sw_ex_04  Example with trigger on an expire event. This example cannot be rediscovered by EMiT
+sw_ex_05  A loop that is executed at least once. This example cannot be rediscovered by EMiT
+sw_ex_06  Another trigger example like sw_ex_04. This example cannot be rediscovered by EMiT
+sw_ex_07  Simple And-split and And-join
+sw_ex_08  A larger example.
+sw_ex_09  An example with a larger loop
+sw_ex_10  An example with a small loop (if mining only for complete events: length 2)
+sw_ex_11  A larger example
+sw_ex_12  Loop of length 1 which is executed at least once. This example cannot be rediscovered by EMiT
+sw_ex_13  A larger example. This shows behavioral equivalence
+sw_ex_14  Larger example with non Free-choice construction
+sw_ex_15  More complicated "withdraw" example

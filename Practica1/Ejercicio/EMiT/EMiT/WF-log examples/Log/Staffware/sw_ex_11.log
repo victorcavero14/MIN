@@ -1,0 +1,532 @@
+Case 1
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/05/08 08:11
+TASKA                    Processed To     bvdongen@staffw_e 2002/05/08 08:17
+TASKA                    Released By      bvdongen@staffw_e 2002/05/08 08:20
+TASKB                    Processed To     bvdongen@staffw_e 2002/05/08 08:32
+TASKC                    Processed To     bvdongen@staffw_e 2002/05/08 08:32
+TASKD                    Processed To     bvdongen@staffw_e 2002/05/08 08:32
+TASKB                    Released By      bvdongen@staffw_e 2002/05/08 08:43
+TASKF                    Processed To     bvdongen@staffw_e 2002/05/08 08:50
+TASKC                    Released By      bvdongen@staffw_e 2002/05/08 08:55
+TASKD                    Released By      bvdongen@staffw_e 2002/05/08 09:04
+TASKH                    Processed To     bvdongen@staffw_e 2002/05/08 09:14
+TASKF                    Released By      bvdongen@staffw_e 2002/05/08 09:25
+TASKH                    Released By      bvdongen@staffw_e 2002/05/08 09:33
+TASKG                    Processed To     bvdongen@staffw_e 2002/05/08 09:40
+TASKG                    Released By      bvdongen@staffw_e 2002/05/08 09:47
+                         Terminated                         2002/05/08 09:58
+Case 2
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/05/08 08:01
+TASKA                    Processed To     bvdongen@staffw_e 2002/05/08 08:04
+TASKA                    Released By      bvdongen@staffw_e 2002/05/08 08:11
+TASKB                    Processed To     bvdongen@staffw_e 2002/05/08 08:15
+TASKC                    Processed To     bvdongen@staffw_e 2002/05/08 08:15
+TASKE                    Processed To     bvdongen@staffw_e 2002/05/08 08:15
+TASKC                    Released By      bvdongen@staffw_e 2002/05/08 08:16
+TASKB                    Released By      bvdongen@staffw_e 2002/05/08 08:26
+TASKF                    Processed To     bvdongen@staffw_e 2002/05/08 08:31
+TASKE                    Released By      bvdongen@staffw_e 2002/05/08 08:41
+TASKH                    Processed To     bvdongen@staffw_e 2002/05/08 08:45
+TASKH                    Released By      bvdongen@staffw_e 2002/05/08 08:55
+TASKF                    Released By      bvdongen@staffw_e 2002/05/08 08:59
+TASKG                    Processed To     bvdongen@staffw_e 2002/05/08 09:03
+TASKG                    Released By      bvdongen@staffw_e 2002/05/08 09:04
+                         Terminated                         2002/05/08 09:12
+Case 3
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/05/08 08:02
+TASKA                    Processed To     bvdongen@staffw_e 2002/05/08 08:03
+TASKA                    Released By      bvdongen@staffw_e 2002/05/08 08:14
+TASKB                    Processed To     bvdongen@staffw_e 2002/05/08 08:14
+TASKC                    Processed To     bvdongen@staffw_e 2002/05/08 08:14
+TASKD                    Processed To     bvdongen@staffw_e 2002/05/08 08:14
+TASKB                    Released By      bvdongen@staffw_e 2002/05/08 08:26
+TASKF                    Processed To     bvdongen@staffw_e 2002/05/08 08:31
+TASKC                    Released By      bvdongen@staffw_e 2002/05/08 08:40
+TASKF                    Released By      bvdongen@staffw_e 2002/05/08 08:41
+TASKD                    Released By      bvdongen@staffw_e 2002/05/08 08:53
+TASKH                    Processed To     bvdongen@staffw_e 2002/05/08 08:57
+TASKH                    Released By      bvdongen@staffw_e 2002/05/08 09:03
+TASKG                    Processed To     bvdongen@staffw_e 2002/05/08 09:05
+TASKG                    Released By      bvdongen@staffw_e 2002/05/08 09:12
+                         Terminated                         2002/05/08 09:16
+Case 4
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/05/08 08:08
+TASKA                    Processed To     bvdongen@staffw_e 2002/05/08 08:16
+TASKA                    Released By      bvdongen@staffw_e 2002/05/08 08:25
+TASKB                    Processed To     bvdongen@staffw_e 2002/05/08 08:34
+TASKC                    Processed To     bvdongen@staffw_e 2002/05/08 08:34
+TASKD                    Processed To     bvdongen@staffw_e 2002/05/08 08:34
+TASKD                    Released By      bvdongen@staffw_e 2002/05/08 08:38
+TASKH                    Processed To     bvdongen@staffw_e 2002/05/08 08:40
+TASKC                    Released By      bvdongen@staffw_e 2002/05/08 08:50
+TASKB                    Released By      bvdongen@staffw_e 2002/05/08 08:51
+TASKF                    Processed To     bvdongen@staffw_e 2002/05/08 08:53
+TASKH                    Released By      bvdongen@staffw_e 2002/05/08 09:02
+TASKF                    Released By      bvdongen@staffw_e 2002/05/08 09:07
+TASKG                    Processed To     bvdongen@staffw_e 2002/05/08 09:09
+TASKG                    Released By      bvdongen@staffw_e 2002/05/08 09:12
+                         Terminated                         2002/05/08 09:20
+Case 5
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/05/08 08:08
+TASKA                    Processed To     bvdongen@staffw_e 2002/05/08 08:20
+TASKA                    Released By      bvdongen@staffw_e 2002/05/08 08:26
+TASKB                    Processed To     bvdongen@staffw_e 2002/05/08 08:32
+TASKC                    Processed To     bvdongen@staffw_e 2002/05/08 08:32
+TASKD                    Processed To     bvdongen@staffw_e 2002/05/08 08:32
+TASKC                    Released By      bvdongen@staffw_e 2002/05/08 08:39
+TASKB                    Released By      bvdongen@staffw_e 2002/05/08 08:39
+TASKF                    Processed To     bvdongen@staffw_e 2002/05/08 08:50
+TASKD                    Released By      bvdongen@staffw_e 2002/05/08 08:55
+TASKH                    Processed To     bvdongen@staffw_e 2002/05/08 09:00
+TASKH                    Released By      bvdongen@staffw_e 2002/05/08 09:04
+TASKF                    Released By      bvdongen@staffw_e 2002/05/08 09:06
+TASKG                    Processed To     bvdongen@staffw_e 2002/05/08 09:06
+TASKG                    Released By      bvdongen@staffw_e 2002/05/08 09:13
+                         Terminated                         2002/05/08 09:21
+Case 6
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/05/08 08:14
+TASKA                    Processed To     bvdongen@staffw_e 2002/05/08 08:23
+TASKA                    Released By      bvdongen@staffw_e 2002/05/08 08:33
+TASKB                    Processed To     bvdongen@staffw_e 2002/05/08 08:43
+TASKC                    Processed To     bvdongen@staffw_e 2002/05/08 08:43
+TASKE                    Processed To     bvdongen@staffw_e 2002/05/08 08:43
+TASKE                    Released By      bvdongen@staffw_e 2002/05/08 08:55
+TASKH                    Processed To     bvdongen@staffw_e 2002/05/08 09:01
+TASKB                    Released By      bvdongen@staffw_e 2002/05/08 09:01
+TASKF                    Processed To     bvdongen@staffw_e 2002/05/08 09:11
+TASKC                    Released By      bvdongen@staffw_e 2002/05/08 09:15
+TASKH                    Released By      bvdongen@staffw_e 2002/05/08 09:17
+TASKF                    Released By      bvdongen@staffw_e 2002/05/08 09:24
+TASKG                    Processed To     bvdongen@staffw_e 2002/05/08 09:28
+TASKG                    Released By      bvdongen@staffw_e 2002/05/08 09:39
+                         Terminated                         2002/05/08 09:41
+Case 7
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/05/08 08:10
+TASKA                    Processed To     bvdongen@staffw_e 2002/05/08 08:11
+TASKA                    Released By      bvdongen@staffw_e 2002/05/08 08:22
+TASKB                    Processed To     bvdongen@staffw_e 2002/05/08 08:23
+TASKC                    Processed To     bvdongen@staffw_e 2002/05/08 08:23
+TASKD                    Processed To     bvdongen@staffw_e 2002/05/08 08:23
+TASKD                    Released By      bvdongen@staffw_e 2002/05/08 08:25
+TASKH                    Processed To     bvdongen@staffw_e 2002/05/08 08:32
+TASKB                    Released By      bvdongen@staffw_e 2002/05/08 08:41
+TASKF                    Processed To     bvdongen@staffw_e 2002/05/08 08:44
+TASKC                    Released By      bvdongen@staffw_e 2002/05/08 08:51
+TASKH                    Released By      bvdongen@staffw_e 2002/05/08 09:00
+TASKF                    Released By      bvdongen@staffw_e 2002/05/08 09:09
+TASKG                    Processed To     bvdongen@staffw_e 2002/05/08 09:21
+TASKG                    Released By      bvdongen@staffw_e 2002/05/08 09:29
+                         Terminated                         2002/05/08 09:34
+Case 8
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/05/08 08:08
+TASKA                    Processed To     bvdongen@staffw_e 2002/05/08 08:15
+TASKA                    Released By      bvdongen@staffw_e 2002/05/08 08:15
+TASKB                    Processed To     bvdongen@staffw_e 2002/05/08 08:20
+TASKC                    Processed To     bvdongen@staffw_e 2002/05/08 08:20
+TASKE                    Processed To     bvdongen@staffw_e 2002/05/08 08:20
+TASKE                    Released By      bvdongen@staffw_e 2002/05/08 08:28
+TASKH                    Processed To     bvdongen@staffw_e 2002/05/08 08:37
+TASKB                    Released By      bvdongen@staffw_e 2002/05/08 08:42
+TASKF                    Processed To     bvdongen@staffw_e 2002/05/08 08:48
+TASKC                    Released By      bvdongen@staffw_e 2002/05/08 08:48
+TASKF                    Released By      bvdongen@staffw_e 2002/05/08 08:56
+TASKH                    Released By      bvdongen@staffw_e 2002/05/08 09:01
+TASKG                    Processed To     bvdongen@staffw_e 2002/05/08 09:09
+TASKG                    Released By      bvdongen@staffw_e 2002/05/08 09:13
+                         Terminated                         2002/05/08 09:16
+Case 9
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/05/08 08:14
+TASKA                    Processed To     bvdongen@staffw_e 2002/05/08 08:17
+TASKA                    Released By      bvdongen@staffw_e 2002/05/08 08:21
+TASKB                    Processed To     bvdongen@staffw_e 2002/05/08 08:27
+TASKC                    Processed To     bvdongen@staffw_e 2002/05/08 08:27
+TASKE                    Processed To     bvdongen@staffw_e 2002/05/08 08:27
+TASKB                    Released By      bvdongen@staffw_e 2002/05/08 08:31
+TASKF                    Processed To     bvdongen@staffw_e 2002/05/08 08:39
+TASKE                    Released By      bvdongen@staffw_e 2002/05/08 08:41
+TASKH                    Processed To     bvdongen@staffw_e 2002/05/08 08:50
+TASKH                    Released By      bvdongen@staffw_e 2002/05/08 08:52
+TASKF                    Released By      bvdongen@staffw_e 2002/05/08 08:57
+TASKC                    Released By      bvdongen@staffw_e 2002/05/08 09:04
+TASKG                    Processed To     bvdongen@staffw_e 2002/05/08 09:14
+TASKG                    Released By      bvdongen@staffw_e 2002/05/08 09:15
+                         Terminated                         2002/05/08 09:23
+Case 10
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/05/08 08:12
+TASKA                    Processed To     bvdongen@staffw_e 2002/05/08 08:20
+TASKA                    Released By      bvdongen@staffw_e 2002/05/08 08:29
+TASKB                    Processed To     bvdongen@staffw_e 2002/05/08 08:36
+TASKC                    Processed To     bvdongen@staffw_e 2002/05/08 08:36
+TASKE                    Processed To     bvdongen@staffw_e 2002/05/08 08:36
+TASKB                    Released By      bvdongen@staffw_e 2002/05/08 08:44
+TASKF                    Processed To     bvdongen@staffw_e 2002/05/08 08:45
+TASKC                    Released By      bvdongen@staffw_e 2002/05/08 08:47
+TASKE                    Released By      bvdongen@staffw_e 2002/05/08 08:51
+TASKH                    Processed To     bvdongen@staffw_e 2002/05/08 08:51
+TASKF                    Released By      bvdongen@staffw_e 2002/05/08 08:59
+TASKH                    Released By      bvdongen@staffw_e 2002/05/08 09:09
+TASKG                    Processed To     bvdongen@staffw_e 2002/05/08 09:21
+TASKG                    Released By      bvdongen@staffw_e 2002/05/08 09:22
+                         Terminated                         2002/05/08 09:31
+Case 11
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/05/08 08:13
+TASKA                    Processed To     bvdongen@staffw_e 2002/05/08 08:13
+TASKA                    Released By      bvdongen@staffw_e 2002/05/08 08:15
+TASKB                    Processed To     bvdongen@staffw_e 2002/05/08 08:18
+TASKC                    Processed To     bvdongen@staffw_e 2002/05/08 08:18
+TASKE                    Processed To     bvdongen@staffw_e 2002/05/08 08:18
+TASKE                    Released By      bvdongen@staffw_e 2002/05/08 08:18
+TASKH                    Processed To     bvdongen@staffw_e 2002/05/08 08:22
+TASKC                    Released By      bvdongen@staffw_e 2002/05/08 08:30
+TASKH                    Released By      bvdongen@staffw_e 2002/05/08 08:34
+TASKB                    Released By      bvdongen@staffw_e 2002/05/08 08:44
+TASKF                    Processed To     bvdongen@staffw_e 2002/05/08 08:53
+TASKF                    Released By      bvdongen@staffw_e 2002/05/08 08:59
+TASKG                    Processed To     bvdongen@staffw_e 2002/05/08 09:07
+TASKG                    Released By      bvdongen@staffw_e 2002/05/08 09:09
+                         Terminated                         2002/05/08 09:12
+Case 12
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/05/08 08:18
+TASKA                    Processed To     bvdongen@staffw_e 2002/05/08 08:29
+TASKA                    Released By      bvdongen@staffw_e 2002/05/08 08:35
+TASKB                    Processed To     bvdongen@staffw_e 2002/05/08 08:39
+TASKC                    Processed To     bvdongen@staffw_e 2002/05/08 08:39
+TASKD                    Processed To     bvdongen@staffw_e 2002/05/08 08:39
+TASKD                    Released By      bvdongen@staffw_e 2002/05/08 08:47
+TASKH                    Processed To     bvdongen@staffw_e 2002/05/08 08:50
+TASKH                    Released By      bvdongen@staffw_e 2002/05/08 08:55
+TASKC                    Released By      bvdongen@staffw_e 2002/05/08 08:55
+TASKB                    Released By      bvdongen@staffw_e 2002/05/08 09:05
+TASKF                    Processed To     bvdongen@staffw_e 2002/05/08 09:07
+TASKF                    Released By      bvdongen@staffw_e 2002/05/08 09:08
+TASKG                    Processed To     bvdongen@staffw_e 2002/05/08 09:16
+TASKG                    Released By      bvdongen@staffw_e 2002/05/08 09:25
+                         Terminated                         2002/05/08 09:28
+Case 13
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/05/08 08:14
+TASKA                    Processed To     bvdongen@staffw_e 2002/05/08 08:22
+TASKA                    Released By      bvdongen@staffw_e 2002/05/08 08:34
+TASKB                    Processed To     bvdongen@staffw_e 2002/05/08 08:37
+TASKC                    Processed To     bvdongen@staffw_e 2002/05/08 08:37
+TASKE                    Processed To     bvdongen@staffw_e 2002/05/08 08:37
+TASKB                    Released By      bvdongen@staffw_e 2002/05/08 08:45
+TASKF                    Processed To     bvdongen@staffw_e 2002/05/08 08:56
+TASKF                    Released By      bvdongen@staffw_e 2002/05/08 09:04
+TASKE                    Released By      bvdongen@staffw_e 2002/05/08 09:10
+TASKH                    Processed To     bvdongen@staffw_e 2002/05/08 09:21
+TASKC                    Released By      bvdongen@staffw_e 2002/05/08 09:28
+TASKH                    Released By      bvdongen@staffw_e 2002/05/08 09:33
+TASKG                    Processed To     bvdongen@staffw_e 2002/05/08 09:43
+TASKG                    Released By      bvdongen@staffw_e 2002/05/08 09:54
+                         Terminated                         2002/05/08 10:03
+Case 14
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/05/08 08:20
+TASKA                    Processed To     bvdongen@staffw_e 2002/05/08 08:28
+TASKA                    Released By      bvdongen@staffw_e 2002/05/08 08:31
+TASKB                    Processed To     bvdongen@staffw_e 2002/05/08 08:34
+TASKC                    Processed To     bvdongen@staffw_e 2002/05/08 08:34
+TASKD                    Processed To     bvdongen@staffw_e 2002/05/08 08:34
+TASKB                    Released By      bvdongen@staffw_e 2002/05/08 08:43
+TASKF                    Processed To     bvdongen@staffw_e 2002/05/08 08:44
+TASKD                    Released By      bvdongen@staffw_e 2002/05/08 08:54
+TASKH                    Processed To     bvdongen@staffw_e 2002/05/08 09:02
+TASKF                    Released By      bvdongen@staffw_e 2002/05/08 09:05
+TASKH                    Released By      bvdongen@staffw_e 2002/05/08 09:10
+TASKC                    Released By      bvdongen@staffw_e 2002/05/08 09:19
+TASKG                    Processed To     bvdongen@staffw_e 2002/05/08 09:26
+TASKG                    Released By      bvdongen@staffw_e 2002/05/08 09:37
+                         Terminated                         2002/05/08 09:46
+Case 15
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/05/08 08:22
+TASKA                    Processed To     bvdongen@staffw_e 2002/05/08 08:31
+TASKA                    Released By      bvdongen@staffw_e 2002/05/08 08:37
+TASKC                    Processed To     bvdongen@staffw_e 2002/05/08 08:40
+TASKB                    Processed To     bvdongen@staffw_e 2002/05/08 08:40
+TASKD                    Processed To     bvdongen@staffw_e 2002/05/08 08:40
+TASKB                    Released By      bvdongen@staffw_e 2002/05/08 08:45
+TASKF                    Processed To     bvdongen@staffw_e 2002/05/08 08:48
+TASKC                    Released By      bvdongen@staffw_e 2002/05/08 08:53
+TASKD                    Released By      bvdongen@staffw_e 2002/05/08 08:57
+TASKH                    Processed To     bvdongen@staffw_e 2002/05/08 09:08
+TASKF                    Released By      bvdongen@staffw_e 2002/05/08 09:17
+TASKH                    Released By      bvdongen@staffw_e 2002/05/08 09:19
+TASKG                    Processed To     bvdongen@staffw_e 2002/05/08 09:19
+TASKG                    Released By      bvdongen@staffw_e 2002/05/08 09:22
+                         Terminated                         2002/05/08 09:28
+Case 16
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/05/08 08:26
+TASKA                    Processed To     bvdongen@staffw_e 2002/05/08 08:31
+TASKA                    Released By      bvdongen@staffw_e 2002/05/08 08:40
+TASKB                    Processed To     bvdongen@staffw_e 2002/05/08 08:52
+TASKE                    Processed To     bvdongen@staffw_e 2002/05/08 08:52
+TASKC                    Processed To     bvdongen@staffw_e 2002/05/08 08:52
+TASKC                    Released By      bvdongen@staffw_e 2002/05/08 09:02
+TASKB                    Released By      bvdongen@staffw_e 2002/05/08 09:13
+TASKF                    Processed To     bvdongen@staffw_e 2002/05/08 09:22
+TASKE                    Released By      bvdongen@staffw_e 2002/05/08 09:24
+TASKH                    Processed To     bvdongen@staffw_e 2002/05/08 09:33
+TASKH                    Released By      bvdongen@staffw_e 2002/05/08 09:43
+TASKF                    Released By      bvdongen@staffw_e 2002/05/08 09:47
+TASKG                    Processed To     bvdongen@staffw_e 2002/05/08 09:57
+TASKG                    Released By      bvdongen@staffw_e 2002/05/08 10:08
+                         Terminated                         2002/05/08 10:09
+Case 17
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/05/08 08:17
+TASKA                    Processed To     bvdongen@staffw_e 2002/05/08 08:23
+TASKA                    Released By      bvdongen@staffw_e 2002/05/08 08:34
+TASKD                    Processed To     bvdongen@staffw_e 2002/05/08 08:37
+TASKB                    Processed To     bvdongen@staffw_e 2002/05/08 08:37
+TASKC                    Processed To     bvdongen@staffw_e 2002/05/08 08:37
+TASKB                    Released By      bvdongen@staffw_e 2002/05/08 08:38
+TASKF                    Processed To     bvdongen@staffw_e 2002/05/08 08:41
+TASKC                    Released By      bvdongen@staffw_e 2002/05/08 08:52
+TASKF                    Released By      bvdongen@staffw_e 2002/05/08 08:59
+TASKD                    Released By      bvdongen@staffw_e 2002/05/08 09:00
+TASKH                    Processed To     bvdongen@staffw_e 2002/05/08 09:10
+TASKH                    Released By      bvdongen@staffw_e 2002/05/08 09:18
+TASKG                    Processed To     bvdongen@staffw_e 2002/05/08 09:20
+TASKG                    Released By      bvdongen@staffw_e 2002/05/08 09:30
+                         Terminated                         2002/05/08 09:42
+Case 18
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/05/08 08:22
+TASKA                    Processed To     bvdongen@staffw_e 2002/05/08 08:28
+TASKA                    Released By      bvdongen@staffw_e 2002/05/08 08:29
+TASKB                    Processed To     bvdongen@staffw_e 2002/05/08 08:34
+TASKD                    Processed To     bvdongen@staffw_e 2002/05/08 08:34
+TASKC                    Processed To     bvdongen@staffw_e 2002/05/08 08:34
+TASKD                    Released By      bvdongen@staffw_e 2002/05/08 08:42
+TASKH                    Processed To     bvdongen@staffw_e 2002/05/08 08:53
+TASKC                    Released By      bvdongen@staffw_e 2002/05/08 09:00
+TASKB                    Released By      bvdongen@staffw_e 2002/05/08 09:07
+TASKF                    Processed To     bvdongen@staffw_e 2002/05/08 09:12
+TASKH                    Released By      bvdongen@staffw_e 2002/05/08 09:20
+TASKF                    Released By      bvdongen@staffw_e 2002/05/08 09:29
+TASKG                    Processed To     bvdongen@staffw_e 2002/05/08 09:32
+TASKG                    Released By      bvdongen@staffw_e 2002/05/08 09:41
+                         Terminated                         2002/05/08 09:49
+Case 19
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/05/08 08:28
+TASKA                    Processed To     bvdongen@staffw_e 2002/05/08 08:32
+TASKA                    Released By      bvdongen@staffw_e 2002/05/08 08:38
+TASKD                    Processed To     bvdongen@staffw_e 2002/05/08 08:50
+TASKC                    Processed To     bvdongen@staffw_e 2002/05/08 08:50
+TASKB                    Processed To     bvdongen@staffw_e 2002/05/08 08:50
+TASKC                    Released By      bvdongen@staffw_e 2002/05/08 08:51
+TASKB                    Released By      bvdongen@staffw_e 2002/05/08 09:00
+TASKF                    Processed To     bvdongen@staffw_e 2002/05/08 09:02
+TASKD                    Released By      bvdongen@staffw_e 2002/05/08 09:09
+TASKH                    Processed To     bvdongen@staffw_e 2002/05/08 09:20
+TASKH                    Released By      bvdongen@staffw_e 2002/05/08 09:21
+TASKF                    Released By      bvdongen@staffw_e 2002/05/08 09:23
+TASKG                    Processed To     bvdongen@staffw_e 2002/05/08 09:28
+TASKG                    Released By      bvdongen@staffw_e 2002/05/08 09:33
+                         Terminated                         2002/05/08 09:38
+Case 20
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/05/08 08:22
+TASKA                    Processed To     bvdongen@staffw_e 2002/05/08 08:22
+TASKA                    Released By      bvdongen@staffw_e 2002/05/08 08:31
+TASKC                    Processed To     bvdongen@staffw_e 2002/05/08 08:35
+TASKB                    Processed To     bvdongen@staffw_e 2002/05/08 08:35
+TASKE                    Processed To     bvdongen@staffw_e 2002/05/08 08:35
+TASKE                    Released By      bvdongen@staffw_e 2002/05/08 08:41
+TASKH                    Processed To     bvdongen@staffw_e 2002/05/08 08:44
+TASKB                    Released By      bvdongen@staffw_e 2002/05/08 08:54
+TASKF                    Processed To     bvdongen@staffw_e 2002/05/08 09:00
+TASKC                    Released By      bvdongen@staffw_e 2002/05/08 09:04
+TASKH                    Released By      bvdongen@staffw_e 2002/05/08 09:11
+TASKF                    Released By      bvdongen@staffw_e 2002/05/08 09:17
+TASKG                    Processed To     bvdongen@staffw_e 2002/05/08 09:21
+TASKG                    Released By      bvdongen@staffw_e 2002/05/08 09:22
+                         Terminated                         2002/05/08 09:26
+Case 21
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/05/08 08:24
+TASKA                    Processed To     bvdongen@staffw_e 2002/05/08 08:28
+TASKA                    Released By      bvdongen@staffw_e 2002/05/08 08:34
+TASKC                    Processed To     bvdongen@staffw_e 2002/05/08 08:43
+TASKD                    Processed To     bvdongen@staffw_e 2002/05/08 08:43
+TASKB                    Processed To     bvdongen@staffw_e 2002/05/08 08:43
+TASKD                    Released By      bvdongen@staffw_e 2002/05/08 08:52
+TASKH                    Processed To     bvdongen@staffw_e 2002/05/08 09:01
+TASKB                    Released By      bvdongen@staffw_e 2002/05/08 09:08
+TASKF                    Processed To     bvdongen@staffw_e 2002/05/08 09:14
+TASKC                    Released By      bvdongen@staffw_e 2002/05/08 09:21
+TASKH                    Released By      bvdongen@staffw_e 2002/05/08 09:25
+TASKF                    Released By      bvdongen@staffw_e 2002/05/08 09:27
+TASKG                    Processed To     bvdongen@staffw_e 2002/05/08 09:37
+TASKG                    Released By      bvdongen@staffw_e 2002/05/08 09:37
+                         Terminated                         2002/05/08 09:46
+Case 22
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/05/08 08:26
+TASKA                    Processed To     bvdongen@staffw_e 2002/05/08 08:37
+TASKA                    Released By      bvdongen@staffw_e 2002/05/08 08:43
+TASKC                    Processed To     bvdongen@staffw_e 2002/05/08 08:45
+TASKE                    Processed To     bvdongen@staffw_e 2002/05/08 08:45
+TASKB                    Processed To     bvdongen@staffw_e 2002/05/08 08:45
+TASKE                    Released By      bvdongen@staffw_e 2002/05/08 08:52
+TASKH                    Processed To     bvdongen@staffw_e 2002/05/08 09:00
+TASKB                    Released By      bvdongen@staffw_e 2002/05/08 09:05
+TASKF                    Processed To     bvdongen@staffw_e 2002/05/08 09:07
+TASKC                    Released By      bvdongen@staffw_e 2002/05/08 09:12
+TASKF                    Released By      bvdongen@staffw_e 2002/05/08 09:14
+TASKH                    Released By      bvdongen@staffw_e 2002/05/08 09:17
+TASKG                    Processed To     bvdongen@staffw_e 2002/05/08 09:21
+TASKG                    Released By      bvdongen@staffw_e 2002/05/08 09:25
+                         Terminated                         2002/05/08 09:26
+Case 23
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/05/08 08:28
+TASKA                    Processed To     bvdongen@staffw_e 2002/05/08 08:38
+TASKA                    Released By      bvdongen@staffw_e 2002/05/08 08:49
+TASKE                    Processed To     bvdongen@staffw_e 2002/05/08 08:55
+TASKB                    Processed To     bvdongen@staffw_e 2002/05/08 08:55
+TASKC                    Processed To     bvdongen@staffw_e 2002/05/08 08:55
+TASKB                    Released By      bvdongen@staffw_e 2002/05/08 09:06
+TASKF                    Processed To     bvdongen@staffw_e 2002/05/08 09:15
+TASKE                    Released By      bvdongen@staffw_e 2002/05/08 09:19
+TASKH                    Processed To     bvdongen@staffw_e 2002/05/08 09:23
+TASKH                    Released By      bvdongen@staffw_e 2002/05/08 09:30
+TASKF                    Released By      bvdongen@staffw_e 2002/05/08 09:32
+TASKC                    Released By      bvdongen@staffw_e 2002/05/08 09:42
+TASKG                    Processed To     bvdongen@staffw_e 2002/05/08 09:51
+TASKG                    Released By      bvdongen@staffw_e 2002/05/08 09:54
+                         Terminated                         2002/05/08 10:02
+Case 24
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/05/08 08:24
+TASKA                    Processed To     bvdongen@staffw_e 2002/05/08 08:31
+TASKA                    Released By      bvdongen@staffw_e 2002/05/08 08:34
+TASKE                    Processed To     bvdongen@staffw_e 2002/05/08 08:37
+TASKC                    Processed To     bvdongen@staffw_e 2002/05/08 08:37
+TASKB                    Processed To     bvdongen@staffw_e 2002/05/08 08:37
+TASKB                    Released By      bvdongen@staffw_e 2002/05/08 08:48
+TASKF                    Processed To     bvdongen@staffw_e 2002/05/08 08:53
+TASKC                    Released By      bvdongen@staffw_e 2002/05/08 09:03
+TASKE                    Released By      bvdongen@staffw_e 2002/05/08 09:14
+TASKH                    Processed To     bvdongen@staffw_e 2002/05/08 09:22
+TASKF                    Released By      bvdongen@staffw_e 2002/05/08 09:23
+TASKH                    Released By      bvdongen@staffw_e 2002/05/08 09:35
+TASKG                    Processed To     bvdongen@staffw_e 2002/05/08 09:42
+TASKG                    Released By      bvdongen@staffw_e 2002/05/08 09:43
+                         Terminated                         2002/05/08 09:53
+Case 25
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/05/08 08:35
+TASKA                    Processed To     bvdongen@staffw_e 2002/05/08 08:37
+TASKA                    Released By      bvdongen@staffw_e 2002/05/08 08:44
+TASKB                    Processed To     bvdongen@staffw_e 2002/05/08 08:48
+TASKC                    Processed To     bvdongen@staffw_e 2002/05/08 08:48
+TASKE                    Processed To     bvdongen@staffw_e 2002/05/08 08:48
+TASKE                    Released By      bvdongen@staffw_e 2002/05/08 08:56
+TASKH                    Processed To     bvdongen@staffw_e 2002/05/08 09:00
+TASKC                    Released By      bvdongen@staffw_e 2002/05/08 09:07
+TASKH                    Released By      bvdongen@staffw_e 2002/05/08 09:16
+TASKB                    Released By      bvdongen@staffw_e 2002/05/08 09:27
+TASKF                    Processed To     bvdongen@staffw_e 2002/05/08 09:29
+TASKF                    Released By      bvdongen@staffw_e 2002/05/08 09:34
+TASKG                    Processed To     bvdongen@staffw_e 2002/05/08 09:37
+TASKG                    Released By      bvdongen@staffw_e 2002/05/08 09:46
+                         Terminated                         2002/05/08 09:55
+Case 26
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/05/08 08:28
+TASKA                    Processed To     bvdongen@staffw_e 2002/05/08 08:32
+TASKA                    Released By      bvdongen@staffw_e 2002/05/08 08:36
+TASKB                    Processed To     bvdongen@staffw_e 2002/05/08 08:44
+TASKC                    Processed To     bvdongen@staffw_e 2002/05/08 08:44
+TASKD                    Processed To     bvdongen@staffw_e 2002/05/08 08:44
+TASKD                    Released By      bvdongen@staffw_e 2002/05/08 08:53
+TASKH                    Processed To     bvdongen@staffw_e 2002/05/08 09:03
+TASKH                    Released By      bvdongen@staffw_e 2002/05/08 09:07
+TASKC                    Released By      bvdongen@staffw_e 2002/05/08 09:15
+TASKB                    Released By      bvdongen@staffw_e 2002/05/08 09:18
+TASKF                    Processed To     bvdongen@staffw_e 2002/05/08 09:23
+TASKF                    Released By      bvdongen@staffw_e 2002/05/08 09:24
+TASKG                    Processed To     bvdongen@staffw_e 2002/05/08 09:35
+TASKG                    Released By      bvdongen@staffw_e 2002/05/08 09:45
+                         Terminated                         2002/05/08 09:46
+Case 27
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/05/08 08:27
+TASKA                    Processed To     bvdongen@staffw_e 2002/05/08 08:30
+TASKA                    Released By      bvdongen@staffw_e 2002/05/08 08:34
+TASKB                    Processed To     bvdongen@staffw_e 2002/05/08 08:42
+TASKC                    Processed To     bvdongen@staffw_e 2002/05/08 08:42
+TASKE                    Processed To     bvdongen@staffw_e 2002/05/08 08:42
+TASKB                    Released By      bvdongen@staffw_e 2002/05/08 08:42
+TASKF                    Processed To     bvdongen@staffw_e 2002/05/08 08:46
+TASKF                    Released By      bvdongen@staffw_e 2002/05/08 08:57
+TASKE                    Released By      bvdongen@staffw_e 2002/05/08 09:08
+TASKH                    Processed To     bvdongen@staffw_e 2002/05/08 09:17
+TASKC                    Released By      bvdongen@staffw_e 2002/05/08 09:19
+TASKH                    Released By      bvdongen@staffw_e 2002/05/08 09:24
+TASKG                    Processed To     bvdongen@staffw_e 2002/05/08 09:36
+TASKG                    Released By      bvdongen@staffw_e 2002/05/08 09:39
+                         Terminated                         2002/05/08 09:39
+Case 28
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/05/08 08:38
+TASKA                    Processed To     bvdongen@staffw_e 2002/05/08 08:47
+TASKA                    Released By      bvdongen@staffw_e 2002/05/08 08:54
+TASKB                    Processed To     bvdongen@staffw_e 2002/05/08 08:55
+TASKC                    Processed To     bvdongen@staffw_e 2002/05/08 08:55
+TASKD                    Processed To     bvdongen@staffw_e 2002/05/08 08:55
+TASKB                    Released By      bvdongen@staffw_e 2002/05/08 09:00
+TASKF                    Processed To     bvdongen@staffw_e 2002/05/08 09:05
+TASKD                    Released By      bvdongen@staffw_e 2002/05/08 09:09
+TASKH                    Processed To     bvdongen@staffw_e 2002/05/08 09:15
+TASKF                    Released By      bvdongen@staffw_e 2002/05/08 09:22
+TASKH                    Released By      bvdongen@staffw_e 2002/05/08 09:33
+TASKC                    Released By      bvdongen@staffw_e 2002/05/08 09:44
+TASKG                    Processed To     bvdongen@staffw_e 2002/05/08 09:54
+TASKG                    Released By      bvdongen@staffw_e 2002/05/08 09:55
+                         Terminated                         2002/05/08 10:02

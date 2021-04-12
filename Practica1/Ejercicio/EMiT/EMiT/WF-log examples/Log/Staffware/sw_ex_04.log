@@ -1,0 +1,63 @@
+Case 1
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/04/16 10:51
+task a                   Processed To     bvdongen@staffw_e 2002/04/16 10:51
+task a                   Released By      bvdongen@staffw_e 2002/04/16 10:51
+task C                   Processed To     bvdongen@staffw_e 2002/04/16 10:52
+task C                   Released By      bvdongen@staffw_e 2002/04/16 10:53
+                         Terminated                         2002/04/16 10:53
+Case 2
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/04/16 10:52
+task a                   Processed To     bvdongen@staffw_e 2002/04/16 10:52
+task a                   Released By      bvdongen@staffw_e 2002/04/16 10:52
+task C                   Processed To     bvdongen@staffw_e 2002/04/16 10:52
+task C                   Released By      bvdongen@staffw_e 2002/04/16 10:53
+                         Terminated                         2002/04/16 10:53
+Case 4
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/04/16 10:56
+task a                   Processed To     bvdongen@staffw_e 2002/04/16 10:56
+task a                   Expired          bvdongen@staffw_e 2002/04/16 10:57
+TASKD                    Processed To     bvdongen@staffw_e 2002/04/16 10:57
+TASKD                    Released By      bvdongen@staffw_e 2002/04/16 10:57
+task a                   Released By      bvdongen@staffw_e 2002/04/16 10:57
+task C                   Processed To     bvdongen@staffw_e 2002/04/16 10:57
+task C                   Released By      bvdongen@staffw_e 2002/04/16 10:57
+                         Terminated                         2002/04/16 10:58
+Case 3
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/04/16 10:53
+task a                   Processed To     bvdongen@staffw_e 2002/04/16 10:53
+task a                   Released By      bvdongen@staffw_e 2002/04/16 10:53
+task C                   Processed To     bvdongen@staffw_e 2002/04/16 10:53
+task C                   Released By      bvdongen@staffw_e 2002/04/16 10:54
+                         Terminated                         2002/04/16 10:54
+Case 5
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/04/16 10:56
+task a                   Processed To     bvdongen@staffw_e 2002/04/16 10:56
+task a                   Expired          bvdongen@staffw_e 2002/04/16 10:57
+TASKD                    Processed To     bvdongen@staffw_e 2002/04/16 10:57
+task a                   Released By      bvdongen@staffw_e 2002/04/16 10:57
+TASKD                    Released By      bvdongen@staffw_e 2002/04/16 10:57
+task C                   Processed To     bvdongen@staffw_e 2002/04/16 10:57
+task C                   Released By      bvdongen@staffw_e 2002/04/16 10:57
+                         Terminated                         2002/04/16 10:58
+Case 6
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/04/16 10:56
+task a                   Processed To     bvdongen@staffw_e 2002/04/16 10:56
+task a                   Expired          bvdongen@staffw_e 2002/04/16 10:57
+TASKD                    Processed To     bvdongen@staffw_e 2002/04/16 10:57
+task a                   Released By      bvdongen@staffw_e 2002/04/16 10:57
+task C                   Processed To     bvdongen@staffw_e 2002/04/16 10:57
+task C                   Released By      bvdongen@staffw_e 2002/04/16 10:57
+TASKD                    Released By      bvdongen@staffw_e 2002/04/16 10:57
+                         Terminated                         2002/04/16 10:58

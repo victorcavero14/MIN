@@ -1,0 +1,21 @@
+Case 1
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/04/08 10:56
+TASKA                    Processed To     bvdongen@staffw_e 2002/04/08 10:56
+TASKA                    Released By      bvdongen@staffw_e 2002/04/08 10:56
+                         Terminated                         2002/04/08 10:56
+Case 2
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/04/08 10:57
+TASKA                    Processed To     bvdongen@staffw_e 2002/04/08 10:57
+TASKA                    Released By      bvdongen@staffw_e 2002/04/08 10:56
+                         Terminated                         2002/04/08 10:57
+Case 3
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/04/08 10:57
+TASKA                    Processed To     bvdongen@staffw_e 2002/04/08 10:57
+TASKA                    Released By      bvdongen@staffw_e 2002/04/08 10:57
+                         Terminated                         2002/04/08 10:57

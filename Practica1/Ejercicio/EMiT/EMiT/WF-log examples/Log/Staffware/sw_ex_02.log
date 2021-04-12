@@ -1,0 +1,45 @@
+Case 1
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/04/08 11:09
+taak A                   Processed To     bvdongen@staffw_e 2002/04/08 11:09
+taak A                   Released By      bvdongen@staffw_e 2002/04/08 11:09
+task C                   Processed To     bvdongen@staffw_e 2002/04/08 11:09
+task C                   Released By      bvdongen@staffw_e 2002/04/08 11:10
+                         Terminated                         2002/04/08 11:10
+Case 5
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/04/08 11:11
+taak A                   Processed To     bvdongen@staffw_e 2002/04/08 11:11
+taak A                   Released By      bvdongen@staffw_e 2002/04/08 11:11
+task C                   Processed To     bvdongen@staffw_e 2002/04/08 11:11
+task C                   Released By      bvdongen@staffw_e 2002/04/08 11:11
+                         Terminated                         2002/04/08 11:11
+Case 2
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/04/08 11:10
+taak A                   Processed To     bvdongen@staffw_e 2002/04/08 11:10
+taak A                   Released By      bvdongen@staffw_e 2002/04/08 11:10
+task B                   Processed To     bvdongen@staffw_e 2002/04/08 11:10
+task B                   Released By      bvdongen@staffw_e 2002/04/08 11:10
+                         Terminated                         2002/04/08 11:10
+Case 3
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/04/08 11:11
+taak A                   Processed To     bvdongen@staffw_e 2002/04/08 11:11
+taak A                   Released By      bvdongen@staffw_e 2002/04/08 11:11
+task B                   Processed To     bvdongen@staffw_e 2002/04/08 11:11
+task B                   Released By      bvdongen@staffw_e 2002/04/08 11:11
+                         Terminated                         2002/04/08 11:11
+Case 4
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/04/08 11:11
+taak A                   Processed To     bvdongen@staffw_e 2002/04/08 11:11
+taak A                   Released By      bvdongen@staffw_e 2002/04/08 11:11
+task B                   Processed To     bvdongen@staffw_e 2002/04/08 11:11
+task B                   Released By      bvdongen@staffw_e 2002/04/08 11:11
+                         Terminated                         2002/04/08 11:11

@@ -1,0 +1,60 @@
+Case 10
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/06/19 12:58
+Register                 Processed To     bvdongen@staffw_e 2002/06/19 12:58
+Register                 Released By      bvdongen@staffw_e 2002/06/19 12:58
+Send questionaire        Processed To     bvdongen@staffw_e 2002/06/19 12:58
+Evaluate                 Processed To     bvdongen@staffw_e 2002/06/19 12:58
+Send questionaire        Released By      bvdongen@staffw_e 2002/06/19 13:00
+Receive questionaire     Processed To     bvdongen@staffw_e 2002/06/19 13:00
+Receive questionaire     Released By      bvdongen@staffw_e 2002/06/19 13:00
+Evaluate                 Released By      bvdongen@staffw_e 2002/06/19 13:00
+Archive                  Processed To     bvdongen@staffw_e 2002/06/19 13:00
+Archive                  Released By      bvdongen@staffw_e 2002/06/19 13:00
+                         Terminated                         2002/06/19 13:00
+Case 8
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/06/19 12:36
+Register                 Processed To     bvdongen@staffw_e 2002/06/19 12:36
+Register                 Released By      bvdongen@staffw_e 2002/06/19 12:35
+Send questionaire        Processed To     bvdongen@staffw_e 2002/06/19 12:36
+Evaluate                 Processed To     bvdongen@staffw_e 2002/06/19 12:36
+Send questionaire        Released By      bvdongen@staffw_e 2002/06/19 12:36
+Receive questionaire     Processed To     bvdongen@staffw_e 2002/06/19 12:36
+Receive questionaire     Released By      bvdongen@staffw_e 2002/06/19 12:36
+Evaluate                 Released By      bvdongen@staffw_e 2002/06/19 12:37
+Proces complaint         Processed To     bvdongen@staffw_e 2002/06/19 12:37
+Proces complaint         Released By      bvdongen@staffw_e 2002/06/19 12:37
+Check processing         Processed To     bvdongen@staffw_e 2002/06/19 12:37
+Check processing         Released By      bvdongen@staffw_e 2002/06/19 12:38
+Proces complaint         Processed To     bvdongen@staffw_e 2002/06/19 12:38
+Proces complaint         Released By      bvdongen@staffw_e 2002/06/19 12:38
+Check processing         Processed To     bvdongen@staffw_e 2002/06/19 12:38
+Check processing         Released By      bvdongen@staffw_e 2002/06/19 12:38
+Archive                  Processed To     bvdongen@staffw_e 2002/06/19 12:38
+Archive                  Released By      bvdongen@staffw_e 2002/06/19 12:38
+                         Terminated                         2002/06/19 12:38
+Case 8
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/06/19 12:36
+Register                 Processed To     bvdongen@staffw_e 2002/06/19 12:36
+Register                 Released By      bvdongen@staffw_e 2002/06/19 12:35
+Send questionaire        Processed To     bvdongen@staffw_e 2002/06/19 12:36
+Evaluate                 Processed To     bvdongen@staffw_e 2002/06/19 12:36
+Send questionaire        Released By      bvdongen@staffw_e 2002/06/19 12:36
+Receive questionaire     Processed To     bvdongen@staffw_e 2002/06/19 12:36
+Receive questionaire     Expired          bvdongen@staffw_e 2002/06/19 12:37
+Receive questionaire     Withdrawn        bvdongen@staffw_e 2002/06/19 12:37
+Receive timeout          Processed To     bvdongen@staffw_e 2002/06/19 12:37
+Receive timeout          Released By      bvdongen@staffw_e 2002/06/19 12:37
+Evaluate                 Released By      bvdongen@staffw_e 2002/06/19 12:37
+Proces complaint         Processed To     bvdongen@staffw_e 2002/06/19 12:37
+Proces complaint         Released By      bvdongen@staffw_e 2002/06/19 12:37
+Check processing         Processed To     bvdongen@staffw_e 2002/06/19 12:37
+Check processing         Released By      bvdongen@staffw_e 2002/06/19 12:38
+Archive                  Processed To     bvdongen@staffw_e 2002/06/19 12:38
+Archive                  Released By      bvdongen@staffw_e 2002/06/19 12:38
+                         Terminated                         2002/06/19 12:38

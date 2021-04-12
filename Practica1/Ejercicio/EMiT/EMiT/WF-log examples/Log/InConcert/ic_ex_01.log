@@ -1,0 +1,112 @@
+icadmin2Reprt Type: JOB      Job Name:  case 2   Period:  ALL   
+Date/Time                              Event                              User           Description
+Thu Jun 20 10:05:52 2002 GMT           TASK_ACTIVATE                      icdba          Root Task for pool icdba in case 2 is activated
+Thu Jun 20 10:05:52 2002 GMT           TASK_READY                         icdba          register for pool icdba in case 2 is readyk
+Thu Jun 20 10:06:09 2002 GMT           TASK_ACQUIRE                       icdba          register for pool icdba in case 2 was acquired
+Thu Jun 20 10:06:13 2002 GMT           TASK_COMPLETE                      icdba          register for pool icdba in case 2 was completed
+Thu Jun 20 10:06:13 2002 GMT           TASK_READY                         icdba          classify for pool icdba in case 2 is ready
+Thu Jun 20 10:06:41 2002 GMT           TASK_ACQUIRE                       icdba          classify for pool icdba in case 2 was acquired
+Thu Jun 20 10:06:46 2002 GMT           TASK_COMPLETE                      icdba          classify for pool icdba in case 2 was completed
+Thu Jun 20 10:06:46 2002 GMT           TASK_READY                         icdba          check_insurance_2 for pool icdba in case 2 is ready
+Thu Jun 20 10:06:46 2002 GMT           TASK_READY                         icdba          check_damage_2 for pool icdba in case 2 is ready
+Thu Jun 20 10:06:46 2002 GMT           TASK_SKIP                          icdba          check_insurance for pool  1236764n case 2 was skipped
+Thu Jun 20 10:06:47 2002 GMT           TASK_SKIP                          icdba          check_damage_history for pool  1236764n case 2 was skipped
+Thu Jun 20 10:06:47 2002 GMT           TASK_SKIP                          icdba          check_damage for pool  1236764n case 2 was skipped
+Thu Jun 20 10:06:49 2002 GMT           TASK_ACQUIRE                       icdba          check_damage_2 for pool icdba in case 2 was acquired
+Thu Jun 20 10:06:58 2002 GMT           TASK_ACQUIRE                       icdba          check_insurance_2 for pool icdba in case 2 was acquired
+Thu Jun 20 10:07:07 2002 GMT           TASK_COMPLETE                      icdba          check_damage_2 for pool icdba in case 2 was completed
+Thu Jun 20 10:07:11 2002 GMT           TASK_COMPLETE                      icdba          check_insurance_2 for pool icdba in case 2 was completed
+Thu Jun 20 10:07:11 2002 GMT           TASK_READY                         icdba          decide for pool icdba in case 2 is ready
+Thu Jun 20 10:07:24 2002 GMT           TASK_ACQUIRE                       icdba          decide for pool icdba in case 2 was acquired
+Thu Jun 20 10:07:34 2002 GMT           TASK_COMPLETE                      icdba          decide for pool icdba in case 2 was completed
+Thu Jun 20 10:07:34 2002 GMT           TASK_READY                         icdba          pay for pool icdba in case 2 is ready
+Thu Jun 20 10:07:50 2002 GMT           TASK_ACQUIRE                       icdba          pay for pool icdba in case 2 was acquired
+Thu Jun 20 10:07:53 2002 GMT           TASK_COMPLETE                      icdba          pay for pool icdba in case 2 was completed
+Thu Jun 20 10:07:53 2002 GMT           TASK_READY                         icdba          send_letter for pool icdba in case 2 is ready
+Thu Jun 20 10:07:56 2002 GMT           TASK_ACQUIRE                       icdba          send_letter for pool icdba in case 2 was acquired
+Thu Jun 20 10:07:59 2002 GMT           TASK_COMPLETE                      icdba          send_letter for pool icdba in case 2 was completed
+Thu Jun 20 10:07:59 2002 GMT           TASK_COMPLETE                      icdba          Root Task for pool icdba in case 2 was completed
+icadmin2Reprt Type: JOB      Job Name:  case 1   Period:  ALL       
+Date/Time                              Event                              User           Description
+Thu Jun 20 10:04:21 2002 GMT           TASK_ACTIVATE                      icdba          Root Task for pool icdba in case 1 is activated
+Thu Jun 20 10:04:22 2002 GMT           TASK_READY                         icdba          register for pool icdba in case 1 is ready
+Thu Jun 20 10:04:46 2002 GMT           TASK_ACQUIRE                       icdba          register for pool icdba in case 1 was acquired
+Thu Jun 20 10:04:51 2002 GMT           TASK_COMPLETE                      icdba          register for pool icdba in case 1 was completed
+Thu Jun 20 10:04:51 2002 GMT           TASK_READY                         icdba          classify for pool icdba in case 1 is ready
+Thu Jun 20 10:05:10 2002 GMT           TASK_ACQUIRE                       icdba          classify for pool icdba in case 1 was acquired
+Thu Jun 20 10:05:26 2002 GMT           TASK_COMPLETE                      icdba          classify for pool icdba in case 1 was completed
+Thu Jun 20 10:05:26 2002 GMT           TASK_SKIP                          icdba          check_insurance_2 for pool  1236764n case 1 was skipped
+Thu Jun 20 10:05:26 2002 GMT           TASK_SKIP                          icdba          check_damage_2 for pool  1236764n case 1 was skipped
+Thu Jun 20 10:05:26 2002 GMT           TASK_READY                         icdba          check_insurance for pool icdba in case 1 is ready
+Thu Jun 20 10:06:15 2002 GMT           TASK_ACQUIRE                       icdba          check_insurance for pool icdba in case 1 was acquired
+Thu Jun 20 10:06:19 2002 GMT           TASK_COMPLETE                      icdba          check_insurance for pool icdba in case 1 was completed
+Thu Jun 20 10:06:19 2002 GMT           TASK_READY                         icdba          check_damage_history for pool icdba in case 1 is ready
+Thu Jun 20 10:06:36 2002 GMT           TASK_ACQUIRE                       icdba          check_damage_history for pool icdba in case 1 was acquired
+Thu Jun 20 10:06:39 2002 GMT           TASK_COMPLETE                      icdba          check_damage_history for pool icdba in case 1 was completed
+Thu Jun 20 10:06:39 2002 GMT           TASK_READY                         icdba          check_damage for pool icdba in case 1 is ready
+Thu Jun 20 10:06:53 2002 GMT           TASK_ACQUIRE                       icdba          check_damage for pool icdba in case 1 was acquired
+Thu Jun 20 10:06:56 2002 GMT           TASK_COMPLETE                      icdba          check_damage for pool icdba in case 1 was completed
+Thu Jun 20 10:06:56 2002 GMT           TASK_READY                         icdba          decide for pool icdba in case 1 is ready
+Thu Jun 20 10:07:15 2002 GMT           TASK_ACQUIRE                       icdba          decide for pool icdba in case 1 was acquired
+Thu Jun 20 10:07:20 2002 GMT           TASK_COMPLETE                      icdba          decide for pool icdba in case 1 was completed
+Thu Jun 20 10:07:20 2002 GMT           TASK_SKIP                          icdba          pay for pool  1236764n case 1 was skipped
+Thu Jun 20 10:07:20 2002 GMT           TASK_READY                         icdba          send_letter for pool icdba in case 1 is ready
+Thu Jun 20 10:07:45 2002 GMT           TASK_ACQUIRE                       icdba          send_letter for pool icdba in case 1 was acquired
+Thu Jun 20 10:07:49 2002 GMT           TASK_COMPLETE                      icdba          send_letter for pool icdba in case 1 was completed
+Thu Jun 20 10:07:49 2002 GMT           TASK_COMPLETE                      icdba          Root Task for pool icdba in case 1 was completed
+icadmin6Reprt Type: JOB      Job Name:  icdba ic 4   Period:  ALL
+Date/Time                              Event                              User           Description
+Mon Jun 17 11:01:53 2002 GMT           TASK_ACTIVATE                      icdba          Root Task for pool icdba in icdba ic 4 is activated
+Mon Jun 17 11:01:53 2002 GMT           TASK_READY                         icdba          register for pool icdba in icdba ic 4 is ready
+Mon Jun 17 11:02:24 2002 GMT           TASK_ACQUIRE                       icdba          register for pool icdba in icdba ic 4 was acquired
+Mon Jun 17 11:02:28 2002 GMT           TASK_COMPLETE                      icdba          register for pool icdba in icdba ic 4 was completed
+Mon Jun 17 11:02:28 2002 GMT           TASK_READY                         icdba          classify for pool icdba in icdba ic 4 is ready
+Mon Jun 17 11:02:33 2002 GMT           TASK_ACQUIRE                       icdba          classify for pool icdba in icdba ic 4 was acquired
+Mon Jun 17 11:02:38 2002 GMT           TASK_COMPLETE                      icdba          classify for pool icdba in icdba ic 4 was completed
+Mon Jun 17 11:02:38 2002 GMT           TASK_READY                         icdba          check_insurance_2 for pool icdba in icdba ic 4 is ready
+Mon Jun 17 11:02:38 2002 GMT           TASK_READY                         icdba          check_damage_2 for pool icdba in icdba ic 4 is ready
+Mon Jun 17 11:02:38 2002 GMT           TASK_SKIP                          icdba          check_insurance for pool  1236764n icdba ic 4 was skipped
+Mon Jun 17 11:02:38 2002 GMT           TASK_SKIP                          icdba          check_damage_history for pool  1236764n icdba ic 4 was skipped
+Mon Jun 17 11:02:38 2002 GMT           TASK_SKIP                          icdba          check_damage for pool  1236764n icdba ic 4 was skipped
+Mon Jun 17 11:02:44 2002 GMT           TASK_ACQUIRE                       icdba          check_insurance_2 for pool icdba in icdba ic 4 was acquired
+Mon Jun 17 11:02:48 2002 GMT           TASK_COMPLETE                      icdba          check_insurance_2 for pool icdba in icdba ic 4 was completed
+Mon Jun 17 11:02:49 2002 GMT           TASK_ACQUIRE                       icdba          check_damage_2 for pool icdba in icdba ic 4 was acquired
+Mon Jun 17 11:02:52 2002 GMT           TASK_COMPLETE                      icdba          check_damage_2 for pool icdba in icdba ic 4 was completed
+Mon Jun 17 11:02:52 2002 GMT           TASK_READY                         icdba          decide for pool icdba in icdba ic 4 is ready
+Mon Jun 17 11:02:55 2002 GMT           TASK_ACQUIRE                       icdba          decide for pool icdba in icdba ic 4 was acquired
+Mon Jun 17 11:02:59 2002 GMT           TASK_COMPLETE                      icdba          decide for pool icdba in icdba ic 4 was completed
+Mon Jun 17 11:02:59 2002 GMT           TASK_SKIP                          icdba          pay for pool  1236764n icdba ic 4 was skipped
+Mon Jun 17 11:02:59 2002 GMT           TASK_READY                         icdba          send_letter for pool icdba in icdba ic 4 is ready
+Mon Jun 17 11:03:02 2002 GMT           TASK_ACQUIRE                       icdba          send_letter for pool icdba in icdba ic 4 was acquired
+Mon Jun 17 11:03:07 2002 GMT           TASK_COMPLETE                      icdba          send_letter for pool icdba in icdba ic 4 was completed
+Mon Jun 17 11:03:07 2002 GMT           TASK_COMPLETE                      icdba          Root Task for pool icdba in icdba ic 4 was completed
+icadmin6Reprt Type: JOB      Job Name:  icdba ic 5   Period:  ALL
+Date/Time                              Event                              User           Description
+Mon Jun 17 11:08:57 2002 GMT           TASK_ACTIVATE                      icdba          Root Task for pool icdba in icdba ic 5 is activated
+Mon Jun 17 11:08:57 2002 GMT           TASK_READY                         icdba          register for pool icdba in icdba ic 5 is ready
+Mon Jun 17 11:09:13 2002 GMT           TASK_ACQUIRE                       icdba          register for pool icdba in icdba ic 5 was acquired
+Mon Jun 17 11:09:19 2002 GMT           TASK_COMPLETE                      icdba          register for pool icdba in icdba ic 5 was completed
+Mon Jun 17 11:09:19 2002 GMT           TASK_READY                         icdba          classify for pool icdba in icdba ic 5 is ready
+Mon Jun 17 11:09:23 2002 GMT           TASK_ACQUIRE                       icdba          classify for pool icdba in icdba ic 5 was acquired
+Mon Jun 17 11:09:37 2002 GMT           TASK_COMPLETE                      icdba          classify for pool icdba in icdba ic 5 was completed
+Mon Jun 17 11:09:37 2002 GMT           TASK_SKIP                          icdba          check_damage_2 for pool  1236764n icdba ic 5 was skipped
+Mon Jun 17 11:09:37 2002 GMT           TASK_READY                         icdba          check_insurance for pool icdba in icdba ic 5 is ready
+Mon Jun 17 11:09:37 2002 GMT           TASK_SKIP                          icdba          check_insurance_2 for pool  1236764n icdba ic 5 was skipped
+Mon Jun 17 11:09:44 2002 GMT           TASK_ACQUIRE                       icdba          check_insurance for pool icdba in icdba ic 5 was acquired
+Mon Jun 17 11:09:48 2002 GMT           TASK_COMPLETE                      icdba          check_insurance for pool icdba in icdba ic 5 was completed
+Mon Jun 17 11:09:48 2002 GMT           TASK_READY                         icdba          check_damage_history for pool icdba in icdba ic 5 is ready
+Mon Jun 17 11:10:23 2002 GMT           TASK_ACQUIRE                       icdba          check_damage_history for pool icdba in icdba ic 5 was acquired
+Mon Jun 17 11:10:27 2002 GMT           TASK_COMPLETE                      icdba          check_damage_history for pool icdba in icdba ic 5 was completed
+Mon Jun 17 11:10:27 2002 GMT           TASK_READY                         icdba          check_damage for pool icdba in icdba ic 5 is ready
+Mon Jun 17 11:10:31 2002 GMT           TASK_ACQUIRE                       icdba          check_damage for pool icdba in icdba ic 5 was acquired
+Mon Jun 17 11:10:35 2002 GMT           TASK_COMPLETE                      icdba          check_damage for pool icdba in icdba ic 5 was completed
+Mon Jun 17 11:10:35 2002 GMT           TASK_READY                         icdba          decide for pool icdba in icdba ic 5 is ready
+Mon Jun 17 11:10:40 2002 GMT           TASK_ACQUIRE                       icdba          decide for pool icdba in icdba ic 5 was acquired
+Mon Jun 17 11:10:55 2002 GMT           TASK_COMPLETE                      icdba          decide for pool icdba in icdba ic 5 was completed
+Mon Jun 17 11:10:55 2002 GMT           TASK_READY                         icdba          pay for pool icdba in icdba ic 5 is ready
+Mon Jun 17 11:11:02 2002 GMT           TASK_ACQUIRE                       icdba          pay for pool icdba in icdba ic 5 was acquired
+Mon Jun 17 11:11:05 2002 GMT           TASK_COMPLETE                      icdba          pay for pool icdba in icdba ic 5 was completed
+Mon Jun 17 11:11:05 2002 GMT           TASK_READY                         icdba          send_letter for pool icdba in icdba ic 5 is ready
+Mon Jun 17 11:11:09 2002 GMT           TASK_ACQUIRE                       icdba          send_letter for pool icdba in icdba ic 5 was acquired
+Mon Jun 17 11:11:13 2002 GMT           TASK_COMPLETE                      icdba          send_letter for pool icdba in icdba ic 5 was completed
+Mon Jun 17 11:11:13 2002 GMT           TASK_COMPLETE                      icdba          Root Task for pool icdba in icdba ic 5 was completed

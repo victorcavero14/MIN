@@ -1,0 +1,64 @@
+Case 1
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/04/16 15:20
+TASKA                    Processed To     bvdongen@staffw_e 2002/04/16 15:20
+TASKI                    Processed To     bvdongen@staffw_e 2002/04/16 15:20
+TASKI                    Released By      bvdongen@staffw_e 2002/04/16 15:20
+TASKA                    Expired          bvdongen@staffw_e 2002/04/16 15:21
+TASKC                    Processed To     bvdongen@staffw_e 2002/04/16 15:21
+TASKC                    Released By      bvdongen@staffw_e 2002/04/16 15:22
+TASKA                    Released By      bvdongen@staffw_e 2002/04/16 15:22
+TASKJ                    Processed To     bvdongen@staffw_e 2002/04/16 15:22
+TASKJ                    Released By      bvdongen@staffw_e 2002/04/16 15:22
+                         Terminated                         2002/04/16 15:23
+Case 4
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/04/16 15:27
+TASKA                    Processed To     bvdongen@staffw_e 2002/04/16 15:27
+TASKI                    Processed To     bvdongen@staffw_e 2002/04/16 15:27
+TASKA                    Released By      bvdongen@staffw_e 2002/04/16 15:27
+TASKI                    Released By      bvdongen@staffw_e 2002/04/16 15:27
+TASKJ                    Processed To     bvdongen@staffw_e 2002/04/16 15:27
+TASKJ                    Released By      bvdongen@staffw_e 2002/04/16 15:27
+                         Terminated                         2002/04/16 15:27
+Case 2
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/04/16 15:20
+TASKA                    Processed To     bvdongen@staffw_e 2002/04/16 15:20
+TASKI                    Processed To     bvdongen@staffw_e 2002/04/16 15:20
+TASKA                    Expired          bvdongen@staffw_e 2002/04/16 15:21
+TASKC                    Processed To     bvdongen@staffw_e 2002/04/16 15:21
+TASKC                    Released By      bvdongen@staffw_e 2002/04/16 15:21
+TASKI                    Released By      bvdongen@staffw_e 2002/04/16 15:23
+TASKA                    Released By      bvdongen@staffw_e 2002/04/16 15:23
+TASKJ                    Processed To     bvdongen@staffw_e 2002/04/16 15:23
+TASKJ                    Released By      bvdongen@staffw_e 2002/04/16 15:23
+                         Terminated                         2002/04/16 15:24
+Case 3
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/04/16 15:20
+TASKA                    Processed To     bvdongen@staffw_e 2002/04/16 15:20
+TASKI                    Processed To     bvdongen@staffw_e 2002/04/16 15:20
+TASKA                    Expired          bvdongen@staffw_e 2002/04/16 15:21
+TASKC                    Processed To     bvdongen@staffw_e 2002/04/16 15:21
+TASKC                    Released By      bvdongen@staffw_e 2002/04/16 15:21
+TASKA                    Released By      bvdongen@staffw_e 2002/04/16 15:23
+TASKI                    Released By      bvdongen@staffw_e 2002/04/16 15:23
+TASKJ                    Processed To     bvdongen@staffw_e 2002/04/16 15:23
+TASKJ                    Released By      bvdongen@staffw_e 2002/04/16 15:24
+                         Terminated                         2002/04/16 15:24
+Case 5
+Diractive Description    Event            User              yyyy/mm/dd hh:mm
+----------------------------------------------------------------------------
+                         Start            bvdongen@staffw_e 2002/04/16 15:27
+TASKA                    Processed To     bvdongen@staffw_e 2002/04/16 15:27
+TASKI                    Processed To     bvdongen@staffw_e 2002/04/16 15:27
+TASKI                    Released By      bvdongen@staffw_e 2002/04/16 15:27
+TASKA                    Released By      bvdongen@staffw_e 2002/04/16 15:27
+TASKJ                    Processed To     bvdongen@staffw_e 2002/04/16 15:27
+TASKJ                    Released By      bvdongen@staffw_e 2002/04/16 15:27
+                         Terminated                         2002/04/16 15:27

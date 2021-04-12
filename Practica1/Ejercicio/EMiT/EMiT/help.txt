@@ -1,0 +1,234 @@
+**EMiT in general
+EMiT is a program that can be used for mining workflow logs.
+These workflow logs should be in a specific XML format. EMiT
+consists of three modules: 
+   1) the conversion module.
+   2) the rediscovering module.
+   3) the inspection module.
+
+In the main form, there is a checkbox near the bottom of
+the window. If this checkbox is checked, EMiT resolves external
+files when parsing XML documents. If these files are on the
+internet, make sure a connection is available before checking
+this checkbox.
+
+EMiT was built by Boudewijn van Dongen. (c)2002 
+support e-mail: b.f.v.dongen@student.tue.nl
+homepage:       http://www.boudewijn-van-dongen.com/EMiT
+
+For more information on DOT refer to
+                http://www.research.att.com/sw/tools/graphviz/
+ 
+**converting
+EMiT's capability of converting log files into the XML
+format is rather flexible. EMiT comes with a file called
+"conv.txt" which contains pointers to conversion programs. The
+standard file looks as follows:
+
+
+\\ this file tells EMiT which conversion programs are available
+\\ Any line starting with "\\" is comment (only whole lines)
+\\
+\\ The conversion programs should be command line executables
+\\ taking 4 command line parameters in this order:
+\\
+\\ 1) The filename of the inputfile (including full path and extension)
+\\ 2) The filename of the outputfile(including full path and extension)
+\\ 3) The filename of the DTD       (including full path and extension,
+\\                                   this can be http://www...etc )
+\\ 4) (Yes|No), "Yes" or "no"       (no specific case required) whether
+\\                                   to use the external DTD for parsing
+\\
+\\ Have fun.....
+\\
+Staffware  |SW2XML.EXE
+Pnet       |PNET2XML.EXE
+InConcert  |IC2XML.EXE
+\\
+\\ Copyright 2002: Boudewijn van Dongen
+
+In this file three conversion programs are specified to
+convert logs to the XML format. Each of these programs should be
+console applications, taking 4 command line parameters:
+   
+   - The filename of the input file. This filename has to contain
+     its full path and extension.
+   
+   - The filename of the output file. This filename has to contain
+     its full path and extension.
+   
+   - The URL or filename of the DTD. Here also a full path is
+     required. The dtd can be found on the CD-rom, as well as at
+     http://www.tm.tue.nl/it/research/workflow/mining/WorkFlow_log.dtd
+   
+   - (Yes|No), "Yes" or "No" saying whether or not the
+     program should use the external DTD. This argument is not case
+     sensitive. Note that even if said "No" here, the URL to the DTD
+     must be correct. If this isn't the case, checking the "Use
+     external DTD" checkbox will result in errors later on.
+
+In the tabsheet "convert log to XML the following inputs are specified:
+
+   1) The URL of the DTD. This URL is set to
+      http://www.tm.tue.nl/it/research/workflow/mining/WorkFlow_log.dtd
+   
+   2) The type of input file. This dropdown box contains the items
+      that are specified in the "conv.txt" file.
+    
+   3) The filename of the log file. This filename can be typed in
+      manually or it can be found using the "Open logfile" button.
+
+   4) The filename of the XML file. This is by default the
+      filename of the log file, with ".log" replaced by ".xml", but
+      it can be changed to any name.
+
+   5) The convert button. This button calls the conversion program
+      that belongs to selected conversion module with the correct
+      arguments. EMiT will wait for the execution of this file to end,
+      before you can continue using it.
+
+**rediscovering
+The rediscovering module of EMiT is the most interesting part of
+the program. This module allows for a step by step mining of the
+Petrinet, from opening the ".XML" file to creating ".jpg" and
+".ps" files.
+
+To mine a specific log, the following actions have to take place:
+   1) To open the XML file, click the "open WorkFlow log"
+      button. Select the required XML file and click "OK".
+
+   2) Select one of the processes that are shown in the dropdown
+      box. This dropdown box shows for each process, the process id and
+      the description. If no description is available, it will be
+      "none".
+
+   3) Check or uncheck the box that specifies whether to give
+      warnings when an error occurs when calculating timing information,
+      or when mutual exclusion detection fails.
+
+   4) Choose the event types that are of interest to you. When an
+      event type is not selected, all log entry's of that event type 
+      will not be used in the calculations. However, if the event types 
+      "withdraw" and "abort" are not chosen than all cases containing an
+      event of that type will not be used.
+
+      Not all possible combinations can be chosen. EMiT will enforce
+      the following rules when selecting a combination:
+
+         - "withdraw" can only be selected if "schedule" and "complete" 
+           are selected.
+
+         - "abort" can only be selected if "complete" is selected,
+           and "schedule" or "start" is selected.
+
+         - "suspend / resume" can only be selected if
+           "schedule" or "start" is selected.
+
+         - "schedule", "start" and "complete" cannot all be
+            deselected at the same time.
+
+   5) If it is necessary to use timing information to detect
+      parallelism then two profiles can be chosen in the "Parallel
+      profile" tabsheet. In this tabsheet for each of the two profiles 
+      two event types can be chosen. If both the event types are the 
+      same, EMiT will disregard that profile.
+
+      Selecting two event types here makes sure that if there
+      are two tasks that overlap in time with the first event as start
+      event and the second event as stop event, these tasks will be in
+      parallel in the Petrinet. Therefore, it doesn't make sense to
+      select "complete" as the first and "schedule" as the second
+      event, since then, this overlap only occurs if there are loops and
+      this will lead to errors.
+
+      Note that if another event is chosen in the "Rediscover" tabsheet,
+      both profiles will have to be reassigned.
+
+
+   6) In the "Parallel profile" tabsheet you can also specify whether 
+      EMiT should look for mutual exclusive subprocesses. Since this 
+      option is in a rather experimental stage, you will have to find 
+      out whether it works for your model or not. If it doesn't work, 
+      EMiT will not crash, but instead a warning will be given if 
+      selected to give warnings. 
+
+   7) Click the "Rediscover" button on the "Rediscover" tabsheet. EMiT 
+      will now mine the workflow log, using the settings specified. On 
+      the right of the screen, the process status will be shown. 
+      Especially when using large XML files, the "Deactivating XML file"
+      message can appear for a long time. The fact that this is taking 
+      a long time is not caused by EMiT.
+
+**exporting
+After rediscovering the Petrinet, it has to be exported.
+Before you export the Petrinet, you must specify which timing
+information must appear in the high detail dot output. Also, a
+color has to be chosen for the clustering of events that belong 
+to the same task. The folder in which the files are written can 
+be changed by clicking on the folder icon.
+
+Now you can click the "Export Petrinet" button. This button saves the
+Petrinet in all the three export formats. These exports will get
+the following filenames:
+
+   - low detail dot:  This file wil have the name of the XML
+                      file with the process description and 
+                      "low.dot" appended.
+   - high detail dot: This file wil have the name of the XML
+                      file with the process description and 
+                      "high.dot" appended.
+   - Woflan:          This file wil have the name of the XML
+                      file with the process description and 
+                      ".tpn" appended.
+
+For a description about low and high detail, please
+refer to the EMiT programmers guide.
+
+After exporting the dot exports, you can set the options for
+dot. The "P-net orientation" specifies whether the Petrinet
+should be draw from left to right or from top to bottom. The
+"Page size" for the high detail output can be set to "A4" or
+"Letter".
+
+After setting all the options, you can use dot to create
+pictures. EMiT provides an integrated way of doing that. The
+"Make jpg/map" button for the low detail dot file uses dot to
+generate three files.
+
+   1) It wil create a ".jpg" file for use with the html files.
+      This file will have the same name as the low detail dot file, 
+      but with ".jpg" appended.
+   2) It wil create a ".map" file for use with the html files.
+      This file will have the same name as the low detail dot file,
+      but with ".map" appended.
+   3) It wil create a small ".jpg" file for use in the "Inspection" 
+      tabsheet. The name of this file is the same as the low detail 
+      dot file, but with ".thumb.jpg" appended.
+ 
+The "Make ps/jpg" button for high detail dot files
+generates two output files:
+
+   1) It wil create a ".jpg" with the same name als the high detail 
+      dot file, but with ".jpg" appended. This jpg is a large picture 
+      and can be used for printing on a plotter or so.
+   2) It wil create a ".ps" with the same name as the high detail 
+      dot file, but with ".ps" appended. This file can be used for 
+      printing on a normal printer. The large Petrinet is split up into 
+      different pages. The size of these pages is specified in the 
+      settings.
+
+**inspecting
+The inspection tabsheet allows you to quicly inspect the resulting 
+Petrinet. If you click on the image, the thumbnail view of the Petrinet 
+will be shown. If this thumbnail is satisfactory you can click the 
+"Inspect" button for a more thorough inspection of the Petrinet.
+
+After clicking the "Inspect" button a new window will open. 
+When this window opens, the larger jpg file is shown. You can scroll 
+this picture over the screen and see whether the result is satisfactory.
+Besides just view the picture, you can also click on any place for which
+timing information is available. This information is shown in the table
+at the bottom of the window. If timing information for a place is
+not available (for example for the source place) the mouse cursor
+won't change when it is over the place.
+

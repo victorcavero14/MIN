@@ -1,0 +1,18 @@
+\\ this file tells EMiT which conversion programs are available
+\\ Any line starting with "\\" is comment (only whole lines)
+\\
+\\ The conversion programs should be command line executables
+\\ taking 4 command line parameters in this order:
+\\
+\\ 1) The filename of the inputfile  (including full path and extension)
+\\ 2) The filename of the outputfile (including full path and extension)
+\\ 3) The filename of the DTD        (including full path and extension, this can be http://www...etc )
+\\ 4) (Yes|No), "Yes" or "no" (no case specified) whether to use the external DTD for parsing
+\\
+\\ Have fun.....
+\\
+Staffware  |SW2XML.EXE
+Pnet+      |PNET2XML.EXE
+InConcert  |IC2XML.EXE
+\\
+\\ Copyright 2002: Boudewijn van Dongen

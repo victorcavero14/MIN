@@ -1,0 +1,29 @@
+<!ELEMENT WF_relations (tasks,facts)>
+  
+  <!ELEMENT tasks (task+)>
+    <!ELEMENT task (is_trace_end?,is_trace_start?,times_in_log?,loop_length?, tasks_in_two_loop?)>
+      <!ATTLIST task name CDATA #REQUIRED 
+                     kind (normal|schedule|start|withdraw|suspend|resume|abort|complete) "normal">
+       
+      <!ELEMENT is_trace_start (#PCDATA)>
+      <!ELEMENT is_trace_end (#PCDATA)>
+      <!ELEMENT times_in_log (#PCDATA)>
+      <!ELEMENT loop_length (#PCDATA)>
+      <!ELEMENT tasks_in_two_loop (task_ref+)>
+        <!ELEMENT task_ref EMPTY>
+        <!ATTLIST task_ref name_ref CDATA #REQUIRED
+                           kind_ref (normal|schedule|start|withdraw|suspend|resume|abort|complete) "normal">
+
+  
+  <!ELEMENT facts (fact+)>  
+    <!ELEMENT fact (task1,task2, distance?)>
+      <!ATTLIST fact kind (long_succ|succ|caus|par|excl|nsucc|ncaus|npar|nexcl) #REQUIRED
+                     certainty CDATA #IMPLIED>
+
+        <!ELEMENT task1 EMPTY>
+        <!ATTLIST task1 id CDATA #REQUIRED
+                        kind (normal|schedule|start|withdraw|suspend|resume|abort|complete) "normal">
+        <!ELEMENT task2 EMPTY>
+        <!ATTLIST task2 id CDATA #REQUIRED
+                        kind (normal|schedule|start|withdraw|suspend|resume|abort|complete) "normal">
+        <!ELEMENT distance (#PCDATA)>   

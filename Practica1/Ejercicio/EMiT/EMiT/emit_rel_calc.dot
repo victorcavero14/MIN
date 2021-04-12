@@ -1,0 +1,41 @@
+digraph G {
+ranksep=".1"; fontsize="8"; remincross=true; fontname="Arial";
+Gwarn [fontsize="10",fontname="Arial",label="Process:\n\n\nWarnings: \nnone",shape=box];
+Task0 [shape=box, height=".2", width=".2"];
+Task0 [label="x\nnormal", URL="x\nnormal", fontname="Arial", fontsize="8"];
+Task1 [shape=box, height=".2", width=".2"];
+Task1 [label="a\nnormal", URL="a\nnormal", fontname="Arial", fontsize="8"];
+Task2 [shape=box, height=".2", width=".2"];
+Task2 [label="b\nnormal", URL="b\nnormal", fontname="Arial", fontsize="8"];
+Task3 [shape=box, height=".2", width=".2"];
+Task3 [label="y\nnormal", URL="y\nnormal", fontname="Arial", fontsize="8"];
+Task4 [shape=box, height=".2", width=".2"];
+Task4 [label="c\nnormal", URL="c\nnormal", fontname="Arial", fontsize="8"];
+Task5 [shape=box, height=".2", width=".2"];
+Task5 [label="d\nnormal", URL="d\nnormal", fontname="Arial", fontsize="8"];
+Place0 [shape=circle, height=".2", width=".2"];
+Place0 [URL="place\n0"]
+Place0 [label=""];
+Place1 [shape=circle, height=".2", width=".2"];
+Place1 [URL="place\n1"]
+Place1 [label=""];
+Place2 [shape=circle, height=".2", width=".2"];
+Place2 [URL="place\n2"]
+Place2 [label=""];
+Place3 [shape=circle, height=".2", width=".2", URL="place\n3"];
+Place3 [label=""];
+Place4 [shape=circle, height=".2", width=".2", URL="place\n4"];
+Place4 [label=""];
+Task0 -> Place0 [arrowsize=".7"];
+Place3 -> Task0 [arrowsize=".7"];
+Place0 -> Task1 [arrowsize=".7"];
+Task1 -> Place1 [arrowsize=".7"];
+Place1 -> Task2 [arrowsize=".7"];
+Task2 -> Place2 [arrowsize=".7"];
+Place2 -> Task3 [arrowsize=".7"];
+Task3 -> Place4 [arrowsize=".7"];
+Task4 -> Place1 [arrowsize=".7"];
+Place1 -> Task4 [arrowsize=".7"];
+Task5 -> Place1 [arrowsize=".7"];
+Place1 -> Task5 [arrowsize=".7"];
+}

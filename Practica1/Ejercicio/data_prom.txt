@@ -1,0 +1,1234 @@
+1x	case1	A	B	C	D	F	B	C	E	G	H	J	K	N	R	S	R	T	W	T	W	S	K	L	M	L	O	Q	Z
+1x	case2	A	B	C	D	X																							
+1x	case3	A	B	C	D	F	B	C	D	X																			
+1x	case4	A	B	C	E	H	G	J	R	T	Y	Z																	
+1x	case5	A	B	C	E	G	H	J	R	T	Y	Z																	
+1x	case6	A	B	C	E	H	G	J	K	L	O	Q	Z																
+1x	case7	A	B	C	E	G	H	J	K	L	O	Q	Z																
+1x	case8	A	B	C	E	H	G	J	R	T	W	T	Y	Z															
+1x	case9	A	B	C	E	H	G	J	R	S	R	T	Y	Z															
+1x	case10	A	B	C	E	H	G	J	K	N	R	T	Y	Z															
+1x	case11	A	B	C	E	G	H	J	R	T	W	T	Y	Z															
+1x	case12	A	B	C	E	G	H	J	R	S	R	T	Y	Z															
+1x	case13	A	B	C	E	G	H	J	K	N	R	T	Y	Z															
+1x	case14	A	B	C	E	H	G	J	R	S	K	L	O	Q	Z														
+1x	case15	A	B	C	E	H	G	J	K	L	M	L	O	Q	Z														
+1x	case16	A	B	C	E	H	G	J	K	N	K	L	O	Q	Z														
+1x	case17	A	B	C	E	G	H	J	R	S	K	L	O	Q	Z														
+1x	case18	A	B	C	E	G	H	J	K	L	M	L	O	Q	Z														
+1x	case19	A	B	C	E	G	H	J	K	N	K	L	O	Q	Z														
+1x	case20	A	B	C	D	F	B	C	E	H	G	J	R	T	Y	Z													
+1x	case21	A	B	C	D	F	B	C	E	G	H	J	R	T	Y	Z													
+1x	case22	A	B	C	E	H	G	J	R	T	W	S	R	T	Y	Z													
+1x	case23	A	B	C	E	H	G	J	R	S	K	N	R	T	Y	Z													
+1x	case24	A	B	C	E	H	G	J	R	S	R	T	W	T	Y	Z													
+1x	case25	A	B	C	E	H	G	J	K	L	M	N	R	T	Y	Z													
+1x	case26	A	B	C	E	H	G	J	K	L	O	P	R	T	Y	Z													
+1x	case27	A	B	C	E	H	G	J	K	N	K	N	R	T	Y	Z													
+1x	case28	A	B	C	E	H	G	J	K	N	R	T	W	T	Y	Z													
+1x	case29	A	B	C	E	H	G	J	K	N	R	S	R	T	Y	Z													
+1x	case30	A	B	C	E	G	H	J	R	T	W	S	R	T	Y	Z													
+1x	case31	A	B	C	E	G	H	J	R	S	K	N	R	T	Y	Z													
+1x	case32	A	B	C	E	G	H	J	R	S	R	T	W	T	Y	Z													
+1x	case33	A	B	C	E	G	H	J	K	L	M	N	R	T	Y	Z													
+1x	case34	A	B	C	E	G	H	J	K	L	O	P	R	T	Y	Z													
+1x	case35	A	B	C	E	G	H	J	K	N	K	N	R	T	Y	Z													
+1x	case36	A	B	C	E	G	H	J	K	N	R	T	W	T	Y	Z													
+1x	case37	A	B	C	E	G	H	J	K	N	R	S	R	T	Y	Z													
+1x	case38	A	B	C	D	F	B	C	E	H	G	J	K	L	O	Q	Z												
+1x	case39	A	B	C	D	F	B	C	E	G	H	J	K	L	O	Q	Z												
+1x	case40	A	B	C	E	H	G	J	R	T	W	S	K	L	O	Q	Z												
+1x	case41	A	B	C	E	H	G	J	R	S	K	L	M	L	O	Q	Z												
+1x	case42	A	B	C	E	H	G	J	R	S	K	N	K	L	O	Q	Z												
+1x	case43	A	B	C	E	H	G	J	R	S	R	S	K	L	O	Q	Z												
+1x	case44	A	B	C	E	H	G	J	K	L	M	N	K	L	O	Q	Z												
+1x	case45	A	B	C	E	H	G	J	K	L	O	P	K	L	O	Q	Z												
+1x	case46	A	B	C	E	H	G	J	K	N	K	L	M	L	O	Q	Z												
+1x	case47	A	B	C	E	H	G	J	K	N	R	S	K	L	O	Q	Z												
+1x	case48	A	B	C	E	G	H	J	R	T	W	S	K	L	O	Q	Z												
+1x	case49	A	B	C	E	G	H	J	R	S	K	L	M	L	O	Q	Z												
+1x	case50	A	B	C	E	G	H	J	R	S	K	N	K	L	O	Q	Z												
+1x	case51	A	B	C	E	G	H	J	R	S	R	S	K	L	O	Q	Z												
+1x	case52	A	B	C	E	G	H	J	K	L	M	N	K	L	O	Q	Z												
+1x	case53	A	B	C	E	G	H	J	K	L	O	P	K	L	O	Q	Z												
+1x	case54	A	B	C	E	G	H	J	K	N	K	L	M	L	O	Q	Z												
+1x	case55	A	B	C	E	G	H	J	K	N	R	S	K	L	O	Q	Z												
+1x	case56	A	B	C	D	F	B	C	E	H	G	J	R	T	W	T	Y	Z											
+1x	case57	A	B	C	D	F	B	C	E	H	G	J	R	S	R	T	Y	Z											
+1x	case58	A	B	C	D	F	B	C	E	H	G	J	K	N	R	T	Y	Z											
+1x	case59	A	B	C	D	F	B	C	E	G	H	J	R	T	W	T	Y	Z											
+1x	case60	A	B	C	D	F	B	C	E	G	H	J	R	S	R	T	Y	Z											
+1x	case61	A	B	C	D	F	B	C	E	G	H	J	K	N	R	T	Y	Z											
+1x	case62	A	B	C	E	H	G	J	R	T	W	S	K	N	R	T	Y	Z											
+1x	case63	A	B	C	E	H	G	J	R	S	K	L	M	N	R	T	Y	Z											
+1x	case64	A	B	C	E	H	G	J	R	S	K	L	O	P	R	T	Y	Z											
+1x	case65	A	B	C	E	H	G	J	R	S	K	N	K	N	R	T	Y	Z											
+1x	case66	A	B	C	E	H	G	J	R	S	K	N	R	T	W	T	Y	Z											
+1x	case67	A	B	C	E	H	G	J	K	L	M	L	M	N	R	T	Y	Z											
+1x	case68	A	B	C	E	H	G	J	K	L	M	L	O	P	R	T	Y	Z											
+1x	case69	A	B	C	E	H	G	J	K	L	M	N	K	N	R	T	Y	Z											
+1x	case70	A	B	C	E	H	G	J	K	L	M	N	R	T	W	T	Y	Z											
+1x	case71	A	B	C	E	H	G	J	K	L	M	N	R	S	R	T	Y	Z											
+1x	case72	A	B	C	E	H	G	J	K	L	O	P	R	T	W	T	Y	Z											
+1x	case73	A	B	C	E	H	G	J	K	L	O	P	R	S	R	T	Y	Z											
+1x	case74	A	B	C	E	H	G	J	K	L	O	P	K	N	R	T	Y	Z											
+1x	case75	A	B	C	E	H	G	J	K	N	K	L	M	N	R	T	Y	Z											
+1x	case76	A	B	C	E	H	G	J	K	N	K	L	O	P	R	T	Y	Z											
+1x	case77	A	B	C	E	H	G	J	K	N	K	N	R	T	W	T	Y	Z											
+1x	case78	A	B	C	E	H	G	J	K	N	K	N	R	S	R	T	Y	Z											
+1x	case79	A	B	C	E	H	G	J	K	N	R	T	W	S	R	T	Y	Z											
+1x	case80	A	B	C	E	H	G	J	K	N	R	S	K	N	R	T	Y	Z											
+1x	case81	A	B	C	E	H	G	J	K	N	R	S	R	T	W	T	Y	Z											
+1x	case82	A	B	C	E	G	H	J	R	T	W	S	K	N	R	T	Y	Z											
+1x	case83	A	B	C	E	G	H	J	R	S	K	L	M	N	R	T	Y	Z											
+1x	case84	A	B	C	E	G	H	J	R	S	K	L	O	P	R	T	Y	Z											
+1x	case85	A	B	C	E	G	H	J	R	S	K	N	K	N	R	T	Y	Z											
+1x	case86	A	B	C	E	G	H	J	R	S	K	N	R	T	W	T	Y	Z											
+1x	case87	A	B	C	E	G	H	J	K	L	M	L	M	N	R	T	Y	Z											
+1x	case88	A	B	C	E	G	H	J	K	L	M	L	O	P	R	T	Y	Z											
+1x	case89	A	B	C	E	G	H	J	K	L	M	N	K	N	R	T	Y	Z											
+1x	case90	A	B	C	E	G	H	J	K	L	M	N	R	T	W	T	Y	Z											
+1x	case91	A	B	C	E	G	H	J	K	L	M	N	R	S	R	T	Y	Z											
+1x	case92	A	B	C	E	G	H	J	K	L	O	P	R	T	W	T	Y	Z											
+1x	case93	A	B	C	E	G	H	J	K	L	O	P	R	S	R	T	Y	Z											
+1x	case94	A	B	C	E	G	H	J	K	L	O	P	K	N	R	T	Y	Z											
+1x	case95	A	B	C	E	G	H	J	K	N	K	L	M	N	R	T	Y	Z											
+1x	case96	A	B	C	E	G	H	J	K	N	K	L	O	P	R	T	Y	Z											
+1x	case97	A	B	C	E	G	H	J	K	N	K	N	R	T	W	T	Y	Z											
+1x	case98	A	B	C	E	G	H	J	K	N	K	N	R	S	R	T	Y	Z											
+1x	case99	A	B	C	E	G	H	J	K	N	R	T	W	S	R	T	Y	Z											
+1x	case100	A	B	C	E	G	H	J	K	N	R	S	K	N	R	T	Y	Z											
+1x	case101	A	B	C	E	G	H	J	K	N	R	S	R	T	W	T	Y	Z											
+1x	case102	A	B	C	D	F	B	C	E	H	G	J	R	S	K	L	O	Q	Z										
+1x	case103	A	B	C	D	F	B	C	E	H	G	J	K	L	M	L	O	Q	Z										
+1x	case104	A	B	C	D	F	B	C	E	H	G	J	K	N	K	L	O	Q	Z										
+1x	case105	A	B	C	D	F	B	C	E	G	H	J	R	S	K	L	O	Q	Z										
+1x	case106	A	B	C	D	F	B	C	E	G	H	J	K	L	M	L	O	Q	Z										
+1x	case107	A	B	C	D	F	B	C	E	G	H	J	K	N	K	L	O	Q	Z										
+1x	case108	A	B	C	E	H	G	J	R	T	W	T	W	S	K	L	O	Q	Z										
+1x	case109	A	B	C	E	H	G	J	R	T	W	S	K	L	M	L	O	Q	Z										
+1x	case110	A	B	C	E	H	G	J	R	T	W	S	K	N	K	L	O	Q	Z										
+1x	case111	A	B	C	E	H	G	J	R	T	W	S	R	S	K	L	O	Q	Z										
+1x	case112	A	B	C	E	H	G	J	R	S	K	L	M	N	K	L	O	Q	Z										
+1x	case113	A	B	C	E	H	G	J	R	S	K	L	O	P	K	L	O	Q	Z										
+1x	case114	A	B	C	E	H	G	J	R	S	K	N	K	L	M	L	O	Q	Z										
+1x	case115	A	B	C	E	H	G	J	R	S	K	N	R	S	K	L	O	Q	Z										
+1x	case116	A	B	C	E	H	G	J	R	S	R	T	W	S	K	L	O	Q	Z										
+1x	case117	A	B	C	E	H	G	J	R	S	R	S	K	L	M	L	O	Q	Z										
+1x	case118	A	B	C	E	H	G	J	R	S	R	S	K	N	K	L	O	Q	Z										
+1x	case119	A	B	C	E	H	G	J	K	L	M	N	R	S	K	L	O	Q	Z										
+1x	case120	A	B	C	E	H	G	J	K	L	O	P	R	S	K	L	O	Q	Z										
+1x	case121	A	B	C	E	H	G	J	K	N	R	T	W	S	K	L	O	Q	Z										
+1x	case122	A	B	C	E	H	G	J	K	N	R	S	K	L	M	L	O	Q	Z										
+1x	case123	A	B	C	E	H	G	J	K	N	R	S	R	S	K	L	O	Q	Z										
+1x	case124	A	B	C	E	G	H	J	R	T	W	T	W	S	K	L	O	Q	Z										
+1x	case125	A	B	C	E	G	H	J	R	T	W	S	K	L	M	L	O	Q	Z										
+1x	case126	A	B	C	E	G	H	J	R	T	W	S	K	N	K	L	O	Q	Z										
+1x	case127	A	B	C	E	G	H	J	R	T	W	S	R	S	K	L	O	Q	Z										
+1x	case128	A	B	C	E	G	H	J	R	S	K	L	M	N	K	L	O	Q	Z										
+1x	case129	A	B	C	E	G	H	J	R	S	K	L	O	P	K	L	O	Q	Z										
+1x	case130	A	B	C	E	G	H	J	R	S	K	N	K	L	M	L	O	Q	Z										
+1x	case131	A	B	C	E	G	H	J	R	S	K	N	R	S	K	L	O	Q	Z										
+1x	case132	A	B	C	E	G	H	J	R	S	R	T	W	S	K	L	O	Q	Z										
+1x	case133	A	B	C	E	G	H	J	R	S	R	S	K	L	M	L	O	Q	Z										
+1x	case134	A	B	C	E	G	H	J	R	S	R	S	K	N	K	L	O	Q	Z										
+1x	case135	A	B	C	E	G	H	J	K	L	M	N	R	S	K	L	O	Q	Z										
+1x	case136	A	B	C	E	G	H	J	K	L	O	P	R	S	K	L	O	Q	Z										
+1x	case137	A	B	C	E	G	H	J	K	N	R	T	W	S	K	L	O	Q	Z										
+1x	case138	A	B	C	E	G	H	J	K	N	R	S	K	L	M	L	O	Q	Z										
+1x	case139	A	B	C	E	G	H	J	K	N	R	S	R	S	K	L	O	Q	Z										
+1x	case140	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	R	T	Y	Z									
+1x	case141	A	B	C	D	F	B	C	E	H	G	J	R	S	K	N	R	T	Y	Z									
+1x	case142	A	B	C	D	F	B	C	E	H	G	J	R	S	R	T	W	T	Y	Z									
+1x	case143	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	R	T	Y	Z									
+1x	case144	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	R	T	Y	Z									
+1x	case145	A	B	C	D	F	B	C	E	H	G	J	K	N	K	N	R	T	Y	Z									
+1x	case146	A	B	C	D	F	B	C	E	H	G	J	K	N	R	T	W	T	Y	Z									
+1x	case147	A	B	C	D	F	B	C	E	H	G	J	K	N	R	S	R	T	Y	Z									
+1x	case148	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	R	T	Y	Z									
+1x	case149	A	B	C	D	F	B	C	E	G	H	J	R	S	K	N	R	T	Y	Z									
+1x	case150	A	B	C	D	F	B	C	E	G	H	J	R	S	R	T	W	T	Y	Z									
+1x	case151	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	R	T	Y	Z									
+1x	case152	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	R	T	Y	Z									
+1x	case153	A	B	C	D	F	B	C	E	G	H	J	K	N	K	N	R	T	Y	Z									
+1x	case154	A	B	C	D	F	B	C	E	G	H	J	K	N	R	T	W	T	Y	Z									
+1x	case155	A	B	C	D	F	B	C	E	G	H	J	K	N	R	S	R	T	Y	Z									
+1x	case156	A	B	C	E	H	G	J	R	T	W	S	K	L	M	N	R	T	Y	Z									
+1x	case157	A	B	C	E	H	G	J	R	T	W	S	K	L	O	P	R	T	Y	Z									
+1x	case158	A	B	C	E	H	G	J	R	T	W	S	K	N	K	N	R	T	Y	Z									
+1x	case159	A	B	C	E	H	G	J	R	S	K	L	M	L	M	N	R	T	Y	Z									
+1x	case160	A	B	C	E	H	G	J	R	S	K	L	M	L	O	P	R	T	Y	Z									
+1x	case161	A	B	C	E	H	G	J	R	S	K	L	M	N	K	N	R	T	Y	Z									
+1x	case162	A	B	C	E	H	G	J	R	S	K	L	M	N	R	T	W	T	Y	Z									
+1x	case163	A	B	C	E	H	G	J	R	S	K	L	O	P	R	T	W	T	Y	Z									
+1x	case164	A	B	C	E	H	G	J	R	S	K	L	O	P	K	N	R	T	Y	Z									
+1x	case165	A	B	C	E	H	G	J	R	S	K	N	K	L	M	N	R	T	Y	Z									
+1x	case166	A	B	C	E	H	G	J	R	S	K	N	K	L	O	P	R	T	Y	Z									
+1x	case167	A	B	C	E	H	G	J	R	S	K	N	K	N	R	T	W	T	Y	Z									
+1x	case168	A	B	C	E	H	G	J	K	L	M	L	M	N	K	N	R	T	Y	Z									
+1x	case169	A	B	C	E	H	G	J	K	L	M	L	M	N	R	T	W	T	Y	Z									
+1x	case170	A	B	C	E	H	G	J	K	L	M	L	M	N	R	S	R	T	Y	Z									
+1x	case171	A	B	C	E	H	G	J	K	L	M	L	O	P	R	T	W	T	Y	Z									
+1x	case172	A	B	C	E	H	G	J	K	L	M	L	O	P	R	S	R	T	Y	Z									
+1x	case173	A	B	C	E	H	G	J	K	L	M	L	O	P	K	N	R	T	Y	Z									
+1x	case174	A	B	C	E	H	G	J	K	L	M	N	K	L	M	N	R	T	Y	Z									
+1x	case175	A	B	C	E	H	G	J	K	L	M	N	K	L	O	P	R	T	Y	Z									
+1x	case176	A	B	C	E	H	G	J	K	L	M	N	K	N	R	T	W	T	Y	Z									
+1x	case177	A	B	C	E	H	G	J	K	L	M	N	K	N	R	S	R	T	Y	Z									
+1x	case178	A	B	C	E	H	G	J	K	L	M	N	R	T	W	S	R	T	Y	Z									
+1x	case179	A	B	C	E	H	G	J	K	L	M	N	R	S	K	N	R	T	Y	Z									
+1x	case180	A	B	C	E	H	G	J	K	L	M	N	R	S	R	T	W	T	Y	Z									
+1x	case181	A	B	C	E	H	G	J	K	L	O	P	R	T	W	S	R	T	Y	Z									
+1x	case182	A	B	C	E	H	G	J	K	L	O	P	R	S	K	N	R	T	Y	Z									
+1x	case183	A	B	C	E	H	G	J	K	L	O	P	R	S	R	T	W	T	Y	Z									
+1x	case184	A	B	C	E	H	G	J	K	L	O	P	K	L	M	N	R	T	Y	Z									
+1x	case185	A	B	C	E	H	G	J	K	L	O	P	K	L	O	P	R	T	Y	Z									
+1x	case186	A	B	C	E	H	G	J	K	L	O	P	K	N	R	T	W	T	Y	Z									
+1x	case187	A	B	C	E	H	G	J	K	L	O	P	K	N	R	S	R	T	Y	Z									
+1x	case188	A	B	C	E	H	G	J	K	N	K	L	M	L	M	N	R	T	Y	Z									
+1x	case189	A	B	C	E	H	G	J	K	N	K	L	M	L	O	P	R	T	Y	Z									
+1x	case190	A	B	C	E	H	G	J	K	N	K	L	M	N	R	T	W	T	Y	Z									
+1x	case191	A	B	C	E	H	G	J	K	N	K	L	M	N	R	S	R	T	Y	Z									
+1x	case192	A	B	C	E	H	G	J	K	N	K	L	O	P	R	T	W	T	Y	Z									
+1x	case193	A	B	C	E	H	G	J	K	N	K	L	O	P	R	S	R	T	Y	Z									
+1x	case194	A	B	C	E	H	G	J	K	N	K	N	R	T	W	S	R	T	Y	Z									
+1x	case195	A	B	C	E	H	G	J	K	N	K	N	R	S	R	T	W	T	Y	Z									
+1x	case196	A	B	C	E	H	G	J	K	N	R	T	W	S	K	N	R	T	Y	Z									
+1x	case197	A	B	C	E	H	G	J	K	N	R	S	K	L	M	N	R	T	Y	Z									
+1x	case198	A	B	C	E	H	G	J	K	N	R	S	K	L	O	P	R	T	Y	Z									
+1x	case199	A	B	C	E	H	G	J	K	N	R	S	K	N	R	T	W	T	Y	Z									
+1x	case200	A	B	C	E	G	H	J	R	T	W	S	K	L	M	N	R	T	Y	Z									
+1x	case201	A	B	C	E	G	H	J	R	T	W	S	K	L	O	P	R	T	Y	Z									
+1x	case202	A	B	C	E	G	H	J	R	T	W	S	K	N	K	N	R	T	Y	Z									
+1x	case203	A	B	C	E	G	H	J	R	S	K	L	M	L	M	N	R	T	Y	Z									
+1x	case204	A	B	C	E	G	H	J	R	S	K	L	M	L	O	P	R	T	Y	Z									
+1x	case205	A	B	C	E	G	H	J	R	S	K	L	M	N	K	N	R	T	Y	Z									
+1x	case206	A	B	C	E	G	H	J	R	S	K	L	M	N	R	T	W	T	Y	Z									
+1x	case207	A	B	C	E	G	H	J	R	S	K	L	O	P	R	T	W	T	Y	Z									
+1x	case208	A	B	C	E	G	H	J	R	S	K	L	O	P	K	N	R	T	Y	Z									
+1x	case209	A	B	C	E	G	H	J	R	S	K	N	K	L	M	N	R	T	Y	Z									
+1x	case210	A	B	C	E	G	H	J	R	S	K	N	K	L	O	P	R	T	Y	Z									
+1x	case211	A	B	C	E	G	H	J	R	S	K	N	K	N	R	T	W	T	Y	Z									
+1x	case212	A	B	C	E	G	H	J	K	L	M	L	M	N	K	N	R	T	Y	Z									
+1x	case213	A	B	C	E	G	H	J	K	L	M	L	M	N	R	T	W	T	Y	Z									
+1x	case214	A	B	C	E	G	H	J	K	L	M	L	M	N	R	S	R	T	Y	Z									
+1x	case215	A	B	C	E	G	H	J	K	L	M	L	O	P	R	T	W	T	Y	Z									
+1x	case216	A	B	C	E	G	H	J	K	L	M	L	O	P	R	S	R	T	Y	Z									
+1x	case217	A	B	C	E	G	H	J	K	L	M	L	O	P	K	N	R	T	Y	Z									
+1x	case218	A	B	C	E	G	H	J	K	L	M	N	K	L	M	N	R	T	Y	Z									
+1x	case219	A	B	C	E	G	H	J	K	L	M	N	K	L	O	P	R	T	Y	Z									
+1x	case220	A	B	C	E	G	H	J	K	L	M	N	K	N	R	T	W	T	Y	Z									
+1x	case221	A	B	C	E	G	H	J	K	L	M	N	K	N	R	S	R	T	Y	Z									
+1x	case222	A	B	C	E	G	H	J	K	L	M	N	R	T	W	S	R	T	Y	Z									
+1x	case223	A	B	C	E	G	H	J	K	L	M	N	R	S	K	N	R	T	Y	Z									
+1x	case224	A	B	C	E	G	H	J	K	L	M	N	R	S	R	T	W	T	Y	Z									
+1x	case225	A	B	C	E	G	H	J	K	L	O	P	R	T	W	S	R	T	Y	Z									
+1x	case226	A	B	C	E	G	H	J	K	L	O	P	R	S	K	N	R	T	Y	Z									
+1x	case227	A	B	C	E	G	H	J	K	L	O	P	R	S	R	T	W	T	Y	Z									
+1x	case228	A	B	C	E	G	H	J	K	L	O	P	K	L	M	N	R	T	Y	Z									
+1x	case229	A	B	C	E	G	H	J	K	L	O	P	K	L	O	P	R	T	Y	Z									
+1x	case230	A	B	C	E	G	H	J	K	L	O	P	K	N	R	T	W	T	Y	Z									
+1x	case231	A	B	C	E	G	H	J	K	L	O	P	K	N	R	S	R	T	Y	Z									
+1x	case232	A	B	C	E	G	H	J	K	N	K	L	M	L	M	N	R	T	Y	Z									
+1x	case233	A	B	C	E	G	H	J	K	N	K	L	M	L	O	P	R	T	Y	Z									
+1x	case234	A	B	C	E	G	H	J	K	N	K	L	M	N	R	T	W	T	Y	Z									
+1x	case235	A	B	C	E	G	H	J	K	N	K	L	M	N	R	S	R	T	Y	Z									
+1x	case236	A	B	C	E	G	H	J	K	N	K	L	O	P	R	T	W	T	Y	Z									
+1x	case237	A	B	C	E	G	H	J	K	N	K	L	O	P	R	S	R	T	Y	Z									
+1x	case238	A	B	C	E	G	H	J	K	N	K	N	R	T	W	S	R	T	Y	Z									
+1x	case239	A	B	C	E	G	H	J	K	N	K	N	R	S	R	T	W	T	Y	Z									
+1x	case240	A	B	C	E	G	H	J	K	N	R	T	W	S	K	N	R	T	Y	Z									
+1x	case241	A	B	C	E	G	H	J	K	N	R	S	K	L	M	N	R	T	Y	Z									
+1x	case242	A	B	C	E	G	H	J	K	N	R	S	K	L	O	P	R	T	Y	Z									
+1x	case243	A	B	C	E	G	H	J	K	N	R	S	K	N	R	T	W	T	Y	Z									
+1x	case244	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	K	L	O	Q	Z								
+1x	case245	A	B	C	D	F	B	C	E	H	G	J	R	S	K	L	M	L	O	Q	Z								
+1x	case246	A	B	C	D	F	B	C	E	H	G	J	R	S	K	N	K	L	O	Q	Z								
+1x	case247	A	B	C	D	F	B	C	E	H	G	J	R	S	R	S	K	L	O	Q	Z								
+1x	case248	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	K	L	O	Q	Z								
+1x	case249	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	K	L	O	Q	Z								
+1x	case250	A	B	C	D	F	B	C	E	H	G	J	K	N	K	L	M	L	O	Q	Z								
+1x	case251	A	B	C	D	F	B	C	E	H	G	J	K	N	R	S	K	L	O	Q	Z								
+1x	case252	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	K	L	O	Q	Z								
+1x	case253	A	B	C	D	F	B	C	E	G	H	J	R	S	K	L	M	L	O	Q	Z								
+1x	case254	A	B	C	D	F	B	C	E	G	H	J	R	S	K	N	K	L	O	Q	Z								
+1x	case255	A	B	C	D	F	B	C	E	G	H	J	R	S	R	S	K	L	O	Q	Z								
+1x	case256	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	K	L	O	Q	Z								
+1x	case257	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	K	L	O	Q	Z								
+1x	case258	A	B	C	D	F	B	C	E	G	H	J	K	N	K	L	M	L	O	Q	Z								
+1x	case259	A	B	C	D	F	B	C	E	G	H	J	K	N	R	S	K	L	O	Q	Z								
+1x	case260	A	B	C	E	H	G	J	R	T	W	T	W	S	K	L	M	L	O	Q	Z								
+1x	case261	A	B	C	E	H	G	J	R	T	W	T	W	S	K	N	K	L	O	Q	Z								
+1x	case262	A	B	C	E	H	G	J	R	T	W	T	W	S	R	S	K	L	O	Q	Z								
+1x	case263	A	B	C	E	H	G	J	R	T	W	S	K	L	M	N	K	L	O	Q	Z								
+1x	case264	A	B	C	E	H	G	J	R	T	W	S	K	L	O	P	K	L	O	Q	Z								
+1x	case265	A	B	C	E	H	G	J	R	T	W	S	K	N	K	L	M	L	O	Q	Z								
+1x	case266	A	B	C	E	H	G	J	R	T	W	S	K	N	R	S	K	L	O	Q	Z								
+1x	case267	A	B	C	E	H	G	J	R	T	W	S	R	T	W	S	K	L	O	Q	Z								
+1x	case268	A	B	C	E	H	G	J	R	T	W	S	R	S	K	L	M	L	O	Q	Z								
+1x	case269	A	B	C	E	H	G	J	R	T	W	S	R	S	K	N	K	L	O	Q	Z								
+1x	case270	A	B	C	E	H	G	J	R	S	K	L	M	N	R	S	K	L	O	Q	Z								
+1x	case271	A	B	C	E	H	G	J	R	S	K	L	O	P	R	S	K	L	O	Q	Z								
+1x	case272	A	B	C	E	H	G	J	R	S	K	N	R	T	W	S	K	L	O	Q	Z								
+1x	case273	A	B	C	E	H	G	J	R	S	K	N	R	S	K	L	M	L	O	Q	Z								
+1x	case274	A	B	C	E	H	G	J	R	S	R	T	W	T	W	S	K	L	O	Q	Z								
+1x	case275	A	B	C	E	H	G	J	R	S	R	T	W	S	K	L	M	L	O	Q	Z								
+1x	case276	A	B	C	E	H	G	J	R	S	R	T	W	S	K	N	K	L	O	Q	Z								
+1x	case277	A	B	C	E	H	G	J	R	S	R	S	K	L	M	N	K	L	O	Q	Z								
+1x	case278	A	B	C	E	H	G	J	R	S	R	S	K	L	O	P	K	L	O	Q	Z								
+1x	case279	A	B	C	E	H	G	J	R	S	R	S	K	N	K	L	M	L	O	Q	Z								
+1x	case280	A	B	C	E	H	G	J	K	L	M	N	R	T	W	S	K	L	O	Q	Z								
+1x	case281	A	B	C	E	H	G	J	K	L	M	N	R	S	R	S	K	L	O	Q	Z								
+1x	case282	A	B	C	E	H	G	J	K	L	O	P	R	T	W	S	K	L	O	Q	Z								
+1x	case283	A	B	C	E	H	G	J	K	L	O	P	R	S	R	S	K	L	O	Q	Z								
+1x	case284	A	B	C	E	H	G	J	K	N	R	T	W	T	W	S	K	L	O	Q	Z								
+1x	case285	A	B	C	E	H	G	J	K	N	R	T	W	S	K	L	M	L	O	Q	Z								
+1x	case286	A	B	C	E	H	G	J	K	N	R	T	W	S	R	S	K	L	O	Q	Z								
+1x	case287	A	B	C	E	H	G	J	K	N	R	S	R	T	W	S	K	L	O	Q	Z								
+1x	case288	A	B	C	E	H	G	J	K	N	R	S	R	S	K	L	M	L	O	Q	Z								
+1x	case289	A	B	C	E	G	H	J	R	T	W	T	W	S	K	L	M	L	O	Q	Z								
+1x	case290	A	B	C	E	G	H	J	R	T	W	T	W	S	K	N	K	L	O	Q	Z								
+1x	case291	A	B	C	E	G	H	J	R	T	W	T	W	S	R	S	K	L	O	Q	Z								
+1x	case292	A	B	C	E	G	H	J	R	T	W	S	K	L	M	N	K	L	O	Q	Z								
+1x	case293	A	B	C	E	G	H	J	R	T	W	S	K	L	O	P	K	L	O	Q	Z								
+1x	case294	A	B	C	E	G	H	J	R	T	W	S	K	N	K	L	M	L	O	Q	Z								
+1x	case295	A	B	C	E	G	H	J	R	T	W	S	K	N	R	S	K	L	O	Q	Z								
+1x	case296	A	B	C	E	G	H	J	R	T	W	S	R	T	W	S	K	L	O	Q	Z								
+1x	case297	A	B	C	E	G	H	J	R	T	W	S	R	S	K	L	M	L	O	Q	Z								
+1x	case298	A	B	C	E	G	H	J	R	T	W	S	R	S	K	N	K	L	O	Q	Z								
+1x	case299	A	B	C	E	G	H	J	R	S	K	L	M	N	R	S	K	L	O	Q	Z								
+1x	case300	A	B	C	E	G	H	J	R	S	K	L	O	P	R	S	K	L	O	Q	Z								
+1x	case301	A	B	C	E	G	H	J	R	S	K	N	R	T	W	S	K	L	O	Q	Z								
+1x	case302	A	B	C	E	G	H	J	R	S	K	N	R	S	K	L	M	L	O	Q	Z								
+1x	case303	A	B	C	E	G	H	J	R	S	R	T	W	T	W	S	K	L	O	Q	Z								
+1x	case304	A	B	C	E	G	H	J	R	S	R	T	W	S	K	L	M	L	O	Q	Z								
+1x	case305	A	B	C	E	G	H	J	R	S	R	T	W	S	K	N	K	L	O	Q	Z								
+1x	case306	A	B	C	E	G	H	J	R	S	R	S	K	L	M	N	K	L	O	Q	Z								
+1x	case307	A	B	C	E	G	H	J	R	S	R	S	K	L	O	P	K	L	O	Q	Z								
+1x	case308	A	B	C	E	G	H	J	R	S	R	S	K	N	K	L	M	L	O	Q	Z								
+1x	case309	A	B	C	E	G	H	J	K	L	M	N	R	T	W	S	K	L	O	Q	Z								
+1x	case310	A	B	C	E	G	H	J	K	L	M	N	R	S	R	S	K	L	O	Q	Z								
+1x	case311	A	B	C	E	G	H	J	K	L	O	P	R	T	W	S	K	L	O	Q	Z								
+1x	case312	A	B	C	E	G	H	J	K	L	O	P	R	S	R	S	K	L	O	Q	Z								
+1x	case313	A	B	C	E	G	H	J	K	N	R	T	W	T	W	S	K	L	O	Q	Z								
+1x	case314	A	B	C	E	G	H	J	K	N	R	T	W	S	K	L	M	L	O	Q	Z								
+1x	case315	A	B	C	E	G	H	J	K	N	R	T	W	S	R	S	K	L	O	Q	Z								
+1x	case316	A	B	C	E	G	H	J	K	N	R	S	R	T	W	S	K	L	O	Q	Z								
+1x	case317	A	B	C	E	G	H	J	K	N	R	S	R	S	K	L	M	L	O	Q	Z								
+1x	case318	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	K	N	R	T	Y	Z							
+1x	case319	A	B	C	D	F	B	C	E	H	G	J	R	S	K	L	M	N	R	T	Y	Z							
+1x	case320	A	B	C	D	F	B	C	E	H	G	J	R	S	K	L	O	P	R	T	Y	Z							
+1x	case321	A	B	C	D	F	B	C	E	H	G	J	R	S	K	N	K	N	R	T	Y	Z							
+1x	case322	A	B	C	D	F	B	C	E	H	G	J	R	S	K	N	R	T	W	T	Y	Z							
+1x	case323	A	B	C	D	F	B	C	E	H	G	J	K	L	M	L	M	N	R	T	Y	Z							
+1x	case324	A	B	C	D	F	B	C	E	H	G	J	K	L	M	L	O	P	R	T	Y	Z							
+1x	case325	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	K	N	R	T	Y	Z							
+1x	case326	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	R	T	W	T	Y	Z							
+1x	case327	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	R	S	R	T	Y	Z							
+1x	case328	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	R	T	W	T	Y	Z							
+1x	case329	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	R	S	R	T	Y	Z							
+1x	case330	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	K	N	R	T	Y	Z							
+1x	case331	A	B	C	D	F	B	C	E	H	G	J	K	N	K	L	M	N	R	T	Y	Z							
+1x	case332	A	B	C	D	F	B	C	E	H	G	J	K	N	K	L	O	P	R	T	Y	Z							
+1x	case333	A	B	C	D	F	B	C	E	H	G	J	K	N	K	N	R	T	W	T	Y	Z							
+1x	case334	A	B	C	D	F	B	C	E	H	G	J	K	N	K	N	R	S	R	T	Y	Z							
+1x	case335	A	B	C	D	F	B	C	E	H	G	J	K	N	R	T	W	S	R	T	Y	Z							
+1x	case336	A	B	C	D	F	B	C	E	H	G	J	K	N	R	S	K	N	R	T	Y	Z							
+1x	case337	A	B	C	D	F	B	C	E	H	G	J	K	N	R	S	R	T	W	T	Y	Z							
+1x	case338	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	K	N	R	T	Y	Z							
+1x	case339	A	B	C	D	F	B	C	E	G	H	J	R	S	K	L	M	N	R	T	Y	Z							
+1x	case340	A	B	C	D	F	B	C	E	G	H	J	R	S	K	L	O	P	R	T	Y	Z							
+1x	case341	A	B	C	D	F	B	C	E	G	H	J	R	S	K	N	K	N	R	T	Y	Z							
+1x	case342	A	B	C	D	F	B	C	E	G	H	J	R	S	K	N	R	T	W	T	Y	Z							
+1x	case343	A	B	C	D	F	B	C	E	G	H	J	K	L	M	L	M	N	R	T	Y	Z							
+1x	case344	A	B	C	D	F	B	C	E	G	H	J	K	L	M	L	O	P	R	T	Y	Z							
+1x	case345	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	K	N	R	T	Y	Z							
+1x	case346	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	R	T	W	T	Y	Z							
+1x	case347	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	R	S	R	T	Y	Z							
+1x	case348	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	R	T	W	T	Y	Z							
+1x	case349	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	R	S	R	T	Y	Z							
+1x	case350	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	K	N	R	T	Y	Z							
+1x	case351	A	B	C	D	F	B	C	E	G	H	J	K	N	K	L	M	N	R	T	Y	Z							
+1x	case352	A	B	C	D	F	B	C	E	G	H	J	K	N	K	L	O	P	R	T	Y	Z							
+1x	case353	A	B	C	D	F	B	C	E	G	H	J	K	N	K	N	R	T	W	T	Y	Z							
+1x	case354	A	B	C	D	F	B	C	E	G	H	J	K	N	K	N	R	S	R	T	Y	Z							
+1x	case355	A	B	C	D	F	B	C	E	G	H	J	K	N	R	T	W	S	R	T	Y	Z							
+1x	case356	A	B	C	D	F	B	C	E	G	H	J	K	N	R	S	K	N	R	T	Y	Z							
+1x	case357	A	B	C	D	F	B	C	E	G	H	J	K	N	R	S	R	T	W	T	Y	Z							
+1x	case358	A	B	C	E	H	G	J	R	T	W	S	K	L	M	L	M	N	R	T	Y	Z							
+1x	case359	A	B	C	E	H	G	J	R	T	W	S	K	L	M	L	O	P	R	T	Y	Z							
+1x	case360	A	B	C	E	H	G	J	R	T	W	S	K	L	M	N	K	N	R	T	Y	Z							
+1x	case361	A	B	C	E	H	G	J	R	T	W	S	K	L	O	P	K	N	R	T	Y	Z							
+1x	case362	A	B	C	E	H	G	J	R	T	W	S	K	N	K	L	M	N	R	T	Y	Z							
+1x	case363	A	B	C	E	H	G	J	R	T	W	S	K	N	K	L	O	P	R	T	Y	Z							
+1x	case364	A	B	C	E	H	G	J	R	S	K	L	M	L	M	N	K	N	R	T	Y	Z							
+1x	case365	A	B	C	E	H	G	J	R	S	K	L	M	L	M	N	R	T	W	T	Y	Z							
+1x	case366	A	B	C	E	H	G	J	R	S	K	L	M	L	O	P	R	T	W	T	Y	Z							
+1x	case367	A	B	C	E	H	G	J	R	S	K	L	M	L	O	P	K	N	R	T	Y	Z							
+1x	case368	A	B	C	E	H	G	J	R	S	K	L	M	N	K	L	M	N	R	T	Y	Z							
+1x	case369	A	B	C	E	H	G	J	R	S	K	L	M	N	K	L	O	P	R	T	Y	Z							
+1x	case370	A	B	C	E	H	G	J	R	S	K	L	M	N	K	N	R	T	W	T	Y	Z							
+1x	case371	A	B	C	E	H	G	J	R	S	K	L	O	P	K	L	M	N	R	T	Y	Z							
+1x	case372	A	B	C	E	H	G	J	R	S	K	L	O	P	K	L	O	P	R	T	Y	Z							
+1x	case373	A	B	C	E	H	G	J	R	S	K	L	O	P	K	N	R	T	W	T	Y	Z							
+1x	case374	A	B	C	E	H	G	J	R	S	K	N	K	L	M	L	M	N	R	T	Y	Z							
+1x	case375	A	B	C	E	H	G	J	R	S	K	N	K	L	M	L	O	P	R	T	Y	Z							
+1x	case376	A	B	C	E	H	G	J	R	S	K	N	K	L	M	N	R	T	W	T	Y	Z							
+1x	case377	A	B	C	E	H	G	J	R	S	K	N	K	L	O	P	R	T	W	T	Y	Z							
+1x	case378	A	B	C	E	H	G	J	K	L	M	L	M	N	K	N	R	T	W	T	Y	Z							
+1x	case379	A	B	C	E	H	G	J	K	L	M	L	M	N	K	N	R	S	R	T	Y	Z							
+1x	case380	A	B	C	E	H	G	J	K	L	M	L	M	N	R	T	W	S	R	T	Y	Z							
+1x	case381	A	B	C	E	H	G	J	K	L	M	L	M	N	R	S	K	N	R	T	Y	Z							
+1x	case382	A	B	C	E	H	G	J	K	L	M	L	M	N	R	S	R	T	W	T	Y	Z							
+1x	case383	A	B	C	E	H	G	J	K	L	M	L	O	P	R	T	W	S	R	T	Y	Z							
+1x	case384	A	B	C	E	H	G	J	K	L	M	L	O	P	R	S	K	N	R	T	Y	Z							
+1x	case385	A	B	C	E	H	G	J	K	L	M	L	O	P	R	S	R	T	W	T	Y	Z							
+1x	case386	A	B	C	E	H	G	J	K	L	M	L	O	P	K	N	R	T	W	T	Y	Z							
+1x	case387	A	B	C	E	H	G	J	K	L	M	L	O	P	K	N	R	S	R	T	Y	Z							
+1x	case388	A	B	C	E	H	G	J	K	L	M	N	K	L	M	N	R	T	W	T	Y	Z							
+1x	case389	A	B	C	E	H	G	J	K	L	M	N	K	L	M	N	R	S	R	T	Y	Z							
+1x	case390	A	B	C	E	H	G	J	K	L	M	N	K	L	O	P	R	T	W	T	Y	Z							
+1x	case391	A	B	C	E	H	G	J	K	L	M	N	K	L	O	P	R	S	R	T	Y	Z							
+1x	case392	A	B	C	E	H	G	J	K	L	M	N	K	N	R	T	W	S	R	T	Y	Z							
+1x	case393	A	B	C	E	H	G	J	K	L	M	N	K	N	R	S	R	T	W	T	Y	Z							
+1x	case394	A	B	C	E	H	G	J	K	L	M	N	R	T	W	S	K	N	R	T	Y	Z							
+1x	case395	A	B	C	E	H	G	J	K	L	M	N	R	S	K	L	M	N	R	T	Y	Z							
+1x	case396	A	B	C	E	H	G	J	K	L	M	N	R	S	K	L	O	P	R	T	Y	Z							
+1x	case397	A	B	C	E	H	G	J	K	L	M	N	R	S	K	N	R	T	W	T	Y	Z							
+1x	case398	A	B	C	E	H	G	J	K	L	O	P	R	T	W	S	K	N	R	T	Y	Z							
+1x	case399	A	B	C	E	H	G	J	K	L	O	P	R	S	K	L	M	N	R	T	Y	Z							
+1x	case400	A	B	C	E	H	G	J	K	L	O	P	R	S	K	L	O	P	R	T	Y	Z							
+1x	case401	A	B	C	E	H	G	J	K	L	O	P	R	S	K	N	R	T	W	T	Y	Z							
+1x	case402	A	B	C	E	H	G	J	K	L	O	P	K	L	M	N	R	T	W	T	Y	Z							
+1x	case403	A	B	C	E	H	G	J	K	L	O	P	K	L	M	N	R	S	R	T	Y	Z							
+1x	case404	A	B	C	E	H	G	J	K	L	O	P	K	L	O	P	R	T	W	T	Y	Z							
+1x	case405	A	B	C	E	H	G	J	K	L	O	P	K	L	O	P	R	S	R	T	Y	Z							
+1x	case406	A	B	C	E	H	G	J	K	L	O	P	K	N	R	T	W	S	R	T	Y	Z							
+1x	case407	A	B	C	E	H	G	J	K	L	O	P	K	N	R	S	R	T	W	T	Y	Z							
+1x	case408	A	B	C	E	H	G	J	K	N	K	L	M	L	M	N	R	T	W	T	Y	Z							
+1x	case409	A	B	C	E	H	G	J	K	N	K	L	M	L	M	N	R	S	R	T	Y	Z							
+1x	case410	A	B	C	E	H	G	J	K	N	K	L	M	L	O	P	R	T	W	T	Y	Z							
+1x	case411	A	B	C	E	H	G	J	K	N	K	L	M	L	O	P	R	S	R	T	Y	Z							
+1x	case412	A	B	C	E	H	G	J	K	N	K	L	M	N	R	T	W	S	R	T	Y	Z							
+1x	case413	A	B	C	E	H	G	J	K	N	K	L	M	N	R	S	R	T	W	T	Y	Z							
+1x	case414	A	B	C	E	H	G	J	K	N	K	L	O	P	R	T	W	S	R	T	Y	Z							
+1x	case415	A	B	C	E	H	G	J	K	N	K	L	O	P	R	S	R	T	W	T	Y	Z							
+1x	case416	A	B	C	E	H	G	J	K	N	R	T	W	S	K	L	M	N	R	T	Y	Z							
+1x	case417	A	B	C	E	H	G	J	K	N	R	T	W	S	K	L	O	P	R	T	Y	Z							
+1x	case418	A	B	C	E	H	G	J	K	N	R	S	K	L	M	L	M	N	R	T	Y	Z							
+1x	case419	A	B	C	E	H	G	J	K	N	R	S	K	L	M	L	O	P	R	T	Y	Z							
+1x	case420	A	B	C	E	H	G	J	K	N	R	S	K	L	M	N	R	T	W	T	Y	Z							
+1x	case421	A	B	C	E	H	G	J	K	N	R	S	K	L	O	P	R	T	W	T	Y	Z							
+1x	case422	A	B	C	E	G	H	J	R	T	W	S	K	L	M	L	M	N	R	T	Y	Z							
+1x	case423	A	B	C	E	G	H	J	R	T	W	S	K	L	M	L	O	P	R	T	Y	Z							
+1x	case424	A	B	C	E	G	H	J	R	T	W	S	K	L	M	N	K	N	R	T	Y	Z							
+1x	case425	A	B	C	E	G	H	J	R	T	W	S	K	L	O	P	K	N	R	T	Y	Z							
+1x	case426	A	B	C	E	G	H	J	R	T	W	S	K	N	K	L	M	N	R	T	Y	Z							
+1x	case427	A	B	C	E	G	H	J	R	T	W	S	K	N	K	L	O	P	R	T	Y	Z							
+1x	case428	A	B	C	E	G	H	J	R	S	K	L	M	L	M	N	K	N	R	T	Y	Z							
+1x	case429	A	B	C	E	G	H	J	R	S	K	L	M	L	M	N	R	T	W	T	Y	Z							
+1x	case430	A	B	C	E	G	H	J	R	S	K	L	M	L	O	P	R	T	W	T	Y	Z							
+1x	case431	A	B	C	E	G	H	J	R	S	K	L	M	L	O	P	K	N	R	T	Y	Z							
+1x	case432	A	B	C	E	G	H	J	R	S	K	L	M	N	K	L	M	N	R	T	Y	Z							
+1x	case433	A	B	C	E	G	H	J	R	S	K	L	M	N	K	L	O	P	R	T	Y	Z							
+1x	case434	A	B	C	E	G	H	J	R	S	K	L	M	N	K	N	R	T	W	T	Y	Z							
+1x	case435	A	B	C	E	G	H	J	R	S	K	L	O	P	K	L	M	N	R	T	Y	Z							
+1x	case436	A	B	C	E	G	H	J	R	S	K	L	O	P	K	L	O	P	R	T	Y	Z							
+1x	case437	A	B	C	E	G	H	J	R	S	K	L	O	P	K	N	R	T	W	T	Y	Z							
+1x	case438	A	B	C	E	G	H	J	R	S	K	N	K	L	M	L	M	N	R	T	Y	Z							
+1x	case439	A	B	C	E	G	H	J	R	S	K	N	K	L	M	L	O	P	R	T	Y	Z							
+1x	case440	A	B	C	E	G	H	J	R	S	K	N	K	L	M	N	R	T	W	T	Y	Z							
+1x	case441	A	B	C	E	G	H	J	R	S	K	N	K	L	O	P	R	T	W	T	Y	Z							
+1x	case442	A	B	C	E	G	H	J	K	L	M	L	M	N	K	N	R	T	W	T	Y	Z							
+1x	case443	A	B	C	E	G	H	J	K	L	M	L	M	N	K	N	R	S	R	T	Y	Z							
+1x	case444	A	B	C	E	G	H	J	K	L	M	L	M	N	R	T	W	S	R	T	Y	Z							
+1x	case445	A	B	C	E	G	H	J	K	L	M	L	M	N	R	S	K	N	R	T	Y	Z							
+1x	case446	A	B	C	E	G	H	J	K	L	M	L	M	N	R	S	R	T	W	T	Y	Z							
+1x	case447	A	B	C	E	G	H	J	K	L	M	L	O	P	R	T	W	S	R	T	Y	Z							
+1x	case448	A	B	C	E	G	H	J	K	L	M	L	O	P	R	S	K	N	R	T	Y	Z							
+1x	case449	A	B	C	E	G	H	J	K	L	M	L	O	P	R	S	R	T	W	T	Y	Z							
+1x	case450	A	B	C	E	G	H	J	K	L	M	L	O	P	K	N	R	T	W	T	Y	Z							
+1x	case451	A	B	C	E	G	H	J	K	L	M	L	O	P	K	N	R	S	R	T	Y	Z							
+1x	case452	A	B	C	E	G	H	J	K	L	M	N	K	L	M	N	R	T	W	T	Y	Z							
+1x	case453	A	B	C	E	G	H	J	K	L	M	N	K	L	M	N	R	S	R	T	Y	Z							
+1x	case454	A	B	C	E	G	H	J	K	L	M	N	K	L	O	P	R	T	W	T	Y	Z							
+1x	case455	A	B	C	E	G	H	J	K	L	M	N	K	L	O	P	R	S	R	T	Y	Z							
+1x	case456	A	B	C	E	G	H	J	K	L	M	N	K	N	R	T	W	S	R	T	Y	Z							
+1x	case457	A	B	C	E	G	H	J	K	L	M	N	K	N	R	S	R	T	W	T	Y	Z							
+1x	case458	A	B	C	E	G	H	J	K	L	M	N	R	T	W	S	K	N	R	T	Y	Z							
+1x	case459	A	B	C	E	G	H	J	K	L	M	N	R	S	K	L	M	N	R	T	Y	Z							
+1x	case460	A	B	C	E	G	H	J	K	L	M	N	R	S	K	L	O	P	R	T	Y	Z							
+1x	case461	A	B	C	E	G	H	J	K	L	M	N	R	S	K	N	R	T	W	T	Y	Z							
+1x	case462	A	B	C	E	G	H	J	K	L	O	P	R	T	W	S	K	N	R	T	Y	Z							
+1x	case463	A	B	C	E	G	H	J	K	L	O	P	R	S	K	L	M	N	R	T	Y	Z							
+1x	case464	A	B	C	E	G	H	J	K	L	O	P	R	S	K	L	O	P	R	T	Y	Z							
+1x	case465	A	B	C	E	G	H	J	K	L	O	P	R	S	K	N	R	T	W	T	Y	Z							
+1x	case466	A	B	C	E	G	H	J	K	L	O	P	K	L	M	N	R	T	W	T	Y	Z							
+1x	case467	A	B	C	E	G	H	J	K	L	O	P	K	L	M	N	R	S	R	T	Y	Z							
+1x	case468	A	B	C	E	G	H	J	K	L	O	P	K	L	O	P	R	T	W	T	Y	Z							
+1x	case469	A	B	C	E	G	H	J	K	L	O	P	K	L	O	P	R	S	R	T	Y	Z							
+1x	case470	A	B	C	E	G	H	J	K	L	O	P	K	N	R	T	W	S	R	T	Y	Z							
+1x	case471	A	B	C	E	G	H	J	K	L	O	P	K	N	R	S	R	T	W	T	Y	Z							
+1x	case472	A	B	C	E	G	H	J	K	N	K	L	M	L	M	N	R	T	W	T	Y	Z							
+1x	case473	A	B	C	E	G	H	J	K	N	K	L	M	L	M	N	R	S	R	T	Y	Z							
+1x	case474	A	B	C	E	G	H	J	K	N	K	L	M	L	O	P	R	T	W	T	Y	Z							
+1x	case475	A	B	C	E	G	H	J	K	N	K	L	M	L	O	P	R	S	R	T	Y	Z							
+1x	case476	A	B	C	E	G	H	J	K	N	K	L	M	N	R	T	W	S	R	T	Y	Z							
+1x	case477	A	B	C	E	G	H	J	K	N	K	L	M	N	R	S	R	T	W	T	Y	Z							
+1x	case478	A	B	C	E	G	H	J	K	N	K	L	O	P	R	T	W	S	R	T	Y	Z							
+1x	case479	A	B	C	E	G	H	J	K	N	K	L	O	P	R	S	R	T	W	T	Y	Z							
+1x	case480	A	B	C	E	G	H	J	K	N	R	T	W	S	K	L	M	N	R	T	Y	Z							
+1x	case481	A	B	C	E	G	H	J	K	N	R	T	W	S	K	L	O	P	R	T	Y	Z							
+1x	case482	A	B	C	E	G	H	J	K	N	R	S	K	L	M	L	M	N	R	T	Y	Z							
+1x	case483	A	B	C	E	G	H	J	K	N	R	S	K	L	M	L	O	P	R	T	Y	Z							
+1x	case484	A	B	C	E	G	H	J	K	N	R	S	K	L	M	N	R	T	W	T	Y	Z							
+1x	case485	A	B	C	E	G	H	J	K	N	R	S	K	L	O	P	R	T	W	T	Y	Z							
+1x	case486	A	B	C	D	F	B	C	E	H	G	J	R	T	W	T	W	S	K	L	O	Q	Z						
+1x	case487	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	K	L	M	L	O	Q	Z						
+1x	case488	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	K	N	K	L	O	Q	Z						
+1x	case489	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	R	S	K	L	O	Q	Z						
+1x	case490	A	B	C	D	F	B	C	E	H	G	J	R	S	K	L	M	N	K	L	O	Q	Z						
+1x	case491	A	B	C	D	F	B	C	E	H	G	J	R	S	K	L	O	P	K	L	O	Q	Z						
+1x	case492	A	B	C	D	F	B	C	E	H	G	J	R	S	K	N	K	L	M	L	O	Q	Z						
+1x	case493	A	B	C	D	F	B	C	E	H	G	J	R	S	K	N	R	S	K	L	O	Q	Z						
+1x	case494	A	B	C	D	F	B	C	E	H	G	J	R	S	R	T	W	S	K	L	O	Q	Z						
+1x	case495	A	B	C	D	F	B	C	E	H	G	J	R	S	R	S	K	L	M	L	O	Q	Z						
+1x	case496	A	B	C	D	F	B	C	E	H	G	J	R	S	R	S	K	N	K	L	O	Q	Z						
+1x	case497	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	R	S	K	L	O	Q	Z						
+1x	case498	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	R	S	K	L	O	Q	Z						
+1x	case499	A	B	C	D	F	B	C	E	H	G	J	K	N	R	T	W	S	K	L	O	Q	Z						
+1x	case500	A	B	C	D	F	B	C	E	H	G	J	K	N	R	S	K	L	M	L	O	Q	Z						
+1x	case501	A	B	C	D	F	B	C	E	H	G	J	K	N	R	S	R	S	K	L	O	Q	Z						
+1x	case502	A	B	C	D	F	B	C	E	G	H	J	R	T	W	T	W	S	K	L	O	Q	Z						
+1x	case503	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	K	L	M	L	O	Q	Z						
+1x	case504	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	K	N	K	L	O	Q	Z						
+1x	case505	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	R	S	K	L	O	Q	Z						
+1x	case506	A	B	C	D	F	B	C	E	G	H	J	R	S	K	L	M	N	K	L	O	Q	Z						
+1x	case507	A	B	C	D	F	B	C	E	G	H	J	R	S	K	L	O	P	K	L	O	Q	Z						
+1x	case508	A	B	C	D	F	B	C	E	G	H	J	R	S	K	N	K	L	M	L	O	Q	Z						
+1x	case509	A	B	C	D	F	B	C	E	G	H	J	R	S	K	N	R	S	K	L	O	Q	Z						
+1x	case510	A	B	C	D	F	B	C	E	G	H	J	R	S	R	T	W	S	K	L	O	Q	Z						
+1x	case511	A	B	C	D	F	B	C	E	G	H	J	R	S	R	S	K	L	M	L	O	Q	Z						
+1x	case512	A	B	C	D	F	B	C	E	G	H	J	R	S	R	S	K	N	K	L	O	Q	Z						
+1x	case513	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	R	S	K	L	O	Q	Z						
+1x	case514	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	R	S	K	L	O	Q	Z						
+1x	case515	A	B	C	D	F	B	C	E	G	H	J	K	N	R	T	W	S	K	L	O	Q	Z						
+1x	case516	A	B	C	D	F	B	C	E	G	H	J	K	N	R	S	K	L	M	L	O	Q	Z						
+1x	case517	A	B	C	D	F	B	C	E	G	H	J	K	N	R	S	R	S	K	L	O	Q	Z						
+1x	case518	A	B	C	E	H	G	J	R	T	W	T	W	S	K	L	M	N	K	L	O	Q	Z						
+1x	case519	A	B	C	E	H	G	J	R	T	W	T	W	S	K	L	O	P	K	L	O	Q	Z						
+1x	case520	A	B	C	E	H	G	J	R	T	W	T	W	S	K	N	K	L	M	L	O	Q	Z						
+1x	case521	A	B	C	E	H	G	J	R	T	W	T	W	S	K	N	R	S	K	L	O	Q	Z						
+1x	case522	A	B	C	E	H	G	J	R	T	W	T	W	S	R	S	K	L	M	L	O	Q	Z						
+1x	case523	A	B	C	E	H	G	J	R	T	W	T	W	S	R	S	K	N	K	L	O	Q	Z						
+1x	case524	A	B	C	E	H	G	J	R	T	W	S	K	L	M	N	R	S	K	L	O	Q	Z						
+1x	case525	A	B	C	E	H	G	J	R	T	W	S	K	L	O	P	R	S	K	L	O	Q	Z						
+1x	case526	A	B	C	E	H	G	J	R	T	W	S	K	N	R	T	W	S	K	L	O	Q	Z						
+1x	case527	A	B	C	E	H	G	J	R	T	W	S	K	N	R	S	K	L	M	L	O	Q	Z						
+1x	case528	A	B	C	E	H	G	J	R	T	W	S	R	T	W	S	K	L	M	L	O	Q	Z						
+1x	case529	A	B	C	E	H	G	J	R	T	W	S	R	T	W	S	K	N	K	L	O	Q	Z						
+1x	case530	A	B	C	E	H	G	J	R	T	W	S	R	S	K	L	M	N	K	L	O	Q	Z						
+1x	case531	A	B	C	E	H	G	J	R	T	W	S	R	S	K	L	O	P	K	L	O	Q	Z						
+1x	case532	A	B	C	E	H	G	J	R	T	W	S	R	S	K	N	K	L	M	L	O	Q	Z						
+1x	case533	A	B	C	E	H	G	J	R	S	K	L	M	N	R	T	W	S	K	L	O	Q	Z						
+1x	case534	A	B	C	E	H	G	J	R	S	K	L	O	P	R	T	W	S	K	L	O	Q	Z						
+1x	case535	A	B	C	E	H	G	J	R	S	K	N	R	T	W	T	W	S	K	L	O	Q	Z						
+1x	case536	A	B	C	E	H	G	J	R	S	K	N	R	T	W	S	K	L	M	L	O	Q	Z						
+1x	case537	A	B	C	E	H	G	J	R	S	R	T	W	T	W	S	K	L	M	L	O	Q	Z						
+1x	case538	A	B	C	E	H	G	J	R	S	R	T	W	T	W	S	K	N	K	L	O	Q	Z						
+1x	case539	A	B	C	E	H	G	J	R	S	R	T	W	S	K	L	M	N	K	L	O	Q	Z						
+1x	case540	A	B	C	E	H	G	J	R	S	R	T	W	S	K	L	O	P	K	L	O	Q	Z						
+1x	case541	A	B	C	E	H	G	J	R	S	R	T	W	S	K	N	K	L	M	L	O	Q	Z						
+1x	case542	A	B	C	E	H	G	J	K	L	M	N	R	T	W	T	W	S	K	L	O	Q	Z						
+1x	case543	A	B	C	E	H	G	J	K	L	M	N	R	T	W	S	R	S	K	L	O	Q	Z						
+1x	case544	A	B	C	E	H	G	J	K	L	M	N	R	S	R	T	W	S	K	L	O	Q	Z						
+1x	case545	A	B	C	E	H	G	J	K	L	O	P	R	T	W	T	W	S	K	L	O	Q	Z						
+1x	case546	A	B	C	E	H	G	J	K	L	O	P	R	T	W	S	R	S	K	L	O	Q	Z						
+1x	case547	A	B	C	E	H	G	J	K	L	O	P	R	S	R	T	W	S	K	L	O	Q	Z						
+1x	case548	A	B	C	E	H	G	J	K	N	R	T	W	T	W	S	K	L	M	L	O	Q	Z						
+1x	case549	A	B	C	E	H	G	J	K	N	R	T	W	T	W	S	R	S	K	L	O	Q	Z						
+1x	case550	A	B	C	E	H	G	J	K	N	R	T	W	S	R	T	W	S	K	L	O	Q	Z						
+1x	case551	A	B	C	E	H	G	J	K	N	R	T	W	S	R	S	K	L	M	L	O	Q	Z						
+1x	case552	A	B	C	E	H	G	J	K	N	R	S	R	T	W	T	W	S	K	L	O	Q	Z						
+1x	case553	A	B	C	E	H	G	J	K	N	R	S	R	T	W	S	K	L	M	L	O	Q	Z						
+1x	case554	A	B	C	E	G	H	J	R	T	W	T	W	S	K	L	M	N	K	L	O	Q	Z						
+1x	case555	A	B	C	E	G	H	J	R	T	W	T	W	S	K	L	O	P	K	L	O	Q	Z						
+1x	case556	A	B	C	E	G	H	J	R	T	W	T	W	S	K	N	K	L	M	L	O	Q	Z						
+1x	case557	A	B	C	E	G	H	J	R	T	W	T	W	S	K	N	R	S	K	L	O	Q	Z						
+1x	case558	A	B	C	E	G	H	J	R	T	W	T	W	S	R	S	K	L	M	L	O	Q	Z						
+1x	case559	A	B	C	E	G	H	J	R	T	W	T	W	S	R	S	K	N	K	L	O	Q	Z						
+1x	case560	A	B	C	E	G	H	J	R	T	W	S	K	L	M	N	R	S	K	L	O	Q	Z						
+1x	case561	A	B	C	E	G	H	J	R	T	W	S	K	L	O	P	R	S	K	L	O	Q	Z						
+1x	case562	A	B	C	E	G	H	J	R	T	W	S	K	N	R	T	W	S	K	L	O	Q	Z						
+1x	case563	A	B	C	E	G	H	J	R	T	W	S	K	N	R	S	K	L	M	L	O	Q	Z						
+1x	case564	A	B	C	E	G	H	J	R	T	W	S	R	T	W	S	K	L	M	L	O	Q	Z						
+1x	case565	A	B	C	E	G	H	J	R	T	W	S	R	T	W	S	K	N	K	L	O	Q	Z						
+1x	case566	A	B	C	E	G	H	J	R	T	W	S	R	S	K	L	M	N	K	L	O	Q	Z						
+1x	case567	A	B	C	E	G	H	J	R	T	W	S	R	S	K	L	O	P	K	L	O	Q	Z						
+1x	case568	A	B	C	E	G	H	J	R	T	W	S	R	S	K	N	K	L	M	L	O	Q	Z						
+1x	case569	A	B	C	E	G	H	J	R	S	K	L	M	N	R	T	W	S	K	L	O	Q	Z						
+1x	case570	A	B	C	E	G	H	J	R	S	K	L	O	P	R	T	W	S	K	L	O	Q	Z						
+1x	case571	A	B	C	E	G	H	J	R	S	K	N	R	T	W	T	W	S	K	L	O	Q	Z						
+1x	case572	A	B	C	E	G	H	J	R	S	K	N	R	T	W	S	K	L	M	L	O	Q	Z						
+1x	case573	A	B	C	E	G	H	J	R	S	R	T	W	T	W	S	K	L	M	L	O	Q	Z						
+1x	case574	A	B	C	E	G	H	J	R	S	R	T	W	T	W	S	K	N	K	L	O	Q	Z						
+1x	case575	A	B	C	E	G	H	J	R	S	R	T	W	S	K	L	M	N	K	L	O	Q	Z						
+1x	case576	A	B	C	E	G	H	J	R	S	R	T	W	S	K	L	O	P	K	L	O	Q	Z						
+1x	case577	A	B	C	E	G	H	J	R	S	R	T	W	S	K	N	K	L	M	L	O	Q	Z						
+1x	case578	A	B	C	E	G	H	J	K	L	M	N	R	T	W	T	W	S	K	L	O	Q	Z						
+1x	case579	A	B	C	E	G	H	J	K	L	M	N	R	T	W	S	R	S	K	L	O	Q	Z						
+1x	case580	A	B	C	E	G	H	J	K	L	M	N	R	S	R	T	W	S	K	L	O	Q	Z						
+1x	case581	A	B	C	E	G	H	J	K	L	O	P	R	T	W	T	W	S	K	L	O	Q	Z						
+1x	case582	A	B	C	E	G	H	J	K	L	O	P	R	T	W	S	R	S	K	L	O	Q	Z						
+1x	case583	A	B	C	E	G	H	J	K	L	O	P	R	S	R	T	W	S	K	L	O	Q	Z						
+1x	case584	A	B	C	E	G	H	J	K	N	R	T	W	T	W	S	K	L	M	L	O	Q	Z						
+1x	case585	A	B	C	E	G	H	J	K	N	R	T	W	T	W	S	R	S	K	L	O	Q	Z						
+1x	case586	A	B	C	E	G	H	J	K	N	R	T	W	S	R	T	W	S	K	L	O	Q	Z						
+1x	case587	A	B	C	E	G	H	J	K	N	R	T	W	S	R	S	K	L	M	L	O	Q	Z						
+1x	case588	A	B	C	E	G	H	J	K	N	R	S	R	T	W	T	W	S	K	L	O	Q	Z						
+1x	case589	A	B	C	E	G	H	J	K	N	R	S	R	T	W	S	K	L	M	L	O	Q	Z						
+1x	case590	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	K	L	M	N	R	T	Y	Z					
+1x	case591	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	K	L	O	P	R	T	Y	Z					
+1x	case592	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	K	N	K	N	R	T	Y	Z					
+1x	case593	A	B	C	D	F	B	C	E	H	G	J	R	S	K	L	M	L	M	N	R	T	Y	Z					
+1x	case594	A	B	C	D	F	B	C	E	H	G	J	R	S	K	L	M	L	O	P	R	T	Y	Z					
+1x	case595	A	B	C	D	F	B	C	E	H	G	J	R	S	K	L	M	N	K	N	R	T	Y	Z					
+1x	case596	A	B	C	D	F	B	C	E	H	G	J	R	S	K	L	M	N	R	T	W	T	Y	Z					
+1x	case597	A	B	C	D	F	B	C	E	H	G	J	R	S	K	L	O	P	R	T	W	T	Y	Z					
+1x	case598	A	B	C	D	F	B	C	E	H	G	J	R	S	K	L	O	P	K	N	R	T	Y	Z					
+1x	case599	A	B	C	D	F	B	C	E	H	G	J	R	S	K	N	K	L	M	N	R	T	Y	Z					
+1x	case600	A	B	C	D	F	B	C	E	H	G	J	R	S	K	N	K	L	O	P	R	T	Y	Z					
+1x	case601	A	B	C	D	F	B	C	E	H	G	J	R	S	K	N	K	N	R	T	W	T	Y	Z					
+1x	case602	A	B	C	D	F	B	C	E	H	G	J	K	L	M	L	M	N	K	N	R	T	Y	Z					
+1x	case603	A	B	C	D	F	B	C	E	H	G	J	K	L	M	L	M	N	R	T	W	T	Y	Z					
+1x	case604	A	B	C	D	F	B	C	E	H	G	J	K	L	M	L	M	N	R	S	R	T	Y	Z					
+1x	case605	A	B	C	D	F	B	C	E	H	G	J	K	L	M	L	O	P	R	T	W	T	Y	Z					
+1x	case606	A	B	C	D	F	B	C	E	H	G	J	K	L	M	L	O	P	R	S	R	T	Y	Z					
+1x	case607	A	B	C	D	F	B	C	E	H	G	J	K	L	M	L	O	P	K	N	R	T	Y	Z					
+1x	case608	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	K	L	M	N	R	T	Y	Z					
+1x	case609	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	K	L	O	P	R	T	Y	Z					
+1x	case610	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	K	N	R	T	W	T	Y	Z					
+1x	case611	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	K	N	R	S	R	T	Y	Z					
+1x	case612	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	R	T	W	S	R	T	Y	Z					
+1x	case613	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	R	S	K	N	R	T	Y	Z					
+1x	case614	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	R	S	R	T	W	T	Y	Z					
+1x	case615	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	R	T	W	S	R	T	Y	Z					
+1x	case616	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	R	S	K	N	R	T	Y	Z					
+1x	case617	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	R	S	R	T	W	T	Y	Z					
+1x	case618	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	K	L	M	N	R	T	Y	Z					
+1x	case619	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	K	L	O	P	R	T	Y	Z					
+1x	case620	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	K	N	R	T	W	T	Y	Z					
+1x	case621	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	K	N	R	S	R	T	Y	Z					
+1x	case622	A	B	C	D	F	B	C	E	H	G	J	K	N	K	L	M	L	M	N	R	T	Y	Z					
+1x	case623	A	B	C	D	F	B	C	E	H	G	J	K	N	K	L	M	L	O	P	R	T	Y	Z					
+1x	case624	A	B	C	D	F	B	C	E	H	G	J	K	N	K	L	M	N	R	T	W	T	Y	Z					
+1x	case625	A	B	C	D	F	B	C	E	H	G	J	K	N	K	L	M	N	R	S	R	T	Y	Z					
+1x	case626	A	B	C	D	F	B	C	E	H	G	J	K	N	K	L	O	P	R	T	W	T	Y	Z					
+1x	case627	A	B	C	D	F	B	C	E	H	G	J	K	N	K	L	O	P	R	S	R	T	Y	Z					
+1x	case628	A	B	C	D	F	B	C	E	H	G	J	K	N	K	N	R	T	W	S	R	T	Y	Z					
+1x	case629	A	B	C	D	F	B	C	E	H	G	J	K	N	K	N	R	S	R	T	W	T	Y	Z					
+1x	case630	A	B	C	D	F	B	C	E	H	G	J	K	N	R	T	W	S	K	N	R	T	Y	Z					
+1x	case631	A	B	C	D	F	B	C	E	H	G	J	K	N	R	S	K	L	M	N	R	T	Y	Z					
+1x	case632	A	B	C	D	F	B	C	E	H	G	J	K	N	R	S	K	L	O	P	R	T	Y	Z					
+1x	case633	A	B	C	D	F	B	C	E	H	G	J	K	N	R	S	K	N	R	T	W	T	Y	Z					
+1x	case634	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	K	L	M	N	R	T	Y	Z					
+1x	case635	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	K	L	O	P	R	T	Y	Z					
+1x	case636	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	K	N	K	N	R	T	Y	Z					
+1x	case637	A	B	C	D	F	B	C	E	G	H	J	R	S	K	L	M	L	M	N	R	T	Y	Z					
+1x	case638	A	B	C	D	F	B	C	E	G	H	J	R	S	K	L	M	L	O	P	R	T	Y	Z					
+1x	case639	A	B	C	D	F	B	C	E	G	H	J	R	S	K	L	M	N	K	N	R	T	Y	Z					
+1x	case640	A	B	C	D	F	B	C	E	G	H	J	R	S	K	L	M	N	R	T	W	T	Y	Z					
+1x	case641	A	B	C	D	F	B	C	E	G	H	J	R	S	K	L	O	P	R	T	W	T	Y	Z					
+1x	case642	A	B	C	D	F	B	C	E	G	H	J	R	S	K	L	O	P	K	N	R	T	Y	Z					
+1x	case643	A	B	C	D	F	B	C	E	G	H	J	R	S	K	N	K	L	M	N	R	T	Y	Z					
+1x	case644	A	B	C	D	F	B	C	E	G	H	J	R	S	K	N	K	L	O	P	R	T	Y	Z					
+1x	case645	A	B	C	D	F	B	C	E	G	H	J	R	S	K	N	K	N	R	T	W	T	Y	Z					
+1x	case646	A	B	C	D	F	B	C	E	G	H	J	K	L	M	L	M	N	K	N	R	T	Y	Z					
+1x	case647	A	B	C	D	F	B	C	E	G	H	J	K	L	M	L	M	N	R	T	W	T	Y	Z					
+1x	case648	A	B	C	D	F	B	C	E	G	H	J	K	L	M	L	M	N	R	S	R	T	Y	Z					
+1x	case649	A	B	C	D	F	B	C	E	G	H	J	K	L	M	L	O	P	R	T	W	T	Y	Z					
+1x	case650	A	B	C	D	F	B	C	E	G	H	J	K	L	M	L	O	P	R	S	R	T	Y	Z					
+1x	case651	A	B	C	D	F	B	C	E	G	H	J	K	L	M	L	O	P	K	N	R	T	Y	Z					
+1x	case652	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	K	L	M	N	R	T	Y	Z					
+1x	case653	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	K	L	O	P	R	T	Y	Z					
+1x	case654	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	K	N	R	T	W	T	Y	Z					
+1x	case655	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	K	N	R	S	R	T	Y	Z					
+1x	case656	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	R	T	W	S	R	T	Y	Z					
+1x	case657	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	R	S	K	N	R	T	Y	Z					
+1x	case658	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	R	S	R	T	W	T	Y	Z					
+1x	case659	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	R	T	W	S	R	T	Y	Z					
+1x	case660	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	R	S	K	N	R	T	Y	Z					
+1x	case661	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	R	S	R	T	W	T	Y	Z					
+1x	case662	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	K	L	M	N	R	T	Y	Z					
+1x	case663	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	K	L	O	P	R	T	Y	Z					
+1x	case664	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	K	N	R	T	W	T	Y	Z					
+1x	case665	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	K	N	R	S	R	T	Y	Z					
+1x	case666	A	B	C	D	F	B	C	E	G	H	J	K	N	K	L	M	L	M	N	R	T	Y	Z					
+1x	case667	A	B	C	D	F	B	C	E	G	H	J	K	N	K	L	M	L	O	P	R	T	Y	Z					
+1x	case668	A	B	C	D	F	B	C	E	G	H	J	K	N	K	L	M	N	R	T	W	T	Y	Z					
+1x	case669	A	B	C	D	F	B	C	E	G	H	J	K	N	K	L	M	N	R	S	R	T	Y	Z					
+1x	case670	A	B	C	D	F	B	C	E	G	H	J	K	N	K	L	O	P	R	T	W	T	Y	Z					
+1x	case671	A	B	C	D	F	B	C	E	G	H	J	K	N	K	L	O	P	R	S	R	T	Y	Z					
+1x	case672	A	B	C	D	F	B	C	E	G	H	J	K	N	K	N	R	T	W	S	R	T	Y	Z					
+1x	case673	A	B	C	D	F	B	C	E	G	H	J	K	N	K	N	R	S	R	T	W	T	Y	Z					
+1x	case674	A	B	C	D	F	B	C	E	G	H	J	K	N	R	T	W	S	K	N	R	T	Y	Z					
+1x	case675	A	B	C	D	F	B	C	E	G	H	J	K	N	R	S	K	L	M	N	R	T	Y	Z					
+1x	case676	A	B	C	D	F	B	C	E	G	H	J	K	N	R	S	K	L	O	P	R	T	Y	Z					
+1x	case677	A	B	C	D	F	B	C	E	G	H	J	K	N	R	S	K	N	R	T	W	T	Y	Z					
+1x	case678	A	B	C	E	H	G	J	R	T	W	S	K	L	M	L	M	N	K	N	R	T	Y	Z					
+1x	case679	A	B	C	E	H	G	J	R	T	W	S	K	L	M	L	O	P	K	N	R	T	Y	Z					
+1x	case680	A	B	C	E	H	G	J	R	T	W	S	K	L	M	N	K	L	M	N	R	T	Y	Z					
+1x	case681	A	B	C	E	H	G	J	R	T	W	S	K	L	M	N	K	L	O	P	R	T	Y	Z					
+1x	case682	A	B	C	E	H	G	J	R	T	W	S	K	L	O	P	K	L	M	N	R	T	Y	Z					
+1x	case683	A	B	C	E	H	G	J	R	T	W	S	K	L	O	P	K	L	O	P	R	T	Y	Z					
+1x	case684	A	B	C	E	H	G	J	R	T	W	S	K	N	K	L	M	L	M	N	R	T	Y	Z					
+1x	case685	A	B	C	E	H	G	J	R	T	W	S	K	N	K	L	M	L	O	P	R	T	Y	Z					
+1x	case686	A	B	C	E	H	G	J	R	S	K	L	M	L	M	N	K	N	R	T	W	T	Y	Z					
+1x	case687	A	B	C	E	H	G	J	R	S	K	L	M	L	O	P	K	N	R	T	W	T	Y	Z					
+1x	case688	A	B	C	E	H	G	J	R	S	K	L	M	N	K	L	M	N	R	T	W	T	Y	Z					
+1x	case689	A	B	C	E	H	G	J	R	S	K	L	M	N	K	L	O	P	R	T	W	T	Y	Z					
+1x	case690	A	B	C	E	H	G	J	R	S	K	L	O	P	K	L	M	N	R	T	W	T	Y	Z					
+1x	case691	A	B	C	E	H	G	J	R	S	K	L	O	P	K	L	O	P	R	T	W	T	Y	Z					
+1x	case692	A	B	C	E	H	G	J	R	S	K	N	K	L	M	L	M	N	R	T	W	T	Y	Z					
+1x	case693	A	B	C	E	H	G	J	R	S	K	N	K	L	M	L	O	P	R	T	W	T	Y	Z					
+1x	case694	A	B	C	E	H	G	J	K	L	M	L	M	N	K	N	R	T	W	S	R	T	Y	Z					
+1x	case695	A	B	C	E	H	G	J	K	L	M	L	M	N	K	N	R	S	R	T	W	T	Y	Z					
+1x	case696	A	B	C	E	H	G	J	K	L	M	L	M	N	R	T	W	S	K	N	R	T	Y	Z					
+1x	case697	A	B	C	E	H	G	J	K	L	M	L	M	N	R	S	K	N	R	T	W	T	Y	Z					
+1x	case698	A	B	C	E	H	G	J	K	L	M	L	O	P	R	T	W	S	K	N	R	T	Y	Z					
+1x	case699	A	B	C	E	H	G	J	K	L	M	L	O	P	R	S	K	N	R	T	W	T	Y	Z					
+1x	case700	A	B	C	E	H	G	J	K	L	M	L	O	P	K	N	R	T	W	S	R	T	Y	Z					
+1x	case701	A	B	C	E	H	G	J	K	L	M	L	O	P	K	N	R	S	R	T	W	T	Y	Z					
+1x	case702	A	B	C	E	H	G	J	K	L	M	N	K	L	M	N	R	T	W	S	R	T	Y	Z					
+1x	case703	A	B	C	E	H	G	J	K	L	M	N	K	L	M	N	R	S	R	T	W	T	Y	Z					
+1x	case704	A	B	C	E	H	G	J	K	L	M	N	K	L	O	P	R	T	W	S	R	T	Y	Z					
+1x	case705	A	B	C	E	H	G	J	K	L	M	N	K	L	O	P	R	S	R	T	W	T	Y	Z					
+1x	case706	A	B	C	E	H	G	J	K	L	M	N	R	T	W	S	K	L	M	N	R	T	Y	Z					
+1x	case707	A	B	C	E	H	G	J	K	L	M	N	R	T	W	S	K	L	O	P	R	T	Y	Z					
+1x	case708	A	B	C	E	H	G	J	K	L	M	N	R	S	K	L	M	N	R	T	W	T	Y	Z					
+1x	case709	A	B	C	E	H	G	J	K	L	M	N	R	S	K	L	O	P	R	T	W	T	Y	Z					
+1x	case710	A	B	C	E	H	G	J	K	L	O	P	R	T	W	S	K	L	M	N	R	T	Y	Z					
+1x	case711	A	B	C	E	H	G	J	K	L	O	P	R	T	W	S	K	L	O	P	R	T	Y	Z					
+1x	case712	A	B	C	E	H	G	J	K	L	O	P	R	S	K	L	M	N	R	T	W	T	Y	Z					
+1x	case713	A	B	C	E	H	G	J	K	L	O	P	R	S	K	L	O	P	R	T	W	T	Y	Z					
+1x	case714	A	B	C	E	H	G	J	K	L	O	P	K	L	M	N	R	T	W	S	R	T	Y	Z					
+1x	case715	A	B	C	E	H	G	J	K	L	O	P	K	L	M	N	R	S	R	T	W	T	Y	Z					
+1x	case716	A	B	C	E	H	G	J	K	L	O	P	K	L	O	P	R	T	W	S	R	T	Y	Z					
+1x	case717	A	B	C	E	H	G	J	K	L	O	P	K	L	O	P	R	S	R	T	W	T	Y	Z					
+1x	case718	A	B	C	E	H	G	J	K	N	K	L	M	L	M	N	R	T	W	S	R	T	Y	Z					
+1x	case719	A	B	C	E	H	G	J	K	N	K	L	M	L	M	N	R	S	R	T	W	T	Y	Z					
+1x	case720	A	B	C	E	H	G	J	K	N	K	L	M	L	O	P	R	T	W	S	R	T	Y	Z					
+1x	case721	A	B	C	E	H	G	J	K	N	K	L	M	L	O	P	R	S	R	T	W	T	Y	Z					
+1x	case722	A	B	C	E	H	G	J	K	N	R	T	W	S	K	L	M	L	M	N	R	T	Y	Z					
+1x	case723	A	B	C	E	H	G	J	K	N	R	T	W	S	K	L	M	L	O	P	R	T	Y	Z					
+1x	case724	A	B	C	E	H	G	J	K	N	R	S	K	L	M	L	M	N	R	T	W	T	Y	Z					
+1x	case725	A	B	C	E	H	G	J	K	N	R	S	K	L	M	L	O	P	R	T	W	T	Y	Z					
+1x	case726	A	B	C	E	G	H	J	R	T	W	S	K	L	M	L	M	N	K	N	R	T	Y	Z					
+1x	case727	A	B	C	E	G	H	J	R	T	W	S	K	L	M	L	O	P	K	N	R	T	Y	Z					
+1x	case728	A	B	C	E	G	H	J	R	T	W	S	K	L	M	N	K	L	M	N	R	T	Y	Z					
+1x	case729	A	B	C	E	G	H	J	R	T	W	S	K	L	M	N	K	L	O	P	R	T	Y	Z					
+1x	case730	A	B	C	E	G	H	J	R	T	W	S	K	L	O	P	K	L	M	N	R	T	Y	Z					
+1x	case731	A	B	C	E	G	H	J	R	T	W	S	K	L	O	P	K	L	O	P	R	T	Y	Z					
+1x	case732	A	B	C	E	G	H	J	R	T	W	S	K	N	K	L	M	L	M	N	R	T	Y	Z					
+1x	case733	A	B	C	E	G	H	J	R	T	W	S	K	N	K	L	M	L	O	P	R	T	Y	Z					
+1x	case734	A	B	C	E	G	H	J	R	S	K	L	M	L	M	N	K	N	R	T	W	T	Y	Z					
+1x	case735	A	B	C	E	G	H	J	R	S	K	L	M	L	O	P	K	N	R	T	W	T	Y	Z					
+1x	case736	A	B	C	E	G	H	J	R	S	K	L	M	N	K	L	M	N	R	T	W	T	Y	Z					
+1x	case737	A	B	C	E	G	H	J	R	S	K	L	M	N	K	L	O	P	R	T	W	T	Y	Z					
+1x	case738	A	B	C	E	G	H	J	R	S	K	L	O	P	K	L	M	N	R	T	W	T	Y	Z					
+1x	case739	A	B	C	E	G	H	J	R	S	K	L	O	P	K	L	O	P	R	T	W	T	Y	Z					
+1x	case740	A	B	C	E	G	H	J	R	S	K	N	K	L	M	L	M	N	R	T	W	T	Y	Z					
+1x	case741	A	B	C	E	G	H	J	R	S	K	N	K	L	M	L	O	P	R	T	W	T	Y	Z					
+1x	case742	A	B	C	E	G	H	J	K	L	M	L	M	N	K	N	R	T	W	S	R	T	Y	Z					
+1x	case743	A	B	C	E	G	H	J	K	L	M	L	M	N	K	N	R	S	R	T	W	T	Y	Z					
+1x	case744	A	B	C	E	G	H	J	K	L	M	L	M	N	R	T	W	S	K	N	R	T	Y	Z					
+1x	case745	A	B	C	E	G	H	J	K	L	M	L	M	N	R	S	K	N	R	T	W	T	Y	Z					
+1x	case746	A	B	C	E	G	H	J	K	L	M	L	O	P	R	T	W	S	K	N	R	T	Y	Z					
+1x	case747	A	B	C	E	G	H	J	K	L	M	L	O	P	R	S	K	N	R	T	W	T	Y	Z					
+1x	case748	A	B	C	E	G	H	J	K	L	M	L	O	P	K	N	R	T	W	S	R	T	Y	Z					
+1x	case749	A	B	C	E	G	H	J	K	L	M	L	O	P	K	N	R	S	R	T	W	T	Y	Z					
+1x	case750	A	B	C	E	G	H	J	K	L	M	N	K	L	M	N	R	T	W	S	R	T	Y	Z					
+1x	case751	A	B	C	E	G	H	J	K	L	M	N	K	L	M	N	R	S	R	T	W	T	Y	Z					
+1x	case752	A	B	C	E	G	H	J	K	L	M	N	K	L	O	P	R	T	W	S	R	T	Y	Z					
+1x	case753	A	B	C	E	G	H	J	K	L	M	N	K	L	O	P	R	S	R	T	W	T	Y	Z					
+1x	case754	A	B	C	E	G	H	J	K	L	M	N	R	T	W	S	K	L	M	N	R	T	Y	Z					
+1x	case755	A	B	C	E	G	H	J	K	L	M	N	R	T	W	S	K	L	O	P	R	T	Y	Z					
+1x	case756	A	B	C	E	G	H	J	K	L	M	N	R	S	K	L	M	N	R	T	W	T	Y	Z					
+1x	case757	A	B	C	E	G	H	J	K	L	M	N	R	S	K	L	O	P	R	T	W	T	Y	Z					
+1x	case758	A	B	C	E	G	H	J	K	L	O	P	R	T	W	S	K	L	M	N	R	T	Y	Z					
+1x	case759	A	B	C	E	G	H	J	K	L	O	P	R	T	W	S	K	L	O	P	R	T	Y	Z					
+1x	case760	A	B	C	E	G	H	J	K	L	O	P	R	S	K	L	M	N	R	T	W	T	Y	Z					
+1x	case761	A	B	C	E	G	H	J	K	L	O	P	R	S	K	L	O	P	R	T	W	T	Y	Z					
+1x	case762	A	B	C	E	G	H	J	K	L	O	P	K	L	M	N	R	T	W	S	R	T	Y	Z					
+1x	case763	A	B	C	E	G	H	J	K	L	O	P	K	L	M	N	R	S	R	T	W	T	Y	Z					
+1x	case764	A	B	C	E	G	H	J	K	L	O	P	K	L	O	P	R	T	W	S	R	T	Y	Z					
+1x	case765	A	B	C	E	G	H	J	K	L	O	P	K	L	O	P	R	S	R	T	W	T	Y	Z					
+1x	case766	A	B	C	E	G	H	J	K	N	K	L	M	L	M	N	R	T	W	S	R	T	Y	Z					
+1x	case767	A	B	C	E	G	H	J	K	N	K	L	M	L	M	N	R	S	R	T	W	T	Y	Z					
+1x	case768	A	B	C	E	G	H	J	K	N	K	L	M	L	O	P	R	T	W	S	R	T	Y	Z					
+1x	case769	A	B	C	E	G	H	J	K	N	K	L	M	L	O	P	R	S	R	T	W	T	Y	Z					
+1x	case770	A	B	C	E	G	H	J	K	N	R	T	W	S	K	L	M	L	M	N	R	T	Y	Z					
+1x	case771	A	B	C	E	G	H	J	K	N	R	T	W	S	K	L	M	L	O	P	R	T	Y	Z					
+1x	case772	A	B	C	E	G	H	J	K	N	R	S	K	L	M	L	M	N	R	T	W	T	Y	Z					
+1x	case773	A	B	C	E	G	H	J	K	N	R	S	K	L	M	L	O	P	R	T	W	T	Y	Z					
+1x	case774	A	B	C	D	F	B	C	E	H	G	J	R	T	W	T	W	S	K	L	M	L	O	Q	Z				
+1x	case775	A	B	C	D	F	B	C	E	H	G	J	R	T	W	T	W	S	K	N	K	L	O	Q	Z				
+1x	case776	A	B	C	D	F	B	C	E	H	G	J	R	T	W	T	W	S	R	S	K	L	O	Q	Z				
+1x	case777	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	K	L	M	N	K	L	O	Q	Z				
+1x	case778	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	K	L	O	P	K	L	O	Q	Z				
+1x	case779	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	K	N	K	L	M	L	O	Q	Z				
+1x	case780	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	K	N	R	S	K	L	O	Q	Z				
+1x	case781	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	R	T	W	S	K	L	O	Q	Z				
+1x	case782	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	R	S	K	L	M	L	O	Q	Z				
+1x	case783	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	R	S	K	N	K	L	O	Q	Z				
+1x	case784	A	B	C	D	F	B	C	E	H	G	J	R	S	K	L	M	N	R	S	K	L	O	Q	Z				
+1x	case785	A	B	C	D	F	B	C	E	H	G	J	R	S	K	L	O	P	R	S	K	L	O	Q	Z				
+1x	case786	A	B	C	D	F	B	C	E	H	G	J	R	S	K	N	R	T	W	S	K	L	O	Q	Z				
+1x	case787	A	B	C	D	F	B	C	E	H	G	J	R	S	K	N	R	S	K	L	M	L	O	Q	Z				
+1x	case788	A	B	C	D	F	B	C	E	H	G	J	R	S	R	T	W	T	W	S	K	L	O	Q	Z				
+1x	case789	A	B	C	D	F	B	C	E	H	G	J	R	S	R	T	W	S	K	L	M	L	O	Q	Z				
+1x	case790	A	B	C	D	F	B	C	E	H	G	J	R	S	R	T	W	S	K	N	K	L	O	Q	Z				
+1x	case791	A	B	C	D	F	B	C	E	H	G	J	R	S	R	S	K	L	M	N	K	L	O	Q	Z				
+1x	case792	A	B	C	D	F	B	C	E	H	G	J	R	S	R	S	K	L	O	P	K	L	O	Q	Z				
+1x	case793	A	B	C	D	F	B	C	E	H	G	J	R	S	R	S	K	N	K	L	M	L	O	Q	Z				
+1x	case794	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	R	T	W	S	K	L	O	Q	Z				
+1x	case795	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	R	S	R	S	K	L	O	Q	Z				
+1x	case796	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	R	T	W	S	K	L	O	Q	Z				
+1x	case797	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	R	S	R	S	K	L	O	Q	Z				
+1x	case798	A	B	C	D	F	B	C	E	H	G	J	K	N	R	T	W	T	W	S	K	L	O	Q	Z				
+1x	case799	A	B	C	D	F	B	C	E	H	G	J	K	N	R	T	W	S	K	L	M	L	O	Q	Z				
+1x	case800	A	B	C	D	F	B	C	E	H	G	J	K	N	R	T	W	S	R	S	K	L	O	Q	Z				
+1x	case801	A	B	C	D	F	B	C	E	H	G	J	K	N	R	S	R	T	W	S	K	L	O	Q	Z				
+1x	case802	A	B	C	D	F	B	C	E	H	G	J	K	N	R	S	R	S	K	L	M	L	O	Q	Z				
+1x	case803	A	B	C	D	F	B	C	E	G	H	J	R	T	W	T	W	S	K	L	M	L	O	Q	Z				
+1x	case804	A	B	C	D	F	B	C	E	G	H	J	R	T	W	T	W	S	K	N	K	L	O	Q	Z				
+1x	case805	A	B	C	D	F	B	C	E	G	H	J	R	T	W	T	W	S	R	S	K	L	O	Q	Z				
+1x	case806	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	K	L	M	N	K	L	O	Q	Z				
+1x	case807	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	K	L	O	P	K	L	O	Q	Z				
+1x	case808	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	K	N	K	L	M	L	O	Q	Z				
+1x	case809	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	K	N	R	S	K	L	O	Q	Z				
+1x	case810	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	R	T	W	S	K	L	O	Q	Z				
+1x	case811	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	R	S	K	L	M	L	O	Q	Z				
+1x	case812	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	R	S	K	N	K	L	O	Q	Z				
+1x	case813	A	B	C	D	F	B	C	E	G	H	J	R	S	K	L	M	N	R	S	K	L	O	Q	Z				
+1x	case814	A	B	C	D	F	B	C	E	G	H	J	R	S	K	L	O	P	R	S	K	L	O	Q	Z				
+1x	case815	A	B	C	D	F	B	C	E	G	H	J	R	S	K	N	R	T	W	S	K	L	O	Q	Z				
+1x	case816	A	B	C	D	F	B	C	E	G	H	J	R	S	K	N	R	S	K	L	M	L	O	Q	Z				
+1x	case817	A	B	C	D	F	B	C	E	G	H	J	R	S	R	T	W	T	W	S	K	L	O	Q	Z				
+1x	case818	A	B	C	D	F	B	C	E	G	H	J	R	S	R	T	W	S	K	L	M	L	O	Q	Z				
+1x	case819	A	B	C	D	F	B	C	E	G	H	J	R	S	R	T	W	S	K	N	K	L	O	Q	Z				
+1x	case820	A	B	C	D	F	B	C	E	G	H	J	R	S	R	S	K	L	M	N	K	L	O	Q	Z				
+1x	case821	A	B	C	D	F	B	C	E	G	H	J	R	S	R	S	K	L	O	P	K	L	O	Q	Z				
+1x	case822	A	B	C	D	F	B	C	E	G	H	J	R	S	R	S	K	N	K	L	M	L	O	Q	Z				
+1x	case823	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	R	T	W	S	K	L	O	Q	Z				
+1x	case824	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	R	S	R	S	K	L	O	Q	Z				
+1x	case825	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	R	T	W	S	K	L	O	Q	Z				
+1x	case826	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	R	S	R	S	K	L	O	Q	Z				
+1x	case827	A	B	C	D	F	B	C	E	G	H	J	K	N	R	T	W	T	W	S	K	L	O	Q	Z				
+1x	case828	A	B	C	D	F	B	C	E	G	H	J	K	N	R	T	W	S	K	L	M	L	O	Q	Z				
+1x	case829	A	B	C	D	F	B	C	E	G	H	J	K	N	R	T	W	S	R	S	K	L	O	Q	Z				
+1x	case830	A	B	C	D	F	B	C	E	G	H	J	K	N	R	S	R	T	W	S	K	L	O	Q	Z				
+1x	case831	A	B	C	D	F	B	C	E	G	H	J	K	N	R	S	R	S	K	L	M	L	O	Q	Z				
+1x	case832	A	B	C	E	H	G	J	R	T	W	T	W	S	K	L	M	N	R	S	K	L	O	Q	Z				
+1x	case833	A	B	C	E	H	G	J	R	T	W	T	W	S	K	L	O	P	R	S	K	L	O	Q	Z				
+1x	case834	A	B	C	E	H	G	J	R	T	W	T	W	S	K	N	R	S	K	L	M	L	O	Q	Z				
+1x	case835	A	B	C	E	H	G	J	R	T	W	T	W	S	R	S	K	L	M	N	K	L	O	Q	Z				
+1x	case836	A	B	C	E	H	G	J	R	T	W	T	W	S	R	S	K	L	O	P	K	L	O	Q	Z				
+1x	case837	A	B	C	E	H	G	J	R	T	W	T	W	S	R	S	K	N	K	L	M	L	O	Q	Z				
+1x	case838	A	B	C	E	H	G	J	R	T	W	S	K	L	M	N	R	T	W	S	K	L	O	Q	Z				
+1x	case839	A	B	C	E	H	G	J	R	T	W	S	K	L	O	P	R	T	W	S	K	L	O	Q	Z				
+1x	case840	A	B	C	E	H	G	J	R	T	W	S	K	N	R	T	W	S	K	L	M	L	O	Q	Z				
+1x	case841	A	B	C	E	H	G	J	R	T	W	S	R	T	W	S	K	L	M	N	K	L	O	Q	Z				
+1x	case842	A	B	C	E	H	G	J	R	T	W	S	R	T	W	S	K	L	O	P	K	L	O	Q	Z				
+1x	case843	A	B	C	E	H	G	J	R	T	W	S	R	T	W	S	K	N	K	L	M	L	O	Q	Z				
+1x	case844	A	B	C	E	H	G	J	R	S	K	L	M	N	R	T	W	T	W	S	K	L	O	Q	Z				
+1x	case845	A	B	C	E	H	G	J	R	S	K	L	O	P	R	T	W	T	W	S	K	L	O	Q	Z				
+1x	case846	A	B	C	E	H	G	J	R	S	K	N	R	T	W	T	W	S	K	L	M	L	O	Q	Z				
+1x	case847	A	B	C	E	H	G	J	R	S	R	T	W	T	W	S	K	L	M	N	K	L	O	Q	Z				
+1x	case848	A	B	C	E	H	G	J	R	S	R	T	W	T	W	S	K	L	O	P	K	L	O	Q	Z				
+1x	case849	A	B	C	E	H	G	J	R	S	R	T	W	T	W	S	K	N	K	L	M	L	O	Q	Z				
+1x	case850	A	B	C	E	H	G	J	K	L	M	N	R	T	W	T	W	S	R	S	K	L	O	Q	Z				
+1x	case851	A	B	C	E	H	G	J	K	L	M	N	R	T	W	S	R	T	W	S	K	L	O	Q	Z				
+1x	case852	A	B	C	E	H	G	J	K	L	M	N	R	S	R	T	W	T	W	S	K	L	O	Q	Z				
+1x	case853	A	B	C	E	H	G	J	K	L	O	P	R	T	W	T	W	S	R	S	K	L	O	Q	Z				
+1x	case854	A	B	C	E	H	G	J	K	L	O	P	R	T	W	S	R	T	W	S	K	L	O	Q	Z				
+1x	case855	A	B	C	E	H	G	J	K	L	O	P	R	S	R	T	W	T	W	S	K	L	O	Q	Z				
+1x	case856	A	B	C	E	H	G	J	K	N	R	T	W	T	W	S	R	S	K	L	M	L	O	Q	Z				
+1x	case857	A	B	C	E	H	G	J	K	N	R	T	W	S	R	T	W	S	K	L	M	L	O	Q	Z				
+1x	case858	A	B	C	E	H	G	J	K	N	R	S	R	T	W	T	W	S	K	L	M	L	O	Q	Z				
+1x	case859	A	B	C	E	G	H	J	R	T	W	T	W	S	K	L	M	N	R	S	K	L	O	Q	Z				
+1x	case860	A	B	C	E	G	H	J	R	T	W	T	W	S	K	L	O	P	R	S	K	L	O	Q	Z				
+1x	case861	A	B	C	E	G	H	J	R	T	W	T	W	S	K	N	R	S	K	L	M	L	O	Q	Z				
+1x	case862	A	B	C	E	G	H	J	R	T	W	T	W	S	R	S	K	L	M	N	K	L	O	Q	Z				
+1x	case863	A	B	C	E	G	H	J	R	T	W	T	W	S	R	S	K	L	O	P	K	L	O	Q	Z				
+1x	case864	A	B	C	E	G	H	J	R	T	W	T	W	S	R	S	K	N	K	L	M	L	O	Q	Z				
+1x	case865	A	B	C	E	G	H	J	R	T	W	S	K	L	M	N	R	T	W	S	K	L	O	Q	Z				
+1x	case866	A	B	C	E	G	H	J	R	T	W	S	K	L	O	P	R	T	W	S	K	L	O	Q	Z				
+1x	case867	A	B	C	E	G	H	J	R	T	W	S	K	N	R	T	W	S	K	L	M	L	O	Q	Z				
+1x	case868	A	B	C	E	G	H	J	R	T	W	S	R	T	W	S	K	L	M	N	K	L	O	Q	Z				
+1x	case869	A	B	C	E	G	H	J	R	T	W	S	R	T	W	S	K	L	O	P	K	L	O	Q	Z				
+1x	case870	A	B	C	E	G	H	J	R	T	W	S	R	T	W	S	K	N	K	L	M	L	O	Q	Z				
+1x	case871	A	B	C	E	G	H	J	R	S	K	L	M	N	R	T	W	T	W	S	K	L	O	Q	Z				
+1x	case872	A	B	C	E	G	H	J	R	S	K	L	O	P	R	T	W	T	W	S	K	L	O	Q	Z				
+1x	case873	A	B	C	E	G	H	J	R	S	K	N	R	T	W	T	W	S	K	L	M	L	O	Q	Z				
+1x	case874	A	B	C	E	G	H	J	R	S	R	T	W	T	W	S	K	L	M	N	K	L	O	Q	Z				
+1x	case875	A	B	C	E	G	H	J	R	S	R	T	W	T	W	S	K	L	O	P	K	L	O	Q	Z				
+1x	case876	A	B	C	E	G	H	J	R	S	R	T	W	T	W	S	K	N	K	L	M	L	O	Q	Z				
+1x	case877	A	B	C	E	G	H	J	K	L	M	N	R	T	W	T	W	S	R	S	K	L	O	Q	Z				
+1x	case878	A	B	C	E	G	H	J	K	L	M	N	R	T	W	S	R	T	W	S	K	L	O	Q	Z				
+1x	case879	A	B	C	E	G	H	J	K	L	M	N	R	S	R	T	W	T	W	S	K	L	O	Q	Z				
+1x	case880	A	B	C	E	G	H	J	K	L	O	P	R	T	W	T	W	S	R	S	K	L	O	Q	Z				
+1x	case881	A	B	C	E	G	H	J	K	L	O	P	R	T	W	S	R	T	W	S	K	L	O	Q	Z				
+1x	case882	A	B	C	E	G	H	J	K	L	O	P	R	S	R	T	W	T	W	S	K	L	O	Q	Z				
+1x	case883	A	B	C	E	G	H	J	K	N	R	T	W	T	W	S	R	S	K	L	M	L	O	Q	Z				
+1x	case884	A	B	C	E	G	H	J	K	N	R	T	W	S	R	T	W	S	K	L	M	L	O	Q	Z				
+1x	case885	A	B	C	E	G	H	J	K	N	R	S	R	T	W	T	W	S	K	L	M	L	O	Q	Z				
+1x	case886	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	K	L	M	L	M	N	R	T	Y	Z			
+1x	case887	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	K	L	M	L	O	P	R	T	Y	Z			
+1x	case888	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	K	L	M	N	K	N	R	T	Y	Z			
+1x	case889	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	K	L	O	P	K	N	R	T	Y	Z			
+1x	case890	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	K	N	K	L	M	N	R	T	Y	Z			
+1x	case891	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	K	N	K	L	O	P	R	T	Y	Z			
+1x	case892	A	B	C	D	F	B	C	E	H	G	J	R	S	K	L	M	L	M	N	K	N	R	T	Y	Z			
+1x	case893	A	B	C	D	F	B	C	E	H	G	J	R	S	K	L	M	L	M	N	R	T	W	T	Y	Z			
+1x	case894	A	B	C	D	F	B	C	E	H	G	J	R	S	K	L	M	L	O	P	R	T	W	T	Y	Z			
+1x	case895	A	B	C	D	F	B	C	E	H	G	J	R	S	K	L	M	L	O	P	K	N	R	T	Y	Z			
+1x	case896	A	B	C	D	F	B	C	E	H	G	J	R	S	K	L	M	N	K	L	M	N	R	T	Y	Z			
+1x	case897	A	B	C	D	F	B	C	E	H	G	J	R	S	K	L	M	N	K	L	O	P	R	T	Y	Z			
+1x	case898	A	B	C	D	F	B	C	E	H	G	J	R	S	K	L	M	N	K	N	R	T	W	T	Y	Z			
+1x	case899	A	B	C	D	F	B	C	E	H	G	J	R	S	K	L	O	P	K	L	M	N	R	T	Y	Z			
+1x	case900	A	B	C	D	F	B	C	E	H	G	J	R	S	K	L	O	P	K	L	O	P	R	T	Y	Z			
+1x	case901	A	B	C	D	F	B	C	E	H	G	J	R	S	K	L	O	P	K	N	R	T	W	T	Y	Z			
+1x	case902	A	B	C	D	F	B	C	E	H	G	J	R	S	K	N	K	L	M	L	M	N	R	T	Y	Z			
+1x	case903	A	B	C	D	F	B	C	E	H	G	J	R	S	K	N	K	L	M	L	O	P	R	T	Y	Z			
+1x	case904	A	B	C	D	F	B	C	E	H	G	J	R	S	K	N	K	L	M	N	R	T	W	T	Y	Z			
+1x	case905	A	B	C	D	F	B	C	E	H	G	J	R	S	K	N	K	L	O	P	R	T	W	T	Y	Z			
+1x	case906	A	B	C	D	F	B	C	E	H	G	J	K	L	M	L	M	N	K	N	R	T	W	T	Y	Z			
+1x	case907	A	B	C	D	F	B	C	E	H	G	J	K	L	M	L	M	N	K	N	R	S	R	T	Y	Z			
+1x	case908	A	B	C	D	F	B	C	E	H	G	J	K	L	M	L	M	N	R	T	W	S	R	T	Y	Z			
+1x	case909	A	B	C	D	F	B	C	E	H	G	J	K	L	M	L	M	N	R	S	K	N	R	T	Y	Z			
+1x	case910	A	B	C	D	F	B	C	E	H	G	J	K	L	M	L	M	N	R	S	R	T	W	T	Y	Z			
+1x	case911	A	B	C	D	F	B	C	E	H	G	J	K	L	M	L	O	P	R	T	W	S	R	T	Y	Z			
+1x	case912	A	B	C	D	F	B	C	E	H	G	J	K	L	M	L	O	P	R	S	K	N	R	T	Y	Z			
+1x	case913	A	B	C	D	F	B	C	E	H	G	J	K	L	M	L	O	P	R	S	R	T	W	T	Y	Z			
+1x	case914	A	B	C	D	F	B	C	E	H	G	J	K	L	M	L	O	P	K	N	R	T	W	T	Y	Z			
+1x	case915	A	B	C	D	F	B	C	E	H	G	J	K	L	M	L	O	P	K	N	R	S	R	T	Y	Z			
+1x	case916	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	K	L	M	N	R	T	W	T	Y	Z			
+1x	case917	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	K	L	M	N	R	S	R	T	Y	Z			
+1x	case918	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	K	L	O	P	R	T	W	T	Y	Z			
+1x	case919	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	K	L	O	P	R	S	R	T	Y	Z			
+1x	case920	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	K	N	R	T	W	S	R	T	Y	Z			
+1x	case921	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	K	N	R	S	R	T	W	T	Y	Z			
+1x	case922	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	R	T	W	S	K	N	R	T	Y	Z			
+1x	case923	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	R	S	K	L	M	N	R	T	Y	Z			
+1x	case924	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	R	S	K	L	O	P	R	T	Y	Z			
+1x	case925	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	R	S	K	N	R	T	W	T	Y	Z			
+1x	case926	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	R	T	W	S	K	N	R	T	Y	Z			
+1x	case927	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	R	S	K	L	M	N	R	T	Y	Z			
+1x	case928	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	R	S	K	L	O	P	R	T	Y	Z			
+1x	case929	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	R	S	K	N	R	T	W	T	Y	Z			
+1x	case930	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	K	L	M	N	R	T	W	T	Y	Z			
+1x	case931	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	K	L	M	N	R	S	R	T	Y	Z			
+1x	case932	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	K	L	O	P	R	T	W	T	Y	Z			
+1x	case933	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	K	L	O	P	R	S	R	T	Y	Z			
+1x	case934	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	K	N	R	T	W	S	R	T	Y	Z			
+1x	case935	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	K	N	R	S	R	T	W	T	Y	Z			
+1x	case936	A	B	C	D	F	B	C	E	H	G	J	K	N	K	L	M	L	M	N	R	T	W	T	Y	Z			
+1x	case937	A	B	C	D	F	B	C	E	H	G	J	K	N	K	L	M	L	M	N	R	S	R	T	Y	Z			
+1x	case938	A	B	C	D	F	B	C	E	H	G	J	K	N	K	L	M	L	O	P	R	T	W	T	Y	Z			
+1x	case939	A	B	C	D	F	B	C	E	H	G	J	K	N	K	L	M	L	O	P	R	S	R	T	Y	Z			
+1x	case940	A	B	C	D	F	B	C	E	H	G	J	K	N	K	L	M	N	R	T	W	S	R	T	Y	Z			
+1x	case941	A	B	C	D	F	B	C	E	H	G	J	K	N	K	L	M	N	R	S	R	T	W	T	Y	Z			
+1x	case942	A	B	C	D	F	B	C	E	H	G	J	K	N	K	L	O	P	R	T	W	S	R	T	Y	Z			
+1x	case943	A	B	C	D	F	B	C	E	H	G	J	K	N	K	L	O	P	R	S	R	T	W	T	Y	Z			
+1x	case944	A	B	C	D	F	B	C	E	H	G	J	K	N	R	T	W	S	K	L	M	N	R	T	Y	Z			
+1x	case945	A	B	C	D	F	B	C	E	H	G	J	K	N	R	T	W	S	K	L	O	P	R	T	Y	Z			
+1x	case946	A	B	C	D	F	B	C	E	H	G	J	K	N	R	S	K	L	M	L	M	N	R	T	Y	Z			
+1x	case947	A	B	C	D	F	B	C	E	H	G	J	K	N	R	S	K	L	M	L	O	P	R	T	Y	Z			
+1x	case948	A	B	C	D	F	B	C	E	H	G	J	K	N	R	S	K	L	M	N	R	T	W	T	Y	Z			
+1x	case949	A	B	C	D	F	B	C	E	H	G	J	K	N	R	S	K	L	O	P	R	T	W	T	Y	Z			
+1x	case950	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	K	L	M	L	M	N	R	T	Y	Z			
+1x	case951	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	K	L	M	L	O	P	R	T	Y	Z			
+1x	case952	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	K	L	M	N	K	N	R	T	Y	Z			
+1x	case953	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	K	L	O	P	K	N	R	T	Y	Z			
+1x	case954	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	K	N	K	L	M	N	R	T	Y	Z			
+1x	case955	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	K	N	K	L	O	P	R	T	Y	Z			
+1x	case956	A	B	C	D	F	B	C	E	G	H	J	R	S	K	L	M	L	M	N	K	N	R	T	Y	Z			
+1x	case957	A	B	C	D	F	B	C	E	G	H	J	R	S	K	L	M	L	M	N	R	T	W	T	Y	Z			
+1x	case958	A	B	C	D	F	B	C	E	G	H	J	R	S	K	L	M	L	O	P	R	T	W	T	Y	Z			
+1x	case959	A	B	C	D	F	B	C	E	G	H	J	R	S	K	L	M	L	O	P	K	N	R	T	Y	Z			
+1x	case960	A	B	C	D	F	B	C	E	G	H	J	R	S	K	L	M	N	K	L	M	N	R	T	Y	Z			
+1x	case961	A	B	C	D	F	B	C	E	G	H	J	R	S	K	L	M	N	K	L	O	P	R	T	Y	Z			
+1x	case962	A	B	C	D	F	B	C	E	G	H	J	R	S	K	L	M	N	K	N	R	T	W	T	Y	Z			
+1x	case963	A	B	C	D	F	B	C	E	G	H	J	R	S	K	L	O	P	K	L	M	N	R	T	Y	Z			
+1x	case964	A	B	C	D	F	B	C	E	G	H	J	R	S	K	L	O	P	K	L	O	P	R	T	Y	Z			
+1x	case965	A	B	C	D	F	B	C	E	G	H	J	R	S	K	L	O	P	K	N	R	T	W	T	Y	Z			
+1x	case966	A	B	C	D	F	B	C	E	G	H	J	R	S	K	N	K	L	M	L	M	N	R	T	Y	Z			
+1x	case967	A	B	C	D	F	B	C	E	G	H	J	R	S	K	N	K	L	M	L	O	P	R	T	Y	Z			
+1x	case968	A	B	C	D	F	B	C	E	G	H	J	R	S	K	N	K	L	M	N	R	T	W	T	Y	Z			
+1x	case969	A	B	C	D	F	B	C	E	G	H	J	R	S	K	N	K	L	O	P	R	T	W	T	Y	Z			
+1x	case970	A	B	C	D	F	B	C	E	G	H	J	K	L	M	L	M	N	K	N	R	T	W	T	Y	Z			
+1x	case971	A	B	C	D	F	B	C	E	G	H	J	K	L	M	L	M	N	K	N	R	S	R	T	Y	Z			
+1x	case972	A	B	C	D	F	B	C	E	G	H	J	K	L	M	L	M	N	R	T	W	S	R	T	Y	Z			
+1x	case973	A	B	C	D	F	B	C	E	G	H	J	K	L	M	L	M	N	R	S	K	N	R	T	Y	Z			
+1x	case974	A	B	C	D	F	B	C	E	G	H	J	K	L	M	L	M	N	R	S	R	T	W	T	Y	Z			
+1x	case975	A	B	C	D	F	B	C	E	G	H	J	K	L	M	L	O	P	R	T	W	S	R	T	Y	Z			
+1x	case976	A	B	C	D	F	B	C	E	G	H	J	K	L	M	L	O	P	R	S	K	N	R	T	Y	Z			
+1x	case977	A	B	C	D	F	B	C	E	G	H	J	K	L	M	L	O	P	R	S	R	T	W	T	Y	Z			
+1x	case978	A	B	C	D	F	B	C	E	G	H	J	K	L	M	L	O	P	K	N	R	T	W	T	Y	Z			
+1x	case979	A	B	C	D	F	B	C	E	G	H	J	K	L	M	L	O	P	K	N	R	S	R	T	Y	Z			
+1x	case980	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	K	L	M	N	R	T	W	T	Y	Z			
+1x	case981	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	K	L	M	N	R	S	R	T	Y	Z			
+1x	case982	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	K	L	O	P	R	T	W	T	Y	Z			
+1x	case983	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	K	L	O	P	R	S	R	T	Y	Z			
+1x	case984	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	K	N	R	T	W	S	R	T	Y	Z			
+1x	case985	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	K	N	R	S	R	T	W	T	Y	Z			
+1x	case986	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	R	T	W	S	K	N	R	T	Y	Z			
+1x	case987	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	R	S	K	L	M	N	R	T	Y	Z			
+1x	case988	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	R	S	K	L	O	P	R	T	Y	Z			
+1x	case989	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	R	S	K	N	R	T	W	T	Y	Z			
+1x	case990	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	R	T	W	S	K	N	R	T	Y	Z			
+1x	case991	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	R	S	K	L	M	N	R	T	Y	Z			
+1x	case992	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	R	S	K	L	O	P	R	T	Y	Z			
+1x	case993	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	R	S	K	N	R	T	W	T	Y	Z			
+1x	case994	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	K	L	M	N	R	T	W	T	Y	Z			
+1x	case995	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	K	L	M	N	R	S	R	T	Y	Z			
+1x	case996	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	K	L	O	P	R	T	W	T	Y	Z			
+1x	case997	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	K	L	O	P	R	S	R	T	Y	Z			
+1x	case998	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	K	N	R	T	W	S	R	T	Y	Z			
+1x	case999	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	K	N	R	S	R	T	W	T	Y	Z			
+1x	case1000	A	B	C	D	F	B	C	E	G	H	J	K	N	K	L	M	L	M	N	R	T	W	T	Y	Z			
+1x	case1001	A	B	C	D	F	B	C	E	G	H	J	K	N	K	L	M	L	M	N	R	S	R	T	Y	Z			
+1x	case1002	A	B	C	D	F	B	C	E	G	H	J	K	N	K	L	M	L	O	P	R	T	W	T	Y	Z			
+1x	case1003	A	B	C	D	F	B	C	E	G	H	J	K	N	K	L	M	L	O	P	R	S	R	T	Y	Z			
+1x	case1004	A	B	C	D	F	B	C	E	G	H	J	K	N	K	L	M	N	R	T	W	S	R	T	Y	Z			
+1x	case1005	A	B	C	D	F	B	C	E	G	H	J	K	N	K	L	M	N	R	S	R	T	W	T	Y	Z			
+1x	case1006	A	B	C	D	F	B	C	E	G	H	J	K	N	K	L	O	P	R	T	W	S	R	T	Y	Z			
+1x	case1007	A	B	C	D	F	B	C	E	G	H	J	K	N	K	L	O	P	R	S	R	T	W	T	Y	Z			
+1x	case1008	A	B	C	D	F	B	C	E	G	H	J	K	N	R	T	W	S	K	L	M	N	R	T	Y	Z			
+1x	case1009	A	B	C	D	F	B	C	E	G	H	J	K	N	R	T	W	S	K	L	O	P	R	T	Y	Z			
+1x	case1010	A	B	C	D	F	B	C	E	G	H	J	K	N	R	S	K	L	M	L	M	N	R	T	Y	Z			
+1x	case1011	A	B	C	D	F	B	C	E	G	H	J	K	N	R	S	K	L	M	L	O	P	R	T	Y	Z			
+1x	case1012	A	B	C	D	F	B	C	E	G	H	J	K	N	R	S	K	L	M	N	R	T	W	T	Y	Z			
+1x	case1013	A	B	C	D	F	B	C	E	G	H	J	K	N	R	S	K	L	O	P	R	T	W	T	Y	Z			
+1x	case1014	A	B	C	D	F	B	C	E	H	G	J	R	T	W	T	W	S	K	L	M	N	K	L	O	Q	Z		
+1x	case1015	A	B	C	D	F	B	C	E	H	G	J	R	T	W	T	W	S	K	L	O	P	K	L	O	Q	Z		
+1x	case1016	A	B	C	D	F	B	C	E	H	G	J	R	T	W	T	W	S	K	N	K	L	M	L	O	Q	Z		
+1x	case1017	A	B	C	D	F	B	C	E	H	G	J	R	T	W	T	W	S	K	N	R	S	K	L	O	Q	Z		
+1x	case1018	A	B	C	D	F	B	C	E	H	G	J	R	T	W	T	W	S	R	S	K	L	M	L	O	Q	Z		
+1x	case1019	A	B	C	D	F	B	C	E	H	G	J	R	T	W	T	W	S	R	S	K	N	K	L	O	Q	Z		
+1x	case1020	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	K	L	M	N	R	S	K	L	O	Q	Z		
+1x	case1021	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	K	L	O	P	R	S	K	L	O	Q	Z		
+1x	case1022	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	K	N	R	T	W	S	K	L	O	Q	Z		
+1x	case1023	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	K	N	R	S	K	L	M	L	O	Q	Z		
+1x	case1024	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	R	T	W	S	K	L	M	L	O	Q	Z		
+1x	case1025	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	R	T	W	S	K	N	K	L	O	Q	Z		
+1x	case1026	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	R	S	K	L	M	N	K	L	O	Q	Z		
+1x	case1027	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	R	S	K	L	O	P	K	L	O	Q	Z		
+1x	case1028	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	R	S	K	N	K	L	M	L	O	Q	Z		
+1x	case1029	A	B	C	D	F	B	C	E	H	G	J	R	S	K	L	M	N	R	T	W	S	K	L	O	Q	Z		
+1x	case1030	A	B	C	D	F	B	C	E	H	G	J	R	S	K	L	O	P	R	T	W	S	K	L	O	Q	Z		
+1x	case1031	A	B	C	D	F	B	C	E	H	G	J	R	S	K	N	R	T	W	T	W	S	K	L	O	Q	Z		
+1x	case1032	A	B	C	D	F	B	C	E	H	G	J	R	S	K	N	R	T	W	S	K	L	M	L	O	Q	Z		
+1x	case1033	A	B	C	D	F	B	C	E	H	G	J	R	S	R	T	W	T	W	S	K	L	M	L	O	Q	Z		
+1x	case1034	A	B	C	D	F	B	C	E	H	G	J	R	S	R	T	W	T	W	S	K	N	K	L	O	Q	Z		
+1x	case1035	A	B	C	D	F	B	C	E	H	G	J	R	S	R	T	W	S	K	L	M	N	K	L	O	Q	Z		
+1x	case1036	A	B	C	D	F	B	C	E	H	G	J	R	S	R	T	W	S	K	L	O	P	K	L	O	Q	Z		
+1x	case1037	A	B	C	D	F	B	C	E	H	G	J	R	S	R	T	W	S	K	N	K	L	M	L	O	Q	Z		
+1x	case1038	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	R	T	W	T	W	S	K	L	O	Q	Z		
+1x	case1039	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	R	T	W	S	R	S	K	L	O	Q	Z		
+1x	case1040	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	R	S	R	T	W	S	K	L	O	Q	Z		
+1x	case1041	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	R	T	W	T	W	S	K	L	O	Q	Z		
+1x	case1042	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	R	T	W	S	R	S	K	L	O	Q	Z		
+1x	case1043	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	R	S	R	T	W	S	K	L	O	Q	Z		
+1x	case1044	A	B	C	D	F	B	C	E	H	G	J	K	N	R	T	W	T	W	S	K	L	M	L	O	Q	Z		
+1x	case1045	A	B	C	D	F	B	C	E	H	G	J	K	N	R	T	W	T	W	S	R	S	K	L	O	Q	Z		
+1x	case1046	A	B	C	D	F	B	C	E	H	G	J	K	N	R	T	W	S	R	T	W	S	K	L	O	Q	Z		
+1x	case1047	A	B	C	D	F	B	C	E	H	G	J	K	N	R	T	W	S	R	S	K	L	M	L	O	Q	Z		
+1x	case1048	A	B	C	D	F	B	C	E	H	G	J	K	N	R	S	R	T	W	T	W	S	K	L	O	Q	Z		
+1x	case1049	A	B	C	D	F	B	C	E	H	G	J	K	N	R	S	R	T	W	S	K	L	M	L	O	Q	Z		
+1x	case1050	A	B	C	D	F	B	C	E	G	H	J	R	T	W	T	W	S	K	L	M	N	K	L	O	Q	Z		
+1x	case1051	A	B	C	D	F	B	C	E	G	H	J	R	T	W	T	W	S	K	L	O	P	K	L	O	Q	Z		
+1x	case1052	A	B	C	D	F	B	C	E	G	H	J	R	T	W	T	W	S	K	N	K	L	M	L	O	Q	Z		
+1x	case1053	A	B	C	D	F	B	C	E	G	H	J	R	T	W	T	W	S	K	N	R	S	K	L	O	Q	Z		
+1x	case1054	A	B	C	D	F	B	C	E	G	H	J	R	T	W	T	W	S	R	S	K	L	M	L	O	Q	Z		
+1x	case1055	A	B	C	D	F	B	C	E	G	H	J	R	T	W	T	W	S	R	S	K	N	K	L	O	Q	Z		
+1x	case1056	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	K	L	M	N	R	S	K	L	O	Q	Z		
+1x	case1057	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	K	L	O	P	R	S	K	L	O	Q	Z		
+1x	case1058	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	K	N	R	T	W	S	K	L	O	Q	Z		
+1x	case1059	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	K	N	R	S	K	L	M	L	O	Q	Z		
+1x	case1060	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	R	T	W	S	K	L	M	L	O	Q	Z		
+1x	case1061	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	R	T	W	S	K	N	K	L	O	Q	Z		
+1x	case1062	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	R	S	K	L	M	N	K	L	O	Q	Z		
+1x	case1063	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	R	S	K	L	O	P	K	L	O	Q	Z		
+1x	case1064	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	R	S	K	N	K	L	M	L	O	Q	Z		
+1x	case1065	A	B	C	D	F	B	C	E	G	H	J	R	S	K	L	M	N	R	T	W	S	K	L	O	Q	Z		
+1x	case1066	A	B	C	D	F	B	C	E	G	H	J	R	S	K	L	O	P	R	T	W	S	K	L	O	Q	Z		
+1x	case1067	A	B	C	D	F	B	C	E	G	H	J	R	S	K	N	R	T	W	T	W	S	K	L	O	Q	Z		
+1x	case1068	A	B	C	D	F	B	C	E	G	H	J	R	S	K	N	R	T	W	S	K	L	M	L	O	Q	Z		
+1x	case1069	A	B	C	D	F	B	C	E	G	H	J	R	S	R	T	W	T	W	S	K	L	M	L	O	Q	Z		
+1x	case1070	A	B	C	D	F	B	C	E	G	H	J	R	S	R	T	W	T	W	S	K	N	K	L	O	Q	Z		
+1x	case1071	A	B	C	D	F	B	C	E	G	H	J	R	S	R	T	W	S	K	L	M	N	K	L	O	Q	Z		
+1x	case1072	A	B	C	D	F	B	C	E	G	H	J	R	S	R	T	W	S	K	L	O	P	K	L	O	Q	Z		
+1x	case1073	A	B	C	D	F	B	C	E	G	H	J	R	S	R	T	W	S	K	N	K	L	M	L	O	Q	Z		
+1x	case1074	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	R	T	W	T	W	S	K	L	O	Q	Z		
+1x	case1075	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	R	T	W	S	R	S	K	L	O	Q	Z		
+1x	case1076	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	R	S	R	T	W	S	K	L	O	Q	Z		
+1x	case1077	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	R	T	W	T	W	S	K	L	O	Q	Z		
+1x	case1078	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	R	T	W	S	R	S	K	L	O	Q	Z		
+1x	case1079	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	R	S	R	T	W	S	K	L	O	Q	Z		
+1x	case1080	A	B	C	D	F	B	C	E	G	H	J	K	N	R	T	W	T	W	S	K	L	M	L	O	Q	Z		
+1x	case1081	A	B	C	D	F	B	C	E	G	H	J	K	N	R	T	W	T	W	S	R	S	K	L	O	Q	Z		
+1x	case1082	A	B	C	D	F	B	C	E	G	H	J	K	N	R	T	W	S	R	T	W	S	K	L	O	Q	Z		
+1x	case1083	A	B	C	D	F	B	C	E	G	H	J	K	N	R	T	W	S	R	S	K	L	M	L	O	Q	Z		
+1x	case1084	A	B	C	D	F	B	C	E	G	H	J	K	N	R	S	R	T	W	T	W	S	K	L	O	Q	Z		
+1x	case1085	A	B	C	D	F	B	C	E	G	H	J	K	N	R	S	R	T	W	S	K	L	M	L	O	Q	Z		
+1x	case1086	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	K	L	M	L	M	N	K	N	R	T	Y	Z	
+1x	case1087	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	K	L	M	L	O	P	K	N	R	T	Y	Z	
+1x	case1088	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	K	L	M	N	K	L	M	N	R	T	Y	Z	
+1x	case1089	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	K	L	M	N	K	L	O	P	R	T	Y	Z	
+1x	case1090	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	K	L	O	P	K	L	M	N	R	T	Y	Z	
+1x	case1091	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	K	L	O	P	K	L	O	P	R	T	Y	Z	
+1x	case1092	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	K	N	K	L	M	L	M	N	R	T	Y	Z	
+1x	case1093	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	K	N	K	L	M	L	O	P	R	T	Y	Z	
+1x	case1094	A	B	C	D	F	B	C	E	H	G	J	R	S	K	L	M	L	M	N	K	N	R	T	W	T	Y	Z	
+1x	case1095	A	B	C	D	F	B	C	E	H	G	J	R	S	K	L	M	L	O	P	K	N	R	T	W	T	Y	Z	
+1x	case1096	A	B	C	D	F	B	C	E	H	G	J	R	S	K	L	M	N	K	L	M	N	R	T	W	T	Y	Z	
+1x	case1097	A	B	C	D	F	B	C	E	H	G	J	R	S	K	L	M	N	K	L	O	P	R	T	W	T	Y	Z	
+1x	case1098	A	B	C	D	F	B	C	E	H	G	J	R	S	K	L	O	P	K	L	M	N	R	T	W	T	Y	Z	
+1x	case1099	A	B	C	D	F	B	C	E	H	G	J	R	S	K	L	O	P	K	L	O	P	R	T	W	T	Y	Z	
+1x	case1100	A	B	C	D	F	B	C	E	H	G	J	R	S	K	N	K	L	M	L	M	N	R	T	W	T	Y	Z	
+1x	case1101	A	B	C	D	F	B	C	E	H	G	J	R	S	K	N	K	L	M	L	O	P	R	T	W	T	Y	Z	
+1x	case1102	A	B	C	D	F	B	C	E	H	G	J	K	L	M	L	M	N	K	N	R	T	W	S	R	T	Y	Z	
+1x	case1103	A	B	C	D	F	B	C	E	H	G	J	K	L	M	L	M	N	K	N	R	S	R	T	W	T	Y	Z	
+1x	case1104	A	B	C	D	F	B	C	E	H	G	J	K	L	M	L	M	N	R	T	W	S	K	N	R	T	Y	Z	
+1x	case1105	A	B	C	D	F	B	C	E	H	G	J	K	L	M	L	M	N	R	S	K	N	R	T	W	T	Y	Z	
+1x	case1106	A	B	C	D	F	B	C	E	H	G	J	K	L	M	L	O	P	R	T	W	S	K	N	R	T	Y	Z	
+1x	case1107	A	B	C	D	F	B	C	E	H	G	J	K	L	M	L	O	P	R	S	K	N	R	T	W	T	Y	Z	
+1x	case1108	A	B	C	D	F	B	C	E	H	G	J	K	L	M	L	O	P	K	N	R	T	W	S	R	T	Y	Z	
+1x	case1109	A	B	C	D	F	B	C	E	H	G	J	K	L	M	L	O	P	K	N	R	S	R	T	W	T	Y	Z	
+1x	case1110	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	K	L	M	N	R	T	W	S	R	T	Y	Z	
+1x	case1111	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	K	L	M	N	R	S	R	T	W	T	Y	Z	
+1x	case1112	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	K	L	O	P	R	T	W	S	R	T	Y	Z	
+1x	case1113	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	K	L	O	P	R	S	R	T	W	T	Y	Z	
+1x	case1114	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	R	T	W	S	K	L	M	N	R	T	Y	Z	
+1x	case1115	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	R	T	W	S	K	L	O	P	R	T	Y	Z	
+1x	case1116	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	R	S	K	L	M	N	R	T	W	T	Y	Z	
+1x	case1117	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	R	S	K	L	O	P	R	T	W	T	Y	Z	
+1x	case1118	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	R	T	W	S	K	L	M	N	R	T	Y	Z	
+1x	case1119	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	R	T	W	S	K	L	O	P	R	T	Y	Z	
+1x	case1120	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	R	S	K	L	M	N	R	T	W	T	Y	Z	
+1x	case1121	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	R	S	K	L	O	P	R	T	W	T	Y	Z	
+1x	case1122	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	K	L	M	N	R	T	W	S	R	T	Y	Z	
+1x	case1123	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	K	L	M	N	R	S	R	T	W	T	Y	Z	
+1x	case1124	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	K	L	O	P	R	T	W	S	R	T	Y	Z	
+1x	case1125	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	K	L	O	P	R	S	R	T	W	T	Y	Z	
+1x	case1126	A	B	C	D	F	B	C	E	H	G	J	K	N	K	L	M	L	M	N	R	T	W	S	R	T	Y	Z	
+1x	case1127	A	B	C	D	F	B	C	E	H	G	J	K	N	K	L	M	L	M	N	R	S	R	T	W	T	Y	Z	
+1x	case1128	A	B	C	D	F	B	C	E	H	G	J	K	N	K	L	M	L	O	P	R	T	W	S	R	T	Y	Z	
+1x	case1129	A	B	C	D	F	B	C	E	H	G	J	K	N	K	L	M	L	O	P	R	S	R	T	W	T	Y	Z	
+1x	case1130	A	B	C	D	F	B	C	E	H	G	J	K	N	R	T	W	S	K	L	M	L	M	N	R	T	Y	Z	
+1x	case1131	A	B	C	D	F	B	C	E	H	G	J	K	N	R	T	W	S	K	L	M	L	O	P	R	T	Y	Z	
+1x	case1132	A	B	C	D	F	B	C	E	H	G	J	K	N	R	S	K	L	M	L	M	N	R	T	W	T	Y	Z	
+1x	case1133	A	B	C	D	F	B	C	E	H	G	J	K	N	R	S	K	L	M	L	O	P	R	T	W	T	Y	Z	
+1x	case1134	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	K	L	M	L	M	N	K	N	R	T	Y	Z	
+1x	case1135	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	K	L	M	L	O	P	K	N	R	T	Y	Z	
+1x	case1136	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	K	L	M	N	K	L	M	N	R	T	Y	Z	
+1x	case1137	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	K	L	M	N	K	L	O	P	R	T	Y	Z	
+1x	case1138	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	K	L	O	P	K	L	M	N	R	T	Y	Z	
+1x	case1139	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	K	L	O	P	K	L	O	P	R	T	Y	Z	
+1x	case1140	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	K	N	K	L	M	L	M	N	R	T	Y	Z	
+1x	case1141	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	K	N	K	L	M	L	O	P	R	T	Y	Z	
+1x	case1142	A	B	C	D	F	B	C	E	G	H	J	R	S	K	L	M	L	M	N	K	N	R	T	W	T	Y	Z	
+1x	case1143	A	B	C	D	F	B	C	E	G	H	J	R	S	K	L	M	L	O	P	K	N	R	T	W	T	Y	Z	
+1x	case1144	A	B	C	D	F	B	C	E	G	H	J	R	S	K	L	M	N	K	L	M	N	R	T	W	T	Y	Z	
+1x	case1145	A	B	C	D	F	B	C	E	G	H	J	R	S	K	L	M	N	K	L	O	P	R	T	W	T	Y	Z	
+1x	case1146	A	B	C	D	F	B	C	E	G	H	J	R	S	K	L	O	P	K	L	M	N	R	T	W	T	Y	Z	
+1x	case1147	A	B	C	D	F	B	C	E	G	H	J	R	S	K	L	O	P	K	L	O	P	R	T	W	T	Y	Z	
+1x	case1148	A	B	C	D	F	B	C	E	G	H	J	R	S	K	N	K	L	M	L	M	N	R	T	W	T	Y	Z	
+1x	case1149	A	B	C	D	F	B	C	E	G	H	J	R	S	K	N	K	L	M	L	O	P	R	T	W	T	Y	Z	
+1x	case1150	A	B	C	D	F	B	C	E	G	H	J	K	L	M	L	M	N	K	N	R	T	W	S	R	T	Y	Z	
+1x	case1151	A	B	C	D	F	B	C	E	G	H	J	K	L	M	L	M	N	K	N	R	S	R	T	W	T	Y	Z	
+1x	case1152	A	B	C	D	F	B	C	E	G	H	J	K	L	M	L	M	N	R	T	W	S	K	N	R	T	Y	Z	
+1x	case1153	A	B	C	D	F	B	C	E	G	H	J	K	L	M	L	M	N	R	S	K	N	R	T	W	T	Y	Z	
+1x	case1154	A	B	C	D	F	B	C	E	G	H	J	K	L	M	L	O	P	R	T	W	S	K	N	R	T	Y	Z	
+1x	case1155	A	B	C	D	F	B	C	E	G	H	J	K	L	M	L	O	P	R	S	K	N	R	T	W	T	Y	Z	
+1x	case1156	A	B	C	D	F	B	C	E	G	H	J	K	L	M	L	O	P	K	N	R	T	W	S	R	T	Y	Z	
+1x	case1157	A	B	C	D	F	B	C	E	G	H	J	K	L	M	L	O	P	K	N	R	S	R	T	W	T	Y	Z	
+1x	case1158	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	K	L	M	N	R	T	W	S	R	T	Y	Z	
+1x	case1159	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	K	L	M	N	R	S	R	T	W	T	Y	Z	
+1x	case1160	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	K	L	O	P	R	T	W	S	R	T	Y	Z	
+1x	case1161	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	K	L	O	P	R	S	R	T	W	T	Y	Z	
+1x	case1162	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	R	T	W	S	K	L	M	N	R	T	Y	Z	
+1x	case1163	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	R	T	W	S	K	L	O	P	R	T	Y	Z	
+1x	case1164	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	R	S	K	L	M	N	R	T	W	T	Y	Z	
+1x	case1165	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	R	S	K	L	O	P	R	T	W	T	Y	Z	
+1x	case1166	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	R	T	W	S	K	L	M	N	R	T	Y	Z	
+1x	case1167	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	R	T	W	S	K	L	O	P	R	T	Y	Z	
+1x	case1168	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	R	S	K	L	M	N	R	T	W	T	Y	Z	
+1x	case1169	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	R	S	K	L	O	P	R	T	W	T	Y	Z	
+1x	case1170	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	K	L	M	N	R	T	W	S	R	T	Y	Z	
+1x	case1171	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	K	L	M	N	R	S	R	T	W	T	Y	Z	
+1x	case1172	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	K	L	O	P	R	T	W	S	R	T	Y	Z	
+1x	case1173	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	K	L	O	P	R	S	R	T	W	T	Y	Z	
+1x	case1174	A	B	C	D	F	B	C	E	G	H	J	K	N	K	L	M	L	M	N	R	T	W	S	R	T	Y	Z	
+1x	case1175	A	B	C	D	F	B	C	E	G	H	J	K	N	K	L	M	L	M	N	R	S	R	T	W	T	Y	Z	
+1x	case1176	A	B	C	D	F	B	C	E	G	H	J	K	N	K	L	M	L	O	P	R	T	W	S	R	T	Y	Z	
+1x	case1177	A	B	C	D	F	B	C	E	G	H	J	K	N	K	L	M	L	O	P	R	S	R	T	W	T	Y	Z	
+1x	case1178	A	B	C	D	F	B	C	E	G	H	J	K	N	R	T	W	S	K	L	M	L	M	N	R	T	Y	Z	
+1x	case1179	A	B	C	D	F	B	C	E	G	H	J	K	N	R	T	W	S	K	L	M	L	O	P	R	T	Y	Z	
+1x	case1180	A	B	C	D	F	B	C	E	G	H	J	K	N	R	S	K	L	M	L	M	N	R	T	W	T	Y	Z	
+1x	case1181	A	B	C	D	F	B	C	E	G	H	J	K	N	R	S	K	L	M	L	O	P	R	T	W	T	Y	Z	
+1x	case1182	A	B	C	D	F	B	C	E	H	G	J	R	T	W	T	W	S	K	L	M	N	R	S	K	L	O	Q	Z
+1x	case1183	A	B	C	D	F	B	C	E	H	G	J	R	T	W	T	W	S	K	L	O	P	R	S	K	L	O	Q	Z
+1x	case1184	A	B	C	D	F	B	C	E	H	G	J	R	T	W	T	W	S	K	N	R	S	K	L	M	L	O	Q	Z
+1x	case1185	A	B	C	D	F	B	C	E	H	G	J	R	T	W	T	W	S	R	S	K	L	M	N	K	L	O	Q	Z
+1x	case1186	A	B	C	D	F	B	C	E	H	G	J	R	T	W	T	W	S	R	S	K	L	O	P	K	L	O	Q	Z
+1x	case1187	A	B	C	D	F	B	C	E	H	G	J	R	T	W	T	W	S	R	S	K	N	K	L	M	L	O	Q	Z
+1x	case1188	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	K	L	M	N	R	T	W	S	K	L	O	Q	Z
+1x	case1189	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	K	L	O	P	R	T	W	S	K	L	O	Q	Z
+1x	case1190	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	K	N	R	T	W	S	K	L	M	L	O	Q	Z
+1x	case1191	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	R	T	W	S	K	L	M	N	K	L	O	Q	Z
+1x	case1192	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	R	T	W	S	K	L	O	P	K	L	O	Q	Z
+1x	case1193	A	B	C	D	F	B	C	E	H	G	J	R	T	W	S	R	T	W	S	K	N	K	L	M	L	O	Q	Z
+1x	case1194	A	B	C	D	F	B	C	E	H	G	J	R	S	K	L	M	N	R	T	W	T	W	S	K	L	O	Q	Z
+1x	case1195	A	B	C	D	F	B	C	E	H	G	J	R	S	K	L	O	P	R	T	W	T	W	S	K	L	O	Q	Z
+1x	case1196	A	B	C	D	F	B	C	E	H	G	J	R	S	K	N	R	T	W	T	W	S	K	L	M	L	O	Q	Z
+1x	case1197	A	B	C	D	F	B	C	E	H	G	J	R	S	R	T	W	T	W	S	K	L	M	N	K	L	O	Q	Z
+1x	case1198	A	B	C	D	F	B	C	E	H	G	J	R	S	R	T	W	T	W	S	K	L	O	P	K	L	O	Q	Z
+1x	case1199	A	B	C	D	F	B	C	E	H	G	J	R	S	R	T	W	T	W	S	K	N	K	L	M	L	O	Q	Z
+1x	case1200	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	R	T	W	T	W	S	R	S	K	L	O	Q	Z
+1x	case1201	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	R	T	W	S	R	T	W	S	K	L	O	Q	Z
+1x	case1202	A	B	C	D	F	B	C	E	H	G	J	K	L	M	N	R	S	R	T	W	T	W	S	K	L	O	Q	Z
+1x	case1203	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	R	T	W	T	W	S	R	S	K	L	O	Q	Z
+1x	case1204	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	R	T	W	S	R	T	W	S	K	L	O	Q	Z
+1x	case1205	A	B	C	D	F	B	C	E	H	G	J	K	L	O	P	R	S	R	T	W	T	W	S	K	L	O	Q	Z
+1x	case1206	A	B	C	D	F	B	C	E	H	G	J	K	N	R	T	W	T	W	S	R	S	K	L	M	L	O	Q	Z
+1x	case1207	A	B	C	D	F	B	C	E	H	G	J	K	N	R	T	W	S	R	T	W	S	K	L	M	L	O	Q	Z
+1x	case1208	A	B	C	D	F	B	C	E	H	G	J	K	N	R	S	R	T	W	T	W	S	K	L	M	L	O	Q	Z
+1x	case1209	A	B	C	D	F	B	C	E	G	H	J	R	T	W	T	W	S	K	L	M	N	R	S	K	L	O	Q	Z
+1x	case1210	A	B	C	D	F	B	C	E	G	H	J	R	T	W	T	W	S	K	L	O	P	R	S	K	L	O	Q	Z
+1x	case1211	A	B	C	D	F	B	C	E	G	H	J	R	T	W	T	W	S	K	N	R	S	K	L	M	L	O	Q	Z
+1x	case1212	A	B	C	D	F	B	C	E	G	H	J	R	T	W	T	W	S	R	S	K	L	M	N	K	L	O	Q	Z
+1x	case1213	A	B	C	D	F	B	C	E	G	H	J	R	T	W	T	W	S	R	S	K	L	O	P	K	L	O	Q	Z
+1x	case1214	A	B	C	D	F	B	C	E	G	H	J	R	T	W	T	W	S	R	S	K	N	K	L	M	L	O	Q	Z
+1x	case1215	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	K	L	M	N	R	T	W	S	K	L	O	Q	Z
+1x	case1216	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	K	L	O	P	R	T	W	S	K	L	O	Q	Z
+1x	case1217	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	K	N	R	T	W	S	K	L	M	L	O	Q	Z
+1x	case1218	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	R	T	W	S	K	L	M	N	K	L	O	Q	Z
+1x	case1219	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	R	T	W	S	K	L	O	P	K	L	O	Q	Z
+1x	case1220	A	B	C	D	F	B	C	E	G	H	J	R	T	W	S	R	T	W	S	K	N	K	L	M	L	O	Q	Z
+1x	case1221	A	B	C	D	F	B	C	E	G	H	J	R	S	K	L	M	N	R	T	W	T	W	S	K	L	O	Q	Z
+1x	case1222	A	B	C	D	F	B	C	E	G	H	J	R	S	K	L	O	P	R	T	W	T	W	S	K	L	O	Q	Z
+1x	case1223	A	B	C	D	F	B	C	E	G	H	J	R	S	K	N	R	T	W	T	W	S	K	L	M	L	O	Q	Z
+1x	case1224	A	B	C	D	F	B	C	E	G	H	J	R	S	R	T	W	T	W	S	K	L	M	N	K	L	O	Q	Z
+1x	case1225	A	B	C	D	F	B	C	E	G	H	J	R	S	R	T	W	T	W	S	K	L	O	P	K	L	O	Q	Z
+1x	case1226	A	B	C	D	F	B	C	E	G	H	J	R	S	R	T	W	T	W	S	K	N	K	L	M	L	O	Q	Z
+1x	case1227	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	R	T	W	T	W	S	R	S	K	L	O	Q	Z
+1x	case1228	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	R	T	W	S	R	T	W	S	K	L	O	Q	Z
+1x	case1229	A	B	C	D	F	B	C	E	G	H	J	K	L	M	N	R	S	R	T	W	T	W	S	K	L	O	Q	Z
+1x	case1230	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	R	T	W	T	W	S	R	S	K	L	O	Q	Z
+1x	case1231	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	R	T	W	S	R	T	W	S	K	L	O	Q	Z
+1x	case1232	A	B	C	D	F	B	C	E	G	H	J	K	L	O	P	R	S	R	T	W	T	W	S	K	L	O	Q	Z
+1x	case1233	A	B	C	D	F	B	C	E	G	H	J	K	N	R	T	W	T	W	S	R	S	K	L	M	L	O	Q	Z
+1x	case1234	A	B	C	D	F	B	C	E	G	H	J	K	N	R	T	W	S	R	T	W	S	K	L	M	L	O	Q	Z
