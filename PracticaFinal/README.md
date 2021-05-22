@@ -42,12 +42,12 @@ En linea de comandos:
 ```
 $ sudo docker build -t my-tf-image .
 
-$ sudo docker run --gpus=all -it -p 8888:8888 my-tf-image
+$ sudo docker run -p 8888:8888 my-tf-image
 ```
 
 # Obtención de los datos
 
-Los datos exceden el tamaño de github de 100MB por lo que deberán ser descargados de manera local, en una carpeta data.
+Los datos se encuentran almacenados en la carpeta data y han sido obtenidos de los siguientes recursos:
 
 - https://www.kaggle.com/kazanova/sentiment140?select=training.1600000.processed.noemoticon.csv
 - https://www.kaggle.com/neha1703/movie-genre-from-its-poster?select=MovieGenre.csv
@@ -81,6 +81,7 @@ Debido al gran tamaño del dataset (1.600.000 tweets), me quedo solo con una par
   <thead>
     <tr style="text-align: right;">
       <th></th>
+      <th>target</th>
       <th>id</th>
       <th>date</th>
       <th>query</th>
@@ -91,6 +92,7 @@ Debido al gran tamaño del dataset (1.600.000 tweets), me quedo solo con una par
   <tbody>
     <tr>
       <th>0</th>
+      <td>0</td>
       <td>1467810369</td>
       <td>Mon Apr 06 22:19:45 PDT 2009</td>
       <td>NO_QUERY</td>
@@ -99,6 +101,7 @@ Debido al gran tamaño del dataset (1.600.000 tweets), me quedo solo con una par
     </tr>
     <tr>
       <th>1</th>
+      <td>0</td>
       <td>1467810672</td>
       <td>Mon Apr 06 22:19:49 PDT 2009</td>
       <td>NO_QUERY</td>
@@ -107,6 +110,7 @@ Debido al gran tamaño del dataset (1.600.000 tweets), me quedo solo con una par
     </tr>
     <tr>
       <th>2</th>
+      <td>0</td>
       <td>1467810917</td>
       <td>Mon Apr 06 22:19:53 PDT 2009</td>
       <td>NO_QUERY</td>
@@ -115,6 +119,7 @@ Debido al gran tamaño del dataset (1.600.000 tweets), me quedo solo con una par
     </tr>
     <tr>
       <th>3</th>
+      <td>0</td>
       <td>1467811184</td>
       <td>Mon Apr 06 22:19:57 PDT 2009</td>
       <td>NO_QUERY</td>
@@ -123,6 +128,7 @@ Debido al gran tamaño del dataset (1.600.000 tweets), me quedo solo con una par
     </tr>
     <tr>
       <th>4</th>
+      <td>0</td>
       <td>1467811193</td>
       <td>Mon Apr 06 22:19:57 PDT 2009</td>
       <td>NO_QUERY</td>
@@ -136,9 +142,11 @@ Debido al gran tamaño del dataset (1.600.000 tweets), me quedo solo con una par
       <td>...</td>
       <td>...</td>
       <td>...</td>
+      <td>...</td>
     </tr>
     <tr>
       <th>1599995</th>
+      <td>4</td>
       <td>2193601966</td>
       <td>Tue Jun 16 08:40:49 PDT 2009</td>
       <td>NO_QUERY</td>
@@ -147,6 +155,7 @@ Debido al gran tamaño del dataset (1.600.000 tweets), me quedo solo con una par
     </tr>
     <tr>
       <th>1599996</th>
+      <td>4</td>
       <td>2193601969</td>
       <td>Tue Jun 16 08:40:49 PDT 2009</td>
       <td>NO_QUERY</td>
@@ -155,6 +164,7 @@ Debido al gran tamaño del dataset (1.600.000 tweets), me quedo solo con una par
     </tr>
     <tr>
       <th>1599997</th>
+      <td>4</td>
       <td>2193601991</td>
       <td>Tue Jun 16 08:40:49 PDT 2009</td>
       <td>NO_QUERY</td>
@@ -163,6 +173,7 @@ Debido al gran tamaño del dataset (1.600.000 tweets), me quedo solo con una par
     </tr>
     <tr>
       <th>1599998</th>
+      <td>4</td>
       <td>2193602064</td>
       <td>Tue Jun 16 08:40:49 PDT 2009</td>
       <td>NO_QUERY</td>
@@ -171,6 +182,7 @@ Debido al gran tamaño del dataset (1.600.000 tweets), me quedo solo con una par
     </tr>
     <tr>
       <th>1599999</th>
+      <td>4</td>
       <td>2193602129</td>
       <td>Tue Jun 16 08:40:50 PDT 2009</td>
       <td>NO_QUERY</td>
@@ -181,6 +193,9 @@ Debido al gran tamaño del dataset (1.600.000 tweets), me quedo solo con una par
 </table>
 <p>50000 rows × 6 columns</p>
 </div>
+
+
+
 
 Comprobamos que no contenga elementos vacíos en ninguna de sus filas
 
@@ -217,48 +232,25 @@ Comprobamos que no contenga elementos vacíos en ninguna de sus filas
             </tr>
     </tbody></table>
 
+<br/>
 
 El dataset esta divido al 50% con la misma cantidad de apariciones de comentarios negativos como positivos
 
-```python
-data['target'] = data['target'].replace([0, 4],['Negative','Positive'])
-data['target'].value_counts()
 ```
     Negative    25000
     Positive    25000
     Name: target, dtype: int64
 
-```python
-data['length'] = data.content.str.split().apply(len)
-
-fig = plt.figure(figsize=(14,7))
-
-ax1 = fig.add_subplot(122)
-sns.histplot(data['length'], ax=ax1,color='black')
-describe = data.length.describe().to_frame().round(2)
-
-ax2 = fig.add_subplot(121)
-ax2.axis('off')
-font_size = 14
-bbox = [0, 0, 1, 1]
-table = ax2.table(cellText = describe.values, rowLabels = describe.index, bbox=bbox, colLabels=describe.columns)
-table.set_fontsize(font_size)
-fig.suptitle('Distribution of text length for sentiment tweets.', fontsize=16)
-
-plt.show()
 ```
+
+Distribución de los tamaños de los tweets para facilitar el aprendizaje de las redes neuronales:
 
 
     
 ![png](images/analisis-datos.png)
 
 
-```python
-data.drop(['id','date','query','username','length'], axis=1, inplace=True)
-data.target = data.target.replace({'Positive': 1, 'Negative': 0})
-data.head()
-```
-
+## Finalmente nos quedamos solo con los datos que nos interesan para el analisis
 
 
 
@@ -314,36 +306,12 @@ data.head()
 </table>
 </div>
 
+<br/>
 
+# Limpieza de tweets (Estandarizado y Stemming)
 
-
-```python
-def clean_tweet(tweet):
-        '''
-        Utility function to clean tweet text by removing links, special characters
-        using simple regex statements.
-        '''
-        tweet = ' '.join(re.sub("(@[A-Za-z0-9]+)|([^0-9A-Za-z \t])|(\w+:\/\/\S+)", " ", tweet).split()).lower()
-        tokens = []
-        for x in tweet.split():
-            if x not in english_stopwords:
-                tokens.append(stemmer.stem(x))
-            
-        return " ".join(tokens)
-```
-
-
-```python
-# Estandarizado : Limpio los datos evitando asi enlaces o caracteres no deseados y poniendo todo el texto en minuscula
-# Stemming : Reduzco palabras compuestas a su base para quedarnos solo con la intencion. Running -> Run (Mejor que
-# el lemmatization)
-
-data.content = data.content.apply(lambda x: clean_tweet(x))
-data.head()
-```
-
-
-
+Estandarizado : Limpio los datos evitando asi enlaces o caracteres no deseados y poniendo todo el texto en minuscula
+Stemming : Reduzco palabras compuestas a su base para quedarnos solo con la intencion. Running -> Run (Mejor que el lemmatization)
 
 <div>
 <style scoped>
@@ -400,27 +368,13 @@ data.head()
 
 
 
-```python
-# Creamos y mezclamos el dataset
+# Preparación para Entrenamiento y Test
+ Mezclo el dataset y divido un 80% para entrenamiento y otro 20% para test. 
 
-dataset = tf.data.Dataset.from_tensor_slices((data['content'].values, data['target'].values))
-dataset = dataset.shuffle(len(data)).batch(1)
-
-# Divido un 80% para entrenamiento y 20% para test. 
-
-dataset_train = dataset.take(int(0.8 * len(data.values)))
-dataset_test = dataset.skip(int(0.8 * len(data.values)))
-
-print('Tamaño entrenamiento ', len(dataset_train))
-print('Tamaño entrenamiento ', len(dataset_test))
-
-for txt, value in dataset_train.take(5):
-    print("Content", txt.numpy())
-    print("Target", value.numpy())
 ```
-
     Tamaño entrenamiento  40000
     Tamaño entrenamiento  10000
+
     Content [b'back later mayb dont know juic still think im screw tomorrow day 1 hide aha never find never']
     Target [1]
     Content [b'go get em cool let know busi save world hang']
@@ -431,36 +385,16 @@ for txt, value in dataset_train.take(5):
     Target [0]
     Content [b'mayb meant say']
     Target [1]
-
-
-
-```python
-# Vectorizado de los datos 
-# Tamaño maximo de un tweet en palabras : 50 (Obtenido de los resultados medios de graficos anteriores)
-
-sequence_length = 50 
-
-vectorize_layer = TextVectorization(
-    output_mode='int',
-    output_sequence_length=sequence_length)
-
-# Nos quedamos solo con el texto y los vectorizamos
-train_text = dataset_train.map(lambda x, y: x)
-vectorize_layer.adapt(train_text)
 ```
 
+# Vectorizado de datos
 
-```python
-# Vectorizamos y mostramos uno de los comentarios del dataset de entrenamiento
+Vectorizado de los datos 
+Tamaño maximo de un tweet en palabras : 50 (Obtenido de los resultados medios de graficos anteriores)
 
-def vectorize_text(text, label):
-  text = tf.expand_dims(text, -1)
-  return vectorize_layer(text), label
 
-text_batch, label_batch = next(iter(dataset_train))
-first_review, first_label = text_batch[0], label_batch[0]
-print("Review", first_review)
-print("Vectorized review",  vectorize_text(first_review, first_label))
+Vectorizamos y mostramos uno de los comentarios del dataset de entrenamiento
+
 ```
 
     Review tf.Tensor(b'biolif class choreograph recit routin clean fun day least babe come home tonight lt 33', shape=(), dtype=string)
@@ -471,51 +405,16 @@ print("Vectorized review",  vectorize_text(first_review, first_label))
                 0,     0,     0,     0,     0,     0,     0,     0,     0,
                 0,     0,     0,     0,     0,     0,     0,     0,     0,
                 0,     0,     0,     0,     0]])>, <tf.Tensor: shape=(), dtype=int64, numpy=0>)
-
-
-
-```python
-print("254 ---> ",vectorize_layer.get_vocabulary()[254])
-print("1613 ---> ",vectorize_layer.get_vocabulary()[1613])
-print('Vocabulary size: {}'.format(len(vectorize_layer.get_vocabulary())))
 ```
+# Vocabulario generado
 
     254 --->  anyth
     1613 --->  peek
     Vocabulary size: 25189
 
+    ['', '[UNK]', 'go', 'get', 'day', 'work', 'good', 'today', 'like', 'love', ...]
 
-
-```python
-vectorize_layer.get_vocabulary()[:10]
-```
-
-
-
-
-    ['', '[UNK]', 'go', 'get', 'day', 'work', 'good', 'today', 'like', 'love']
-
-
-
-
-```python
-# Vectorizamos el dataset de entrenamiento y test en base
-# al modelo de vectorizacion creado anteriormente y mediante a la funcion que lo utiliza
-
-train_ds = dataset_train.map(vectorize_text)
-test_ds = dataset_test.map(vectorize_text)
-```
-
-
-```python
-# Guardado de datos en cache para facilitar el aprendizaje del modelo
-
-AUTOTUNE = tf.data.AUTOTUNE
-
-train_ds = train_ds.cache().prefetch(buffer_size=AUTOTUNE)
-test_ds = test_ds.cache().prefetch(buffer_size=AUTOTUNE)
-```
-
+# Red neuronal 1
 
 ```python
 model1 = tf.keras.Sequential([
@@ -549,7 +448,7 @@ model1.summary()
     Non-trainable params: 0
     _________________________________________________________________
 
-
+## Entrenamiento red neuronal 1
 
 ```python
 %%time
@@ -584,6 +483,7 @@ model1.save('my_model1.h5')  # creates a HDF5 file 'my_model.h5'
     Wall time: 10h 26min 21s
 
 
+# Red neuronal 2
 
 ```python
 model2 = tf.keras.Sequential([
@@ -625,7 +525,7 @@ model2.summary()
     Non-trainable params: 0
     _________________________________________________________________
 
-
+## Entrenamiento red neuronal 2
 
 ```python
 %%time
@@ -662,69 +562,26 @@ model2.save('my_model2.h5')  # creates a HDF5 file 'my_model.h5'
 
 
 
-```python
-model1 = load_model('generated_models/my_model1.h5')
-model2 = load_model('generated_models/my_model2.h5')
-```
 
 
-```python
-def plot_graphs(history, metric):
-  plt.plot(history.history[metric])
-  plt.plot(history.history['val_'+metric], '')
-  plt.xlabel("Epochs")
-  plt.ylabel(metric)
-  plt.legend([metric, 'val_'+metric])
-```
+# Resultados sobre test, modelo 1
 
-
-```python
-loss, accuracy = model1.evaluate(test_ds)
-
-print("Loss: ", loss)
-print("Accuracy: ", accuracy)
-
-plt.figure(figsize=(16, 8))
-plt.subplot(1, 2, 1)
-plot_graphs(history1, 'binary_accuracy')
-plt.ylim(None, 1)
-plt.subplot(1, 2, 2)
-plot_graphs(history1, 'loss')
-plt.ylim(0, None)
 ```
 
     10000/10000 [==============================] - 61s 6ms/step - loss: 0.5658 - binary_accuracy: 0.8896
     Loss:  0.5657927989959717
     Accuracy:  0.8895999789237976
 
-
-
-
-
     (0.0, 0.5983624041080475)
 
-
-
-
+```
     
 ![png](images/precision_modelo1.png)
     
 
 
 
-```python
-loss, accuracy = model2.evaluate(test_ds)
-
-print("Loss: ", loss)
-print("Accuracy: ", accuracy)
-
-plt.figure(figsize=(16, 8))
-plt.subplot(1, 2, 1)
-plot_graphs(history2, 'binary_accuracy')
-plt.ylim(None, 1)
-plt.subplot(1, 2, 2)
-plot_graphs(history2, 'loss')
-plt.ylim(0, None)
+# Resultados sobre test, modelo 2
 ```
 
     10000/10000 [==============================] - 117s 12ms/step - loss: 0.3602 - binary_accuracy: 0.8889
@@ -737,59 +594,16 @@ plt.ylim(0, None)
 
     (0.0, 0.5608066976070404)
 
-
+```
 
 
     
 ![png](images/precision_modelo2.png)
     
 
+# Exportamos los modelos
 
-
-```python
-export_model = tf.keras.Sequential([
-  vectorize_layer,
-  model1,
-  tf.keras.layers.Activation('sigmoid')
-])
-
-export_model.compile(
-    loss=tf.keras.losses.BinaryCrossentropy(from_logits=False), optimizer="adam", metrics=['accuracy']
-)
-
-# Utilizamos la funcion de evaluado directamente con el texto
-loss, accuracy = export_model.evaluate(dataset_test)
-print("Loss: ", loss)
-print("Accuracy: ", accuracy)
-```
-
-    10000/10000 [==============================] - 64s 6ms/step - loss: 0.5658 - accuracy: 0.8896
-    Loss:  0.5657927989959717
-    Accuracy:  0.8895999789237976
-
-
-
-```python
-export_model2 = tf.keras.Sequential([
-  vectorize_layer,
-  model2,
-  tf.keras.layers.Activation('sigmoid')
-])
-
-export_model2.compile(
-    loss=tf.keras.losses.BinaryCrossentropy(from_logits=False), optimizer="adam", metrics=['accuracy']
-)
-
-# Utilizamos la funcion de evaluado directamente con el texto
-loss, accuracy = export_model2.evaluate(dataset_test)
-print("Loss: ", loss)
-print("Accuracy: ", accuracy)
-```
-
-    10000/10000 [==============================] - 118s 11ms/step - loss: 0.3701 - accuracy: 0.8844
-    Loss:  0.3700559735298157
-    Accuracy:  0.8844000101089478
-
+Para poder utilizar la funcion de evaluado directamente con el texto
 
 
 ```python
@@ -816,80 +630,15 @@ export_model.summary()
 
 Utilizando la api de twitter obtenemos los tweets y con el modelo entrenado con anterioridad podemos comprobar con que precision es capaz de obtener los sentimientos de cada uno de los tweets.
 
+Código de ejemplo (https://www.geeksforgeeks.org/python-api-user_timeline-in-tweepy/)
+)
 
-```python
-## Código de ejemplo (https://www.geeksforgeeks.org/python-api-user_timeline-in-tweepy/)
+Elon musk ultimos tweets:
 
-import re
-import tweepy
-from tweepy import OAuthHandler
-from textblob import TextBlob
-
-def twitterClient():
-
-    # keys and tokens from the Twitter Dev Console
-    consumer_key = 'QfHzmKICwbmttyZy7zdejcqKl'
-    consumer_secret = 'aOrUpMfze7ijUSI8DQzHtkHodoVcUgLV2YMx2BSok4sKoKYHGA'
-    access_token = '625111410-5oZNSPcdo0p1dfbuovFyUq6UCOKe28e2Luh8qSXf'
-    access_token_secret = 'RgXvLhn52v3YAyXhvVHI6AlHqEeu2kuxaXy320Mw99TnP'
-
-    # attempt authentication
-    try:
-        # create OAuthHandler object
-        auth = OAuthHandler(consumer_key, consumer_secret)
-        # set access token and secret
-        auth.set_access_token(access_token, access_token_secret)
-        # create tweepy API object to fetch tweets
-        api = tweepy.API(auth)
-    except:
-        print("Error: Authentication Failed")
-        
-    return api
-
-def get_tweet_sentiment(tweet):
-    # create TextBlob object of passed tweet text
-    analysis = TextBlob(clean_tweet(tweet))
-    # set sentiment
-    if analysis.sentiment.polarity > 0:
-        return 'positive'
-    elif analysis.sentiment.polarity == 0:
-        return 'neutral'
-    else:
-        return 'negative'
-    
-def set_sentiment(value):
-    if value <= 0.25: 
-        return 'negative'
-    elif value > 0.25 and value < 0.75:
-        return 'neutral'
-    elif value >= 0.75:
-        return 'positive'
-    
-def is_correct(value1, value2):
-    if value1 == value2 : return 'Correct'
-    else : return 'Incorrect'
 ```
-
-
-```python
-api = twitterClient()
-
-# Obtengo los ultimo tweets de un personaje publico
-timeline = api.user_timeline(screen_name='@elonmusk', 
-                             count=100,
-                             include_rts=False, 
-                             tweet_mode='extended', 
-                             exclude_replies=True)
-# Iterate and print tweets
-
-tweets = [tweet.full_text for tweet in timeline]
-print(*tweets, sep = "\n")
-```
-
     How much is that Doge in the window? https://t.co/bxTkWOr50V
     Tesla Model S Plaid delivery event
     June 3 at our California factory
-    
     Fastest production car ever
     0 to 60mph in under 2 secs
     Tesla has 💎 🙌
@@ -905,13 +654,10 @@ print(*tweets, sep = "\n")
     https://t.co/b2cvFGqVFF
     Thanks again to @nbcsnl cast, writers &amp; crew! Honor &amp; pleasure to do the show with you.
     SpaceX launching satellite Doge-1 to the moon next year
-    
     – Mission paid for in Doge
     – 1st crypto in space
     – 1st meme in space
-    
     To the mooooonnn!!
-    
     https://t.co/xXfjGZVeUW
     Wario was my fav haha 👀 
     https://t.co/TNjn3meLVJ
@@ -921,16 +667,11 @@ print(*tweets, sep = "\n")
     Cybertruck prototype in New York this weekend
     Guest starring … https://t.co/buM3bTOWbX
     https://t.co/DlQtmfjKqL
-
-
+```
 
 ```python
 export_model.predict(tweets)
 ```
-
-
-
-
     array([[9.9980748e-01],
            [1.0728867e-05],
            [9.7501493e-01],
@@ -985,91 +726,6 @@ result
      'positive',
      'negative',
      'neutral']
-
-
-
-
-```python
-predictions2 = export_model2.predict(tweets)
-rounded2 = [float(x) for x in predictions2]
-result2 = [set_sentiment(x) for x in rounded2]
-result2
-```
-
-
-
-
-    ['positive',
-     'positive',
-     'neutral',
-     'neutral',
-     'neutral',
-     'neutral',
-     'neutral',
-     'positive',
-     'negative',
-     'positive',
-     'neutral',
-     'negative',
-     'positive',
-     'positive',
-     'positive',
-     'negative',
-     'positive',
-     'positive',
-     'neutral',
-     'neutral']
-
-
-
-
-```python
-predictions_text_blob = [get_tweet_sentiment(x) for x in tweets]
-predictions_text_blob
-```
-
-
-
-
-    ['positive',
-     'negative',
-     'neutral',
-     'neutral',
-     'neutral',
-     'neutral',
-     'neutral',
-     'positive',
-     'positive',
-     'neutral',
-     'neutral',
-     'neutral',
-     'neutral',
-     'neutral',
-     'positive',
-     'positive',
-     'positive',
-     'positive',
-     'neutral',
-     'neutral']
-
-
-
-
-```python
-x = [tweets, result, result2, predictions_text_blob]
-final_results = pd.DataFrame(x).transpose().rename(columns={0:'Text',
-                                                            1:'Model 1',
-                                                            2:'Model 2',
-                                                            3:'TextBlob'})
-final_results['m1 vs textblob'] = final_results.apply(lambda row: 
-                                                     is_correct(row['Model 1'],row['TextBlob']), 
-                                                     axis=1)
-
-final_results['m2 vs textblob'] = final_results.apply(lambda row: 
-                                                     is_correct(row['Model 2'],row['TextBlob']), 
-                                                     axis=1)
-final_results
-```
 
 
 
@@ -1285,16 +941,9 @@ final_results
 </table>
 </div>
 
-
-
-
 ```python
 final_results['m1 vs textblob'].value_counts()
 ```
-
-
-
-
     Correct      11
     Incorrect     9
     Name: m1 vs textblob, dtype: int64
@@ -1315,14 +964,7 @@ final_results['m2 vs textblob'].value_counts()
 
 
 
-## Recomendación de una pelicula dependiente de su estado de animo en los últimos tweets (https://www.kaggle.com/neha1703/movie-genre-from-its-poster?select=MovieGenre.csv)  
-
-
-```python
-df_mg = pd.read_csv('data/MovieGenre.csv', encoding = 'latin')
-df_mg
-```
-
+# Recomendación de una pelicula dependiente de su estado de animo en los últimos tweets (https://www.kaggle.com/neha1703/movie-genre-from-its-poster?select=MovieGenre.csv)  
 
 
 
@@ -1457,16 +1099,7 @@ df_mg
 <p>40108 rows × 6 columns</p>
 </div>
 
-
-
-
-```python
-df_mg.drop(['Imdb Link','IMDB Score','imdbId', 'Poster'], axis=1, inplace=True)
-df_mg
-```
-
-
-
+# Limpieza de los datos
 
 <div>
 <style scoped>
@@ -1555,24 +1188,9 @@ df_mg
 
 
 ```python
-import random
-
 positive_gen = ['Comedy', 'Adventure', 'Fantasy', 'Romance', 'Action']
 neutral_gen = ['Documentary', 'Biography', 'History']
 negative_gen = ['Drama', 'Horror', 'Crime', 'Thriller', 'Mistery', 'Sad']
-
-def recommend_film(value):
-    if value=='positive' : gen_list = positive_gen
-    elif value=='negative' : gen_list = negative_gen
-    else : gen_list = neutral_gen
-    titles = df_mg['Title'].astype(str)
-    genres = df_mg['Genre'].astype(str)
-    films = []
-    for (t,g) in list(zip(titles,genres)):
-        if g.find(random.choice(gen_list)) == -1:
-        #if random.choice(positive_gen) in g :
-            films.append(t)
-    return random.choice(films)
 ```
 
 
