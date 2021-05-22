@@ -45,8 +45,14 @@ $ sudo docker build -t my-tf-image .
 $ sudo docker run --gpus=all -it -p 8888:8888 my-tf-image
 ```
 
-# Jupyer Notebook + Tensorflow
+# Obtención de los datos
 
+Los datos exceden el tamaño de github de 100MB por lo que deberán ser descargados de manera local, en una carpeta data.
+
+- https://www.kaggle.com/kazanova/sentiment140?select=training.1600000.processed.noemoticon.csv
+- https://www.kaggle.com/neha1703/movie-genre-from-its-poster?select=MovieGenre.csv
+
+# Jupyer Notebook + Tensorflow
 
 Utilizaré las siguientes librerias de código abierto:
 
@@ -63,7 +69,7 @@ Además de Docker para las librerias, utilizo la semilla Random **44** para que 
 
 # Análisis de los datos
 
-Debido al gran tamaño del dataset (1.600.000 tweets), me quedo solo con una parte del mismo (50.000 tweets), para evitar grandes tiempos de entrenamiento de la red neuronal
+Debido al gran tamaño del dataset (1.600.000 tweets), me quedo solo con una parte del mismo (50.000 tweets) y  para evitar grandes tiempos de entrenamiento de la red neuronal.
 
 <div>
 <style scoped>
@@ -75,18 +81,16 @@ Debido al gran tamaño del dataset (1.600.000 tweets), me quedo solo con una par
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>0</th>
-      <th>1</th>
-      <th>2</th>
-      <th>3</th>
-      <th>4</th>
-      <th>5</th>
+      <th>id</th>
+      <th>date</th>
+      <th>query</th>
+      <th>username</th>
+      <th>content</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>0</th>
-      <td>0</td>
       <td>1467810369</td>
       <td>Mon Apr 06 22:19:45 PDT 2009</td>
       <td>NO_QUERY</td>
@@ -95,7 +99,6 @@ Debido al gran tamaño del dataset (1.600.000 tweets), me quedo solo con una par
     </tr>
     <tr>
       <th>1</th>
-      <td>0</td>
       <td>1467810672</td>
       <td>Mon Apr 06 22:19:49 PDT 2009</td>
       <td>NO_QUERY</td>
@@ -104,7 +107,6 @@ Debido al gran tamaño del dataset (1.600.000 tweets), me quedo solo con una par
     </tr>
     <tr>
       <th>2</th>
-      <td>0</td>
       <td>1467810917</td>
       <td>Mon Apr 06 22:19:53 PDT 2009</td>
       <td>NO_QUERY</td>
@@ -113,7 +115,6 @@ Debido al gran tamaño del dataset (1.600.000 tweets), me quedo solo con una par
     </tr>
     <tr>
       <th>3</th>
-      <td>0</td>
       <td>1467811184</td>
       <td>Mon Apr 06 22:19:57 PDT 2009</td>
       <td>NO_QUERY</td>
@@ -122,7 +123,6 @@ Debido al gran tamaño del dataset (1.600.000 tweets), me quedo solo con una par
     </tr>
     <tr>
       <th>4</th>
-      <td>0</td>
       <td>1467811193</td>
       <td>Mon Apr 06 22:19:57 PDT 2009</td>
       <td>NO_QUERY</td>
@@ -136,11 +136,9 @@ Debido al gran tamaño del dataset (1.600.000 tweets), me quedo solo con una par
       <td>...</td>
       <td>...</td>
       <td>...</td>
-      <td>...</td>
     </tr>
     <tr>
       <th>1599995</th>
-      <td>4</td>
       <td>2193601966</td>
       <td>Tue Jun 16 08:40:49 PDT 2009</td>
       <td>NO_QUERY</td>
@@ -149,7 +147,6 @@ Debido al gran tamaño del dataset (1.600.000 tweets), me quedo solo con una par
     </tr>
     <tr>
       <th>1599996</th>
-      <td>4</td>
       <td>2193601969</td>
       <td>Tue Jun 16 08:40:49 PDT 2009</td>
       <td>NO_QUERY</td>
@@ -158,7 +155,6 @@ Debido al gran tamaño del dataset (1.600.000 tweets), me quedo solo con una par
     </tr>
     <tr>
       <th>1599997</th>
-      <td>4</td>
       <td>2193601991</td>
       <td>Tue Jun 16 08:40:49 PDT 2009</td>
       <td>NO_QUERY</td>
@@ -167,7 +163,6 @@ Debido al gran tamaño del dataset (1.600.000 tweets), me quedo solo con una par
     </tr>
     <tr>
       <th>1599998</th>
-      <td>4</td>
       <td>2193602064</td>
       <td>Tue Jun 16 08:40:49 PDT 2009</td>
       <td>NO_QUERY</td>
@@ -176,7 +171,6 @@ Debido al gran tamaño del dataset (1.600.000 tweets), me quedo solo con una par
     </tr>
     <tr>
       <th>1599999</th>
-      <td>4</td>
       <td>2193602129</td>
       <td>Tue Jun 16 08:40:50 PDT 2009</td>
       <td>NO_QUERY</td>
@@ -188,17 +182,7 @@ Debido al gran tamaño del dataset (1.600.000 tweets), me quedo solo con una par
 <p>50000 rows × 6 columns</p>
 </div>
 
-
-```python
-#Busco datos que falten en el dataset
-missing_data = data.isna().sum().sort_values(ascending=False)
-percentage_missing = round((data.isnull().sum()/data.isnull().count()).sort_values(ascending=False)*100,2)
-missing_info = pd.concat([missing_data,percentage_missing],keys=['Missing values','Percentage'],axis=1)
-missing_info.style.background_gradient()
-```
-
-
-
+Comprobamos que no contenga elementos vacíos en ninguna de sus filas
 
 <table id="T_fde3bf9e_b99b_11eb_8319_0242ac110002" ><thead>    <tr>        <th class="blank level0" ></th>        <th class="col_heading level0 col0" >Missing values</th>        <th class="col_heading level0 col1" >Percentage</th>    </tr></thead><tbody>
             <tr>
@@ -723,7 +707,7 @@ plt.ylim(0, None)
 
 
     
-![png](output_24_2.png)
+![png](images/precision_modelo1.png)
     
 
 
@@ -757,7 +741,7 @@ plt.ylim(0, None)
 
 
     
-![png](output_25_2.png)
+![png](images/precision_modelo2.png)
     
 
 
