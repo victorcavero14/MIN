@@ -52,9 +52,17 @@ Los datos se encuentran almacenados en la carpeta data y han sido obtenidos de l
 - https://www.kaggle.com/kazanova/sentiment140?select=training.1600000.processed.noemoticon.csv
 - https://www.kaggle.com/neha1703/movie-genre-from-its-poster?select=MovieGenre.csv
 
+# Twitter
+
+Para poder obtener los tweets de un personaje público utilizo la librería:
+
+- Tweepy
+
+Para poder utilizarla correctamente necesitaremos registrarnos en el programa de desarrolladores de twitter y obtener las **keys** correspondientes.
+
 # Jupyer Notebook + Tensorflow
 
-Utilizaré las siguientes librerias de código abierto:
+Utilizaré las siguientes librerías de código abierto:
 
 - Tensorflow
 - Pandas
@@ -65,9 +73,9 @@ Utilizaré las siguientes librerias de código abierto:
 - Nltk (Snowballstemmer)
 - re
 
-Además de Docker para las librerias, utilizo la semilla Random **44** para que en las operaciones se ejecuten siempre igual.
+Además de Docker para las librerías, utilizo la semilla Random **44** para que en las operaciones se ejecuten siempre igual.
 
-# Análisis de los datos
+## Análisis de los datos
 
 Debido al gran tamaño del dataset (1.600.000 tweets), me quedo solo con una parte del mismo (50.000 tweets) y  para evitar grandes tiempos de entrenamiento de la red neuronal.
 
@@ -250,7 +258,7 @@ Distribución de los tamaños de los tweets para facilitar el aprendizaje de las
 ![png](images/analisis-datos.png)
 
 
-## Finalmente nos quedamos solo con los datos que nos interesan para el analisis
+Finalmente nos quedamos solo con las columnas que nos interesan para el analisis
 
 
 
@@ -308,7 +316,7 @@ Distribución de los tamaños de los tweets para facilitar el aprendizaje de las
 
 <br/>
 
-# Limpieza de tweets (Estandarizado y Stemming)
+## Limpieza de tweets (Estandarizado y Stemming)
 
 Estandarizado : Limpio los datos evitando asi enlaces o caracteres no deseados y poniendo todo el texto en minuscula
 Stemming : Reduzco palabras compuestas a su base para quedarnos solo con la intencion. Running -> Run (Mejor que el lemmatization)
@@ -365,10 +373,7 @@ Stemming : Reduzco palabras compuestas a su base para quedarnos solo con la inte
 </table>
 </div>
 
-
-
-
-# Preparación para Entrenamiento y Test
+## Preparación para Entrenamiento y Test
  Mezclo el dataset y divido un 80% para entrenamiento y otro 20% para test. 
 
 ```
@@ -387,7 +392,7 @@ Stemming : Reduzco palabras compuestas a su base para quedarnos solo con la inte
     Target [1]
 ```
 
-# Vectorizado de datos
+## Vectorizado de datos
 
 Vectorizado de los datos 
 Tamaño maximo de un tweet en palabras : 50 (Obtenido de los resultados medios de graficos anteriores)
@@ -396,7 +401,6 @@ Tamaño maximo de un tweet en palabras : 50 (Obtenido de los resultados medios d
 Vectorizamos y mostramos uno de los comentarios del dataset de entrenamiento
 
 ```
-
     Review tf.Tensor(b'biolif class choreograph recit routin clean fun day least babe come home tonight lt 33', shape=(), dtype=string)
     Vectorized review (<tf.Tensor: shape=(1, 50), dtype=int64, numpy=
     array([[23406,   207, 22483,  6376,  3110,   253,    64,     4,   259,
@@ -406,7 +410,9 @@ Vectorizamos y mostramos uno de los comentarios del dataset de entrenamiento
                 0,     0,     0,     0,     0,     0,     0,     0,     0,
                 0,     0,     0,     0,     0]])>, <tf.Tensor: shape=(), dtype=int64, numpy=0>)
 ```
-# Vocabulario generado
+## Vocabulario generado
+
+Mostramos el vocabulario que ha generado el layer de vectorizado de datos sobre los de entrenamiento. Como podemos ver cada número tiene asociado una palabra :
 
     254 --->  anyth
     1613 --->  peek
@@ -415,6 +421,10 @@ Vectorizamos y mostramos uno de los comentarios del dataset de entrenamiento
     ['', '[UNK]', 'go', 'get', 'day', 'work', 'good', 'today', 'like', 'love', ...]
 
 # Red neuronal 1
+
+Especificacion neuronal, en el caso en el que nos encontramos lo mejor sería utilizar:
+
+- RNN (Recurrent neuronal network): es poderosa para modelar datos secuenciales o lenguaje natural. Usa un bucle for para iterar sobre los estados de una secuencia, mientras mantiene un estado interno que codifica información sobre los pasos de tiempo que ha visto hasta ahora.
 
 ```python
 model1 = tf.keras.Sequential([
@@ -448,6 +458,18 @@ model1.summary()
     Non-trainable params: 0
     _________________________________________________________________
 
+Como podemos observar esta red neuronal esta formada por 4 capas:
+
+- EMBEDDING: que transforma los datos numericos vectorizados anteriormente a vectores ajustados y del mismo tamaño. (mask_zero para adaptarse a los distintos tamaños de los tweets)
+- BIDIRECTIONAL: este importante no solo computar el texto en una sola direccion (--->) si no también de (<---), ya que todas las palabras dependen entre sí.
+- DENSE: Capa final para condensar los resultados, es un nodo cotidiano y utilizado usualmente en las redes neuronales.
+
+Para medir la red utilizamos:
+
+- BinaryCrossentropy: Calcula la pérdida de entropía cruzada entre los datos verdaderos y las predicciones
+- BinaryAccuracy: Calcula cuanto las predicciones se adaptan a los datos verdaderos
+- Optimizado ADAM: algoritmo adama es el mas común para estos casos, donde tenemos que clasificar texto de manera binaria.
+
 ## Entrenamiento red neuronal 1
 
 ```python
@@ -456,7 +478,7 @@ model1.summary()
 history1 = model1.fit(train_ds, epochs=10,
                     validation_data=test_ds)
 
-model1.save('my_model1.h5')  # creates a HDF5 file 'my_model.h5'
+model1.save('my_model1.h5')  # Guardado del modelo
 ```
 
     Epoch 1/10
@@ -498,7 +520,10 @@ model2 = tf.keras.Sequential([
 
 model2.compile(loss=tf.keras.losses.BinaryCrossentropy(from_logits=True),
               optimizer='adam',
-              metrics=tf.metrics.BinaryAccuracy(threshold=0.0))
+              metrics=tf.metrics.BinaryAccura(threshold=0.0))
+```
+
+```python
 model2.summary()
 ```
 
@@ -524,6 +549,11 @@ model2.summary()
     Trainable params: 1,982,465
     Non-trainable params: 0
     _________________________________________________________________
+
+A las capas anteriormente nombradas se añaden extras:
+
+- +1 BIDIRECTIONAL: Con esto evitaremos un posible sobreaprendizaje sobre los datos de entrenamiento de la primera red neuronal.
+- DROPOUT: establece aleatoriamente algunas entradas a 0 durante el tiempo de entrenamiento, lo que ayuda a evitar el overfitting. Los inputs que no varian a 0 se escalan en 1 / (1 - 0,3) de modo que la suma de todas las entradas no cambia.
 
 ## Entrenamiento red neuronal 2
 
@@ -560,20 +590,14 @@ model2.save('my_model2.h5')  # creates a HDF5 file 'my_model.h5'
     CPU times: user 15h 14min, sys: 1h 40min 21s, total: 16h 54min 22s
     Wall time: 6h 40min 22s
 
-
-
-
-
 # Resultados sobre test, modelo 1
 
 ```
-
     10000/10000 [==============================] - 61s 6ms/step - loss: 0.5658 - binary_accuracy: 0.8896
     Loss:  0.5657927989959717
     Accuracy:  0.8895999789237976
 
     (0.0, 0.5983624041080475)
-
 ```
     
 ![png](images/precision_modelo1.png)
@@ -583,17 +607,11 @@ model2.save('my_model2.h5')  # creates a HDF5 file 'my_model.h5'
 
 # Resultados sobre test, modelo 2
 ```
-
     10000/10000 [==============================] - 117s 12ms/step - loss: 0.3602 - binary_accuracy: 0.8889
     Loss:  0.3602001368999481
     Accuracy:  0.8888999819755554
 
-
-
-
-
     (0.0, 0.5608066976070404)
-
 ```
 
 
@@ -601,7 +619,7 @@ model2.save('my_model2.h5')  # creates a HDF5 file 'my_model.h5'
 ![png](images/precision_modelo2.png)
     
 
-# Exportamos los modelos
+## Exportar modelos
 
 Para poder utilizar la funcion de evaluado directamente con el texto
 
@@ -626,48 +644,52 @@ export_model.summary()
     _________________________________________________________________
 
 
-# Analisis de sentimientos de personaje público utilizando el modelo creado
+# Analisis de sentimientos de un personaje público utilizando los modelos creados
 
 Utilizando la api de twitter obtenemos los tweets y con el modelo entrenado con anterioridad podemos comprobar con que precision es capaz de obtener los sentimientos de cada uno de los tweets.
 
 Código de ejemplo (https://www.geeksforgeeks.org/python-api-user_timeline-in-tweepy/)
-)
 
-Elon musk ultimos tweets:
+Chris Evans ultimos tweets:
 
 ```
-    How much is that Doge in the window? https://t.co/bxTkWOr50V
-    Tesla Model S Plaid delivery event
-    June 3 at our California factory
-    Fastest production car ever
-    0 to 60mph in under 2 secs
-    Tesla has 💎 🙌
-    Giga Berlin suppliers please accelerate!
-    https://t.co/13m1KHFMjv
-    As always https://t.co/gtFmtokzEZ
-    Working with Doge devs to improve system transaction efficiency. Potentially promising.
-    To be clear, I strongly believe in crypto, but it can’t drive a massive increase in fossil fuel use, especially coal
-    It is high time there was a carbon tax!
-    Tesla &amp; Bitcoin https://t.co/YSswJmVZhP
-    Do you want Tesla to accept Doge?
-    SNL Monologue
-    https://t.co/b2cvFGqVFF
-    Thanks again to @nbcsnl cast, writers &amp; crew! Honor &amp; pleasure to do the show with you.
-    SpaceX launching satellite Doge-1 to the moon next year
-    – Mission paid for in Doge
-    – 1st crypto in space
-    – 1st meme in space
-    To the mooooonnn!!
-    https://t.co/xXfjGZVeUW
-    Wario was my fav haha 👀 
-    https://t.co/TNjn3meLVJ
-    Special link to view SNL outside USA
-    https://t.co/egSDZ8sNFu
-    First time a Falcon rocket booster will reach double digits in flights https://t.co/wrojsaGExZ
-    Cybertruck prototype in New York this weekend
-    Guest starring … https://t.co/buM3bTOWbX
-    https://t.co/DlQtmfjKqL
+    I. Love. Katie. Porter. 
+    Also, the greed of big pharma is shameful. We all agree on that, right? https://t.co/7gaRam8INH
+    .@chris_haven is a non-profit that provides housing for families whose children are receiving cancer treatments in Boston. They celebrate their 20th anniversary this year! Check out their fundraising auction, all proceeds go to benefit their work https://t.co/faCQZjB36Q
+    Beginning, middle, and end of dragging out the question, ‘Do you....wanna go....to the DOG PARK??’ https://t.co/WNPsu6Ok3Y
+    I’m incredibly proud of the Counterpoint section of ASP. In my opinion, EVERY elected official should be able to debate ALL of their opinions in this way(and we should demand it!). I love @RepKatiePorter and @RepDustyJohnson for showing how useful this particular section can be💙 https://t.co/eYS7vasl8H
+    Kids don’t wear their thoughts on their sleeves, so we don’t know what they might be going through. In fact, 1 in 5 children is living with mental illness. Let’s break the stigma surrounding mental health. Learn more at https://t.co/v1BKiLSRuZ.
+    Happy Mother’s Day to all the mothers out there! (But especially mine 💙) https://t.co/iNbXzQKbOh
+    As someone who grew up with a lot of VHS tapes, this is pretty cool. https://t.co/riUqA84YrU
+    You’re done, Rudy. Good riddance.
+    Justice. Sending love to George Floyd’s family and friends.
+    As if COMMON SENSE didn’t already make things crystal clear, these closing arguments certainly have. Time for justice. 
+    
+    #JusticeForGeorgeFloyd
+    #MayaforMayor. Period.
+    
+    Join the movement: https://t.co/LGvvTJhfNg
+    https://t.co/fMdzloohOb
+    A fantastic piece by our @ASP partner, Joe. He’s a genuinely good man with an exceptional mind. https://t.co/yIF9lxfPva
+    Thank you SO much to @newsweek and @bridgeusa_ for a wonderful conversation to kickoff @asp and Newsweek’s joint series on Gen Z. Go watch our roundtable w/ these three AMAZING young people if you want to feel better about what’s ahead for our country. https://t.co/zLgUoLhT3c https://t.co/cBw3PsO3xx
+    Always a pleasure chatting with @SenBooker https://t.co/VK3BssSSGe
+    Very excited about this! https://t.co/JJLoUlz1RH
+    Thanks for having me on to chat about @ASP! https://t.co/hVG5wA0PXd
+    🎉🎉🎉 https://t.co/eneLvT4Upw
+    Voting is the bedrock of our democracy. When we vote, we make our voices heard.
+    
+    If you want to expand and protect that right, text UNRIG to 21333 and tell your Senators to pass the #ForThePeopleAct.
+    
+    Click the link below to learn more: https://t.co/49DDIe3f2q
+    If you’re not following this woman, what are you doing?? The ‘brainpickings’ are consistently full of beautiful nuggets that are always worth it. https://t.co/GfOe4lwaOb
+    Very exciting! https://t.co/2qRtHCuDtO
+    When I filmed the first Captain America in 2010, two of my high school buddies, Zach and Jon, were my “assistants”. 
+    
+    Zach got a lot of great footage. 
+    
+    Jon was unimpressed. https://t.co/ltONBcxJKd
 ```
+
 
 ```python
 export_model.predict(tweets)
@@ -691,44 +713,17 @@ export_model.predict(tweets)
            [9.9999899e-01],
            [9.9984610e-01],
            [5.0615907e-02],
-           [5.5967766e-01]], dtype=float32)
+           [5.5967766e-01]], dtype=float32)     
 
+# Resultados finales
 
+Para ver de forma más sencilla (humana) las predicciones de los modelos creados adapto de la siguiente manera:
 
+- positive: value >= 0,75
+- neutral: 0,25 < value < 0,75
+- negative: value <= 0.25
 
-```python
-predictions = export_model.predict(tweets)
-rounded = [float(x) for x in predictions]
-result = [set_sentiment(x) for x in rounded]
-result
-```
-
-
-
-
-    ['positive',
-     'negative',
-     'positive',
-     'positive',
-     'neutral',
-     'positive',
-     'neutral',
-     'positive',
-     'negative',
-     'positive',
-     'neutral',
-     'negative',
-     'neutral',
-     'positive',
-     'positive',
-     'negative',
-     'positive',
-     'positive',
-     'negative',
-     'neutral']
-
-
-
+Para ver la efectividad de los modelos creados los comparo con otra libreria que tiene un modelo entrenado: TextBlob.
 
 <div>
 <style scoped>
@@ -759,70 +754,70 @@ result
   <tbody>
     <tr>
       <th>0</th>
-      <td>How much is that Doge in the window? https://t...</td>
+      <td>I. Love. Katie. Porter. \n\nAlso, the greed of...</td>
       <td>positive</td>
-      <td>positive</td>
+      <td>neutral</td>
       <td>positive</td>
       <td>Correct</td>
-      <td>Correct</td>
+      <td>Incorrect</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>Tesla Model S Plaid delivery event\nJune 3 at ...</td>
-      <td>negative</td>
+      <td>.@chris_haven is a non-profit that provides ho...</td>
       <td>positive</td>
-      <td>negative</td>
-      <td>Correct</td>
+      <td>positive</td>
+      <td>neutral</td>
+      <td>Incorrect</td>
       <td>Incorrect</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>Tesla has 💎 🙌</td>
-      <td>positive</td>
+      <td>Beginning, middle, and end of dragging out the...</td>
       <td>neutral</td>
       <td>neutral</td>
+      <td>negative</td>
       <td>Incorrect</td>
-      <td>Correct</td>
+      <td>Incorrect</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>Giga Berlin suppliers please accelerate!</td>
+      <td>I’m incredibly proud of the Counterpoint secti...</td>
       <td>positive</td>
       <td>neutral</td>
-      <td>neutral</td>
-      <td>Incorrect</td>
+      <td>positive</td>
       <td>Correct</td>
+      <td>Incorrect</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>https://t.co/13m1KHFMjv</td>
-      <td>neutral</td>
-      <td>neutral</td>
-      <td>neutral</td>
-      <td>Correct</td>
-      <td>Correct</td>
+      <td>Kids don’t wear their thoughts on their sleeve...</td>
+      <td>positive</td>
+      <td>positive</td>
+      <td>negative</td>
+      <td>Incorrect</td>
+      <td>Incorrect</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>As always https://t.co/gtFmtokzEZ</td>
-      <td>positive</td>
-      <td>neutral</td>
+      <td>Happy Mother’s Day to all the mothers out ther...</td>
+      <td>negative</td>
+      <td>negative</td>
       <td>neutral</td>
       <td>Incorrect</td>
-      <td>Correct</td>
+      <td>Incorrect</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>Working with Doge devs to improve system trans...</td>
+      <td>As someone who grew up with a lot of VHS tapes...</td>
+      <td>positive</td>
       <td>neutral</td>
-      <td>neutral</td>
-      <td>neutral</td>
+      <td>positive</td>
       <td>Correct</td>
-      <td>Correct</td>
+      <td>Incorrect</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>To be clear, I strongly believe in crypto, but...</td>
+      <td>You’re done, Rudy. Good riddance.</td>
       <td>positive</td>
       <td>positive</td>
       <td>positive</td>
@@ -831,52 +826,52 @@ result
     </tr>
     <tr>
       <th>8</th>
-      <td>It is high time there was a carbon tax!</td>
+      <td>Justice. Sending love to George Floyd’s family...</td>
       <td>negative</td>
-      <td>negative</td>
+      <td>neutral</td>
       <td>positive</td>
       <td>Incorrect</td>
       <td>Incorrect</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>Tesla &amp;amp; Bitcoin https://t.co/YSswJmVZhP</td>
+      <td>As if COMMON SENSE didn’t already make things ...</td>
       <td>positive</td>
       <td>positive</td>
-      <td>neutral</td>
-      <td>Incorrect</td>
-      <td>Incorrect</td>
+      <td>positive</td>
+      <td>Correct</td>
+      <td>Correct</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>Do you want Tesla to accept Doge?</td>
+      <td>#MayaforMayor. Period.\n\nJoin the movement: h...</td>
+      <td>positive</td>
+      <td>positive</td>
       <td>neutral</td>
-      <td>neutral</td>
-      <td>neutral</td>
-      <td>Correct</td>
-      <td>Correct</td>
+      <td>Incorrect</td>
+      <td>Incorrect</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>SNL Monologue\nhttps://t.co/b2cvFGqVFF</td>
-      <td>negative</td>
+      <td>A fantastic piece by our @ASP partner, Joe. He...</td>
       <td>negative</td>
       <td>neutral</td>
+      <td>positive</td>
       <td>Incorrect</td>
       <td>Incorrect</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>Thanks again to @nbcsnl cast, writers &amp;amp; cr...</td>
-      <td>neutral</td>
+      <td>Thank you SO much to @newsweek and @bridgeusa_...</td>
       <td>positive</td>
-      <td>neutral</td>
+      <td>positive</td>
+      <td>positive</td>
       <td>Correct</td>
-      <td>Incorrect</td>
+      <td>Correct</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>SpaceX launching satellite Doge-1 to the moon ...</td>
+      <td>Always a pleasure chatting with @SenBooker htt...</td>
       <td>positive</td>
       <td>positive</td>
       <td>neutral</td>
@@ -885,34 +880,34 @@ result
     </tr>
     <tr>
       <th>14</th>
-      <td>Wario was my fav haha 👀 \nhttps://t.co/TNjn3meLVJ</td>
+      <td>Very excited about this! https://t.co/JJLoUlz1RH</td>
       <td>positive</td>
       <td>positive</td>
-      <td>positive</td>
-      <td>Correct</td>
-      <td>Correct</td>
+      <td>neutral</td>
+      <td>Incorrect</td>
+      <td>Incorrect</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>Special link to view SNL outside USA\nhttps://...</td>
-      <td>negative</td>
-      <td>negative</td>
+      <td>Thanks for having me on to chat about @ASP! ht...</td>
       <td>positive</td>
+      <td>positive</td>
+      <td>neutral</td>
       <td>Incorrect</td>
       <td>Incorrect</td>
     </tr>
     <tr>
       <th>16</th>
-      <td>First time a Falcon rocket booster will reach ...</td>
+      <td>🎉🎉🎉 https://t.co/eneLvT4Upw</td>
       <td>positive</td>
-      <td>positive</td>
-      <td>positive</td>
-      <td>Correct</td>
+      <td>neutral</td>
+      <td>neutral</td>
+      <td>Incorrect</td>
       <td>Correct</td>
     </tr>
     <tr>
       <th>17</th>
-      <td>Cybertruck prototype in New York this weekend</td>
+      <td>Voting is the bedrock of our democracy. When w...</td>
       <td>positive</td>
       <td>positive</td>
       <td>positive</td>
@@ -921,52 +916,60 @@ result
     </tr>
     <tr>
       <th>18</th>
-      <td>Guest starring … https://t.co/buM3bTOWbX</td>
-      <td>negative</td>
+      <td>If you’re not following this woman, what are y...</td>
+      <td>positive</td>
+      <td>positive</td>
+      <td>positive</td>
+      <td>Correct</td>
+      <td>Correct</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>Very exciting! https://t.co/2qRtHCuDtO</td>
+      <td>positive</td>
       <td>neutral</td>
       <td>neutral</td>
       <td>Incorrect</td>
       <td>Correct</td>
     </tr>
     <tr>
-      <th>19</th>
-      <td>https://t.co/DlQtmfjKqL</td>
-      <td>neutral</td>
-      <td>neutral</td>
-      <td>neutral</td>
+      <th>20</th>
+      <td>When I filmed the first Captain America in 201...</td>
+      <td>positive</td>
+      <td>negative</td>
+      <td>positive</td>
       <td>Correct</td>
-      <td>Correct</td>
+      <td>Incorrect</td>
     </tr>
   </tbody>
 </table>
 </div>
+<br/>
+
+## Resultados del modelo 1 frente a TextBlob
 
 ```python
 final_results['m1 vs textblob'].value_counts()
 ```
-    Correct      11
-    Incorrect     9
+    Incorrect    12
+    Correct       9
     Name: m1 vs textblob, dtype: int64
 
 
-
+## Resultados del modelo 2 frente a TextBlob
 
 ```python
 final_results['m2 vs textblob'].value_counts()
 ```
-
-
-
-
-    Correct      13
-    Incorrect     7
+    Incorrect    14
+    Correct       7
     Name: m2 vs textblob, dtype: int64
 
 
 
-# Recomendación de una pelicula dependiente de su estado de animo en los últimos tweets (https://www.kaggle.com/neha1703/movie-genre-from-its-poster?select=MovieGenre.csv)  
+# Recomendación película
 
-
+Recomendación de una pelicula dependiente de su estado de animo en los últimos tweets, utilizando el dataset de películas: https://www.kaggle.com/neha1703/movie-genre-from-its-poster?select=MovieGenre.csv
 
 <div>
 <style scoped>
@@ -1099,7 +1102,7 @@ final_results['m2 vs textblob'].value_counts()
 <p>40108 rows × 6 columns</p>
 </div>
 
-# Limpieza de los datos
+## Limpiamos del dataset las columnas que no son relevantes
 
 <div>
 <style scoped>
@@ -1184,40 +1187,46 @@ final_results['m2 vs textblob'].value_counts()
 <p>40108 rows × 2 columns</p>
 </div>
 
+## Selección de géneros dependientes de la emoción
 
+- positive: Comedy, Adventure,Fantasy, Romance y Action
+- neutral = Documentary, Biography y History
+- negative = Drama, Horror, Crime, Thriller, Mistery y Sad
 
+Observamos el sentimiento general y recomendamos una película en base a ello.
 
-```python
-positive_gen = ['Comedy', 'Adventure', 'Fantasy', 'Romance', 'Action']
-neutral_gen = ['Documentary', 'Biography', 'History']
-negative_gen = ['Drama', 'Horror', 'Crime', 'Thriller', 'Mistery', 'Sad']
+## Modelo 1
+
 ```
-
-
-```python
-print(final_results['Model 1'].value_counts())
-print('Pelicula recomendada para sentimiento positivo: ' + recommend_film('positive'))
-```
-
-    positive    10
-    neutral      5
-    negative     5
+    positive    17
+    negative     3
+    neutral      1
     Name: Model 1, dtype: int64
-    Pelicula recomendada para sentimiento positivo: American Beauty (1999)
-
-
-
-```python
-print(final_results['Model 2'].value_counts())
-print('Pelicula recomendada para sentimiento neutral: ' + recommend_film('positive'))
+    Pelicula recomendada para sentimiento positivo: The Counterfeiters (2007)
 ```
 
-    positive    9
-    neutral     8
-    negative    3
-    Name: Model 2, dtype: int64
-    Pelicula recomendada para sentimiento neutral: Doragon bÌ«ru GT: GokÌÈ gaiden! YÌÈki no akashi wa sÌÈ-shin-chÌÈ (1997)
 
+
+## Modelo 2
+
+```
+    positive    11
+    neutral      8
+    negative     2
+    Name: Model 2, dtype: int64
+    Pelicula recomendada para sentimiento neutral: Alias Ruby Blade (2012)
+```
+
+
+## Text blob 
+
+```
+    positive    11
+    neutral      8
+    negative     2
+    Name: TextBlob, dtype: int64
+    Pelicula recomendada para sentimiento positivo: Finding Truelove (2012)
+```
 
 ## Utilizando la beta privada de OpenAI - GPT3
 
