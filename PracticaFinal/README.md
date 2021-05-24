@@ -363,7 +363,7 @@ Finalmente nos quedamos solo con las columnas que nos interesan para el analisis
 
 ## Vectorizado de datos
 
-Vectorizado de los datos 
+Vectorizado de los datos
 Tamaño maximo de un tweet en palabras : 50 (Obtenido de los resultados medios de graficos anteriores)
 
 
@@ -389,7 +389,7 @@ Mostramos el vocabulario que ha generado el layer de vectorizado de datos sobre 
     Vocabulary size: 25189
 ```
 
-El diccionario de Oxford incluye unas 180.000 palabras pero, ¿cuántas se usan diariamente? Se dice que un hablante medio de inglés conoce alrededor de unas 20.000 palabras.
+El diccionario de Oxford incluye unas 180.000 palabras pero, ¿cuántas se usan diariamente? Se dice que un hablante medio de inglés conoce alrededor de unas 20.000 palabras. (https://www.brainlang.com/blog/vocabulario-basico-en-ingles.html#:~:text=El%20diccionario%20de%20Oxford%20incluye,alrededor%20de%20unas%2020.000%20palabras)
 
 # Red neuronal 1
 
@@ -564,7 +564,7 @@ model2.save('my_model2.h5')  # creates a HDF5 file 'my_model.h5'
     CPU times: user 15h 14min, sys: 1h 40min 21s, total: 16h 54min 22s
     Wall time: 6h 40min 22s
 
-![png](images/precision_modelo1.png)
+![png](images/precision_modelo2.png)
 
 ## Exportar modelos
 
