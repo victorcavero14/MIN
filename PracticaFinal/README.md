@@ -55,7 +55,7 @@ Los datos se encuentran almacenados en la carpeta data y han sido obtenidos de l
 
 # Twitter
 
-Para poder obtener los tweets de un personaje público utilizo la librería:
+Para poder obtener los tweets utilizo la librería:
 
 - Tweepy
 
@@ -244,7 +244,6 @@ El dataset esta divido al 50% con la misma cantidad de apariciones de comentario
     Negative    25000
     Positive    25000
     Name: target, dtype: int64
-
 ```
 
 Distribución de los tamaños de los tweets para facilitar el aprendizaje de las redes neuronales:
@@ -301,8 +300,8 @@ Finalmente nos quedamos solo con las columnas que nos interesan para el analisis
 
 ## Limpieza de tweets (Estandarizado y Stemming)
 
-Estandarizado : Limpio los datos evitando asi enlaces o caracteres no deseados y poniendo todo el texto en minuscula
-Stemming : Reduzco palabras compuestas a su base para quedarnos solo con la intencion. Running -> Run (Mejor que el lemmatization)
+- Estandarizado : Limpio los datos evitando asi enlaces o caracteres no deseados y poniendo todo el texto en minuscula.
+- Stemming : Reduzco palabras compuestas a su base para quedarnos solo con la intencion. Running -> Run (Mejor que el lemmatization).
 
 <div>
 <table border="1" class="dataframe">
@@ -384,11 +383,13 @@ Vectorizamos y mostramos uno de los comentarios del dataset de entrenamiento
 
 Mostramos el vocabulario que ha generado el layer de vectorizado de datos sobre los de entrenamiento. Como podemos ver cada número tiene asociado una palabra :
 
-    254 --->  anyth
-    1613 --->  peek
+```
+    23406 --->  anyth
+    207 --->  peek
     Vocabulary size: 25189
+```
 
-    ['', '[UNK]', 'go', 'get', 'day', 'work', 'good', 'today', 'like', 'love', ...]
+El diccionario de Oxford incluye unas 180.000 palabras pero, ¿cuántas se usan diariamente? Se dice que un hablante medio de inglés conoce alrededor de unas 20.000 palabras.
 
 # Red neuronal 1
 
@@ -473,6 +474,9 @@ model1.save('my_model1.h5')  # Guardado del modelo
     40000/40000 [==============================] - 1279s 32ms/step - loss: 0.0507 - binary_accuracy: 0.9800 - val_loss: 0.5658 - val_binary_accuracy: 0.8896
     CPU times: user 8h 46min 30s, sys: 56min 12s, total: 9h 42min 42s
     Wall time: 10h 26min 21s
+
+![png](images/precision_modelo1.png)
+
 
 
 # Red neuronal 2
@@ -560,34 +564,7 @@ model2.save('my_model2.h5')  # creates a HDF5 file 'my_model.h5'
     CPU times: user 15h 14min, sys: 1h 40min 21s, total: 16h 54min 22s
     Wall time: 6h 40min 22s
 
-# Resultados sobre test, modelo 1
-
-```
-    10000/10000 [==============================] - 61s 6ms/step - loss: 0.5658 - binary_accuracy: 0.8896
-    Loss:  0.5657927989959717
-    Accuracy:  0.8895999789237976
-
-    (0.0, 0.5983624041080475)
-```
-    
 ![png](images/precision_modelo1.png)
-    
-
-
-
-# Resultados sobre test, modelo 2
-```
-    10000/10000 [==============================] - 117s 12ms/step - loss: 0.3602 - binary_accuracy: 0.8889
-    Loss:  0.3602001368999481
-    Accuracy:  0.8888999819755554
-
-    (0.0, 0.5608066976070404)
-```
-
-
-    
-![png](images/precision_modelo2.png)
-    
 
 ## Exportar modelos
 
@@ -613,87 +590,27 @@ export_model.summary()
     Non-trainable params: 0
     _________________________________________________________________
 
-
-# Analisis de sentimientos de un personaje público utilizando los modelos creados
-
-Utilizando la api de twitter obtenemos los tweets y con el modelo entrenado con anterioridad podemos comprobar con que precision es capaz de obtener los sentimientos de cada uno de los tweets.
-
-Código de ejemplo (https://www.geeksforgeeks.org/python-api-user_timeline-in-tweepy/)
-
-Chris Evans ultimos tweets:
+# Resultados sobre test, modelo 1
 
 ```
-    I. Love. Katie. Porter. 
-    Also, the greed of big pharma is shameful. We all agree on that, right? https://t.co/7gaRam8INH
-    .@chris_haven is a non-profit that provides housing for families whose children are receiving cancer treatments in Boston. They celebrate their 20th anniversary this year! Check out their fundraising auction, all proceeds go to benefit their work https://t.co/faCQZjB36Q
-    Beginning, middle, and end of dragging out the question, ‘Do you....wanna go....to the DOG PARK??’ https://t.co/WNPsu6Ok3Y
-    I’m incredibly proud of the Counterpoint section of ASP. In my opinion, EVERY elected official should be able to debate ALL of their opinions in this way(and we should demand it!). I love @RepKatiePorter and @RepDustyJohnson for showing how useful this particular section can be💙 https://t.co/eYS7vasl8H
-    Kids don’t wear their thoughts on their sleeves, so we don’t know what they might be going through. In fact, 1 in 5 children is living with mental illness. Let’s break the stigma surrounding mental health. Learn more at https://t.co/v1BKiLSRuZ.
-    Happy Mother’s Day to all the mothers out there! (But especially mine 💙) https://t.co/iNbXzQKbOh
-    As someone who grew up with a lot of VHS tapes, this is pretty cool. https://t.co/riUqA84YrU
-    You’re done, Rudy. Good riddance.
-    Justice. Sending love to George Floyd’s family and friends.
-    As if COMMON SENSE didn’t already make things crystal clear, these closing arguments certainly have. Time for justice. 
-    
-    #JusticeForGeorgeFloyd
-    #MayaforMayor. Period.
-    
-    Join the movement: https://t.co/LGvvTJhfNg
-    https://t.co/fMdzloohOb
-    A fantastic piece by our @ASP partner, Joe. He’s a genuinely good man with an exceptional mind. https://t.co/yIF9lxfPva
-    Thank you SO much to @newsweek and @bridgeusa_ for a wonderful conversation to kickoff @asp and Newsweek’s joint series on Gen Z. Go watch our roundtable w/ these three AMAZING young people if you want to feel better about what’s ahead for our country. https://t.co/zLgUoLhT3c https://t.co/cBw3PsO3xx
-    Always a pleasure chatting with @SenBooker https://t.co/VK3BssSSGe
-    Very excited about this! https://t.co/JJLoUlz1RH
-    Thanks for having me on to chat about @ASP! https://t.co/hVG5wA0PXd
-    🎉🎉🎉 https://t.co/eneLvT4Upw
-    Voting is the bedrock of our democracy. When we vote, we make our voices heard.
-    
-    If you want to expand and protect that right, text UNRIG to 21333 and tell your Senators to pass the #ForThePeopleAct.
-    
-    Click the link below to learn more: https://t.co/49DDIe3f2q
-    If you’re not following this woman, what are you doing?? The ‘brainpickings’ are consistently full of beautiful nuggets that are always worth it. https://t.co/GfOe4lwaOb
-    Very exciting! https://t.co/2qRtHCuDtO
-    When I filmed the first Captain America in 2010, two of my high school buddies, Zach and Jon, were my “assistants”. 
-    
-    Zach got a lot of great footage. 
-    
-    Jon was unimpressed. https://t.co/ltONBcxJKd
+    10000/10000 [==============================] - 61s 6ms/step - loss: 0.5658 - binary_accuracy: 0.8896
+    Loss:  0.5657927989959717
+    Accuracy:  0.8895999789237976
+
+    (0.0, 0.5983624041080475)
+```
+
+# Resultados sobre test, modelo 2
+```
+    10000/10000 [==============================] - 117s 12ms/step - loss: 0.3602 - binary_accuracy: 0.8889
+    Loss:  0.3602001368999481
+    Accuracy:  0.8888999819755554
+
+    (0.0, 0.5608066976070404)
 ```
 
 
-```python
-export_model.predict(tweets)
-```
-    array([[9.9980748e-01],
-           [1.0728867e-05],
-           [9.7501493e-01],
-           [9.9317604e-01],
-           [5.5967760e-01],
-           [9.2947668e-01],
-           [7.3732507e-01],
-           [9.9592406e-01],
-           [4.4103563e-03],
-           [7.9047209e-01],
-           [4.7174522e-01],
-           [3.9049928e-06],
-           [4.8020104e-01],
-           [1.0000000e+00],
-           [9.7669059e-01],
-           [6.7451596e-04],
-           [9.9999899e-01],
-           [9.9984610e-01],
-           [5.0615907e-02],
-           [5.5967766e-01]], dtype=float32)     
-
-# Resultados finales
-
-Para ver de forma más sencilla (humana) las predicciones de los modelos creados adapto de la siguiente manera:
-
-- positive: value >= 0,75
-- neutral: 0,25 < value < 0,75
-- negative: value <= 0.25
-
-Para ver la efectividad de los modelos creados los comparo con otra libreria que tiene un modelo entrenado: TextBlob.
+# Predicciones sobre test de los modelos 1 y 2
 
 <div>
 <table border="1" class="dataframe">
@@ -703,225 +620,136 @@ Para ver la efectividad de los modelos creados los comparo con otra libreria que
       <th>Text</th>
       <th>Model 1</th>
       <th>Model 2</th>
-      <th>TextBlob</th>
-      <th>m1 vs textblob</th>
-      <th>m2 vs textblob</th>
+      <th>Real result</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>0</th>
-      <td>I. Love. Katie. Porter. \n\nAlso, the greed of...</td>
-      <td>positive</td>
-      <td>neutral</td>
-      <td>positive</td>
-      <td>Correct</td>
-      <td>Incorrect</td>
+      <td>awesomeee sleeeep time chees toasti town</td>
+      <td>[0.11733478]</td>
+      <td>[0.9987123]</td>
+      <td>1</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>.@chris_haven is a non-profit that provides ho...</td>
-      <td>positive</td>
-      <td>positive</td>
-      <td>neutral</td>
-      <td>Incorrect</td>
-      <td>Incorrect</td>
+      <td>still way berlin charitytweetuptour london oct...</td>
+      <td>[0.9999759]</td>
+      <td>[0.13292989]</td>
+      <td>1</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>Beginning, middle, and end of dragging out the...</td>
-      <td>neutral</td>
-      <td>neutral</td>
-      <td>negative</td>
-      <td>Incorrect</td>
-      <td>Incorrect</td>
+      <td>thanx arriv klia way back home</td>
+      <td>[1.0]</td>
+      <td>[0.99413896]</td>
+      <td>1</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>I’m incredibly proud of the Counterpoint secti...</td>
-      <td>positive</td>
-      <td>neutral</td>
-      <td>positive</td>
-      <td>Correct</td>
-      <td>Incorrect</td>
+      <td>cant upload pictur stupid thing</td>
+      <td>[0.000111296526]</td>
+      <td>[0.017475039]</td>
+      <td>0</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>Kids don’t wear their thoughts on their sleeve...</td>
-      <td>positive</td>
-      <td>positive</td>
-      <td>negative</td>
-      <td>Incorrect</td>
-      <td>Incorrect</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Happy Mother’s Day to all the mothers out ther...</td>
-      <td>negative</td>
-      <td>negative</td>
-      <td>neutral</td>
-      <td>Incorrect</td>
-      <td>Incorrect</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>As someone who grew up with a lot of VHS tapes...</td>
-      <td>positive</td>
-      <td>neutral</td>
-      <td>positive</td>
-      <td>Correct</td>
-      <td>Incorrect</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>You’re done, Rudy. Good riddance.</td>
-      <td>positive</td>
-      <td>positive</td>
-      <td>positive</td>
-      <td>Correct</td>
-      <td>Correct</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>Justice. Sending love to George Floyd’s family...</td>
-      <td>negative</td>
-      <td>neutral</td>
-      <td>positive</td>
-      <td>Incorrect</td>
-      <td>Incorrect</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>As if COMMON SENSE didn’t already make things ...</td>
-      <td>positive</td>
-      <td>positive</td>
-      <td>positive</td>
-      <td>Correct</td>
-      <td>Correct</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>#MayaforMayor. Period.\n\nJoin the movement: h...</td>
-      <td>positive</td>
-      <td>positive</td>
-      <td>neutral</td>
-      <td>Incorrect</td>
-      <td>Incorrect</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>A fantastic piece by our @ASP partner, Joe. He...</td>
-      <td>negative</td>
-      <td>neutral</td>
-      <td>positive</td>
-      <td>Incorrect</td>
-      <td>Incorrect</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>Thank you SO much to @newsweek and @bridgeusa_...</td>
-      <td>positive</td>
-      <td>positive</td>
-      <td>positive</td>
-      <td>Correct</td>
-      <td>Correct</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>Always a pleasure chatting with @SenBooker htt...</td>
-      <td>positive</td>
-      <td>positive</td>
-      <td>neutral</td>
-      <td>Incorrect</td>
-      <td>Incorrect</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>Very excited about this! https://t.co/JJLoUlz1RH</td>
-      <td>positive</td>
-      <td>positive</td>
-      <td>neutral</td>
-      <td>Incorrect</td>
-      <td>Incorrect</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>Thanks for having me on to chat about @ASP! ht...</td>
-      <td>positive</td>
-      <td>positive</td>
-      <td>neutral</td>
-      <td>Incorrect</td>
-      <td>Incorrect</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>🎉🎉🎉 https://t.co/eneLvT4Upw</td>
-      <td>positive</td>
-      <td>neutral</td>
-      <td>neutral</td>
-      <td>Incorrect</td>
-      <td>Correct</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>Voting is the bedrock of our democracy. When w...</td>
-      <td>positive</td>
-      <td>positive</td>
-      <td>positive</td>
-      <td>Correct</td>
-      <td>Correct</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>If you’re not following this woman, what are y...</td>
-      <td>positive</td>
-      <td>positive</td>
-      <td>positive</td>
-      <td>Correct</td>
-      <td>Correct</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>Very exciting! https://t.co/2qRtHCuDtO</td>
-      <td>positive</td>
-      <td>neutral</td>
-      <td>neutral</td>
-      <td>Incorrect</td>
-      <td>Correct</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>When I filmed the first Captain America in 201...</td>
-      <td>positive</td>
-      <td>negative</td>
-      <td>positive</td>
-      <td>Correct</td>
-      <td>Incorrect</td>
+      <td>realli want go flight conchord concert next mo...</td>
+      <td>[2.7748806e-06]</td>
+      <td>[0.0005105138]</td>
+      <td>0</td>
     </tr>
   </tbody>
 </table>
 </div>
-<br/>
 
-## Resultados del modelo 1 frente a TextBlob
+
+# Analisis de sentimientos de un perfil de prueba (https://twitter.com/MIN59175404) y utilizando los modelos creados
+
+Utilizando la api de twitter obtenemos los tweets y con el modelo entrenado con anterioridad podemos comprobar con que precision es capaz de obtener los sentimientos de cada uno de los tweets.
+
+Código de ejemplo (https://www.geeksforgeeks.org/python-api-user_timeline-in-tweepy/)
+
+Ultimos 5 tweets:
+
+```
+    Awesome!
+    Madrid is my favourite football team
+    Ohhhh omg I am so happy
+    this is so boring ...
+    I am very sad
+```
 
 ```python
-final_results['m1 vs textblob'].value_counts()
+export_model.predict(tweets)
 ```
-    Incorrect    12
-    Correct       9
-    Name: m1 vs textblob, dtype: int64
+    array([[2.7145123e-01],
+           [5.3483248e-04],
+           [9.9978793e-01],
+           [9.7501493e-01],
+           [2.9251575e-03]], dtype=float32)
 
+# Resultados finales
 
-## Resultados del modelo 2 frente a TextBlob
+Para ver de forma más sencilla (humana) las predicciones de los modelos creados adapto de la siguiente manera:
 
-```python
-final_results['m2 vs textblob'].value_counts()
-```
-    Incorrect    14
-    Correct       7
-    Name: m2 vs textblob, dtype: int64
+- very positive: value > 0,8
+- positive: 0,6 <= value < 0,8
+- neutral: 0,4 <= value < 0,6
+- negative: 0,2 <= value < 0,4
+- very negative: value < 0,2
 
+Para ver la efectividad de los modelos creados los comparo con otra libreria que tiene un modelo entrenado: TextBlob.
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Text</th>
+      <th>Model 1</th>
+      <th>Model 2</th>
+      <th>TextBlob</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Awesome!</td>
+      <td>very positive</td>
+      <td>very positive</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Madrid is my favourite football team</td>
+      <td>very negative</td>
+      <td>very negative</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Ohhhh omg I am so happy</td>
+      <td>very positive</td>
+      <td>neutral</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>this is so boring ...</td>
+      <td>very positive</td>
+      <td>positive</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>I am very sad</td>
+      <td>very negative</td>
+      <td>very negative</td>
+      <td>negative</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 
 # Recomendación película
@@ -1046,7 +874,7 @@ Recomendación de una pelicula dependiente de su estado de animo en los últimos
 <p>40108 rows × 6 columns</p>
 </div>
 
-## Limpiamos del dataset las columnas que no son relevantes
+## Limpiamos del dataset las columnas que no son relevantes
 
 <div>
 <table border="1" class="dataframe">
@@ -1120,44 +948,69 @@ Recomendación de una pelicula dependiente de su estado de animo en los últimos
 
 ## Selección de géneros dependientes de la emoción
 
-- positive: Comedy, Adventure,Fantasy, Romance y Action
-- neutral = Documentary, Biography y History
-- negative = Drama, Horror, Crime, Thriller, Mistery y Sad
+- very_positive_gen = ['Comedy', 'Fantasy', 'Romance']
+- positive_gen = ['Adventure', 'Action']
+- neutral_gen = ['Documentary', 'Biography', 'History']
+- negative_gen = ['Drama', 'Thriller', 'Mistery']
+- very_negative_gen = ['War', 'Horror', 'Crime', 'Sad']
 
 Observamos el sentimiento general y recomendamos una película en base a ello.
 
-## Modelo 1
+## Recomendación modelo 1
 
+```python
+print(final_results['Model 1'].value_counts())
 ```
-    positive    17
-    negative     3
-    neutral      1
+
+    very positive    3
+    very negative    2
     Name: Model 1, dtype: int64
-    Pelicula recomendada para sentimiento positivo: The Counterfeiters (2007)
+
+
+
+```python
+print('Pelicula recomendada para sentimiento muy positivo : ' + recommend_film('very positive'))
 ```
 
+    Pelicula recomendada para sentimiento muy positivo : Happiness (2013)
 
+## Recomendación modelo 2
 
-## Modelo 2
-
+```python
+print(final_results['Model 2'].value_counts())
 ```
-    positive    11
-    neutral      8
-    negative     2
+    very negative    2
+    very positive    1
+    positive         1
+    neutral          1
     Name: Model 2, dtype: int64
-    Pelicula recomendada para sentimiento neutral: Alias Ruby Blade (2012)
+
+
+
+```python
+print('Pelicula recomendada para sentimiento muy negativo : ' + recommend_film('very negative'))
 ```
 
+    Pelicula recomendada para sentimiento muy negativo : Jonathan degli orsi (1994)
 
-## Text blob 
+## Recomendación TextBlob
 
+```python
+print(final_results['TextBlob'].value_counts())
 ```
-    positive    11
-    neutral      8
-    negative     2
+
+    neutral     4
+    negative    1
     Name: TextBlob, dtype: int64
-    Pelicula recomendada para sentimiento positivo: Finding Truelove (2012)
+
+
+
+```python
+print('Pelicula recomendada para sentimiento neutral : ' + recommend_film('neutral'))
 ```
+
+    Pelicula recomendada para sentimiento neutral : Wild Hogs (2007)
+
 
 ## Utilizando la beta privada de OpenAI - GPT3
 
@@ -1272,3 +1125,8 @@ Tweet recommended films:
 4: Documentary: The Great Hack
 5: Comedy: Blockers
 ```
+
+# Propuestas de mejora
+
+- Mejora sistema recomendador: como por ejemplo tener en cuenta el rating.
+- Utilizar el dataset completo para entrenar la red neuronal con un sistema mas poderoso computacionalmente.
