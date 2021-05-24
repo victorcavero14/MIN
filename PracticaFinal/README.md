@@ -347,7 +347,7 @@ Finalmente nos quedamos solo con las columnas que nos interesan para el analisis
 
 ```
     Tamaño entrenamiento  40000
-    Tamaño entrenamiento  10000
+    Tamaño test  10000
 
     Content [b'back later mayb dont know juic still think im screw tomorrow day 1 hide aha never find never']
     Target [1]
