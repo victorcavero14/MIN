@@ -33,7 +33,7 @@ Para facilitar que todas las dependencias sean iguales en cuanto a versión y no
 
 ```
 FROM tensorflow/tensorflow:latest-jupyter  
-RUN pip install textblob english_words tweepy sklearn wordcloud keras seaborn matplotlib pandas numpy
+RUN pip install textblob tweepy sklearn wordcloud keras seaborn matplotlib pandas numpy
 RUN mkdir practicaFinal
 ADD .  practicaFinal/
 ```
@@ -1130,3 +1130,5 @@ Tweet recommended films:
 
 - Mejora sistema recomendador: como por ejemplo tener en cuenta el rating.
 - Utilizar el dataset completo para entrenar la red neuronal con un sistema mas poderoso computacionalmente.
+- Utilzar otro metodos de clasificacion: Regresion lineal o Naive bayes
+- Utilizar un modelo ya entrenado por Tensorflow Hub
